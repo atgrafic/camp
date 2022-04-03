@@ -16,17 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_normalize_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/normalize.scss */ \"./src/css/normalize.scss\");\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.scss */ \"./src/css/index.scss\");\n/* harmony import */ var _css_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/header.scss */ \"./src/css/header.scss\");\n/* harmony import */ var _views_header_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/header.js */ \"./src/views/header.js\");\n\n\n\n\n\n\nconsole.log(\"Hello World\");\n\n//# sourceURL=webpack://kolonia_webpack/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/views/header.js":
-/*!*****************************!*\
-  !*** ./src/views/header.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/index.scss */ \"./src/css/index.scss\");\n/* harmony import */ var _css_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/header.scss */ \"./src/css/header.scss\");\n\n\nvar navResponse = document.getElementById(\"topNav\");\n\nfunction menu() {\n  //alert(\"Hello! I am an alert box!!\")\n  if (navResponse.className === \"nav_item\") {\n    navResponse.className += \" responsive\";\n  } else {\n    navResponse.className = \"nav_item\";\n  }\n}\n\nnavResponse.addEventListener(\"click\", function () {\n  return menu();\n});\n\n//# sourceURL=webpack://kolonia_webpack/./src/views/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_normalize_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/normalize.scss */ \"./src/css/normalize.scss\");\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.scss */ \"./src/css/index.scss\");\n/* harmony import */ var _css_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/header.scss */ \"./src/css/header.scss\");\n\n\n\n\n\nconsole.log(\"Hello World\");\n\n//# sourceURL=webpack://kolonia_webpack/./src/index.js?");
 
 /***/ }),
 
@@ -186,7 +176,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"4a8552ed7d480b48d7d8.svg\";\n\n//# sourceURL=webpack://kolonia_webpack/./src/asset/image/logo.svg?");
+eval("module.exports = __webpack_require__.p + \"0603d5e8227ee1dcb8b2.svg\";\n\n//# sourceURL=webpack://kolonia_webpack/./src/asset/image/logo.svg?");
 
 /***/ })
 
