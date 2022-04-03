@@ -22,7 +22,7 @@ module.exports = {
             template: "./src/index.html",
         }),
         new CopyPlugin({
-            patterns: [{ from: "src/asset/image", to: "./image" }],
+            patterns: [{ from: "src/asset/image", to: "./asset/image" }],
         }),
     ],
     module: {
@@ -37,9 +37,8 @@ module.exports = {
                     loader: "file-loader",
                     options: {
                         outputPath: "./image",
-                        name: "[path]/[name].[ext]",
-                        context: "src",
-                    },
+                        name: "[name].[ext]",
+                    }
                 },
             },
             {
@@ -53,6 +52,7 @@ module.exports = {
                     loader: "babel-loader",
                     options: {
                         presets: ["@babel/preset-env"],
+
                     },
                 },
             },
