@@ -186,7 +186,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0603d5e8227ee1dcb8b2.svg\";\n\n//# sourceURL=webpack://kolonia_webpack/./src/asset/image/logo.svg?");
+eval("module.exports = __webpack_require__.p + \"4a8552ed7d480b48d7d8.svg\";\n\n//# sourceURL=webpack://kolonia_webpack/./src/asset/image/logo.svg?");
 
 /***/ })
 
