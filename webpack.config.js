@@ -28,7 +28,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/i,
+                test: /\.scss$/,
                 use: ["style-loader", "css-loader", "sass-loader"],
             },
             {
@@ -52,7 +52,6 @@ module.exports = {
                     loader: "babel-loader",
                     options: {
                         presets: ["@babel/preset-env"],
-
                     },
                 },
             },

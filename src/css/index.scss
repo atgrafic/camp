@@ -1,1 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
+$width: 1200px;
+
+$font_title: "Baloo Paaji 2", cursive;
+$font_basic: "Open Sans", sans-serif;
+
+$color_descripttion: #454c6a;
+$color_secend: #f990ae;
+$color_third: #6ed2ca;
+$color-four: #98e6f0;
+$color-five: #fed464;
+$color_white: #fff;
+$color-footer: #e9e7e7;
+$color-text: #707070;
+
+@mixin font_description {
+    font-family: $font_basic;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    margin: 0;
+    color: $color_text;
+}
+
+@mixin title {
+    font-family: $font_title;
+    color: $color_descripttion;
+    font-weight: 500;
+}
+
+body {
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
