@@ -27,9 +27,12 @@ $color-text: #707070;
 @mixin title {
     font-family: $font_title;
     color: $color_descripttion;
-    font-weight: 500;
+    font-weight: 700;
 }
-
+@mixin link {
+    color: $color_descripttion;
+    text-decoration: none;
+}
 body {
     margin: 0 auto;
     position: relative;
