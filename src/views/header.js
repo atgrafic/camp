@@ -15,5 +15,3 @@ function menu() {
 
 navResponse.addEventListener("click", () => menu());
 
-
-
