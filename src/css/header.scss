@@ -14,13 +14,18 @@ nav {
     width: 70vw;
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: center;
+    margin: 20px auto;
+}
+.padding_resp {
+    margin-right: 40px;
 }
 .logoLink {
     display: block;
     width: 90px;
     height: 72px;
     background: url("../assets/image/logo.svg") center no-repeat;
+    margin-bottom: 20px;
 }
 .nav_item {
     @include title;
@@ -28,24 +33,89 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px;
-    font-size: 1.25em;
+    font-size: 1.2em;
+    position: relative;
 
     a {
         @include link;
-        padding-left: 25px;
     }
     a:hover,
     :active {
-        border-bottom:4px solid $color_third;
+        border-bottom: 2px solid $color_third;
     }
 }
+
+.arrow_down {
+    width: 10px;
+    height: auto;
+}
+
 a.icon {
     width: 20px;
     height: auto;
     display: none;
     cursor: pointer;
+}
 
+.nav_item_right {
+    display: flex;
+}
+.phone {
+    width: 25px;
+    height: auto;
+    padding-right: 5px;
+}
+.border_blue {
+    color: $color_white !important;
+    padding: 5px 10px;
+    background-color: $color_descripttion;
+    border-radius: 10px;
+    width: 150px;
+}
+.loop {
+    width: 25px;
+    height: auto;
+    padding: 5px;
+    outline: $color_secend solid 2px;
+    background-color: $color_secend;
+    border: 1px dashed $color_white;
+    border-radius: 5px;
+}
+///menu drowdone
+.dropdown {
+    float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $color_white;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: $color_descripttion;
+    font-size: 0.8em;
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: $color_white;
+}
+
+.dropdown-content a:hover {
+    background-color: $color_white;
+    color: $color_descripttion;
+    border-bottom: 2px solid $color_third;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 @media screen and (max-width: 768px) {
