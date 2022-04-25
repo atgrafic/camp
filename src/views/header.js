@@ -2,17 +2,30 @@ import style from "../css/index.scss";
 import header_style from "../css/header.scss";
 
 
-const navResponse =document.getElementById("topNav");
-function menu() {
-    //alert("Hello! I am an alert box!!")
- if (navResponse.className === "nav_item") {
-    navResponse.className += " responsive";
+let navbar = document.querySelector(".navbar");
+let searchBox = document.querySelector(".search-box .bx-search");
+/* <i class='bx bx-x'></i> */
+//loop chowa i pojawia
+searchBox.addEventListener("click", () => {
+    navbar.classList.toggle("showInput");
+    if (navbar.classList.contains("showInput")) {
+        searchBox.classList.replace("bx-search", "bx-x");
     } else {
-        navResponse.className = "nav_item";
+        searchBox.classList.replace("bx-x", "bx-search");
     }
- }
+});
+//menu respond
+let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+let CloseOpenBtn = document.querySelector(".nav-links .bx-x");
+let navLinks = document.querySelector(".nav-links");
+let logo = document.querySelector(".logo");
 
+menuOpenBtn.addEventListener("click", () => {
+    navLinks.style.left = "0";
+    logo.style.display = "none";
+});
 
-navResponse.addEventListener("click", () => menu());
-
-
+CloseOpenBtn.addEventListener("click", () => {
+    navLinks.style.left = "-100%";
+    logo.style.display = "block";
+});

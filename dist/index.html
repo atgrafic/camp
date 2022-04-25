@@ -4,61 +4,125 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Boxicons CSS -->
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
         <title>Camp</title>
-    <script defer src="index.4eb1b06c9c4147827da3.bundle.js"></script></head>
+    <script defer src="index.dea67c8e89f0e693dcf3.bundle.js"></script></head>
     <body>
         <header>
             <nav>
-                <div class="topNavMargin">
-                    <div class="navResp">
-                        <a href="/home" data-link class="logoLink"></a>
+                <div class="navbar">
+                    <i class="bx bx-menu"></i>
+                    <div>
+                        <a href="/#" data-link
+                            ><img class="logo" src="images/logo.svg"
+                        /></a>
                     </div>
-                    <div class="nav_item" id="topNav">
-                        <div class="nav_item_left nav_item">
-                            <a href="javascript:void(0);" class="icon">
-                                <img src="images/icon.svg" />
-                            </a>
-                            <div class="dropdown">
-                                <a class="padding_resp navFirst dropbtn" href="/kolonie" data-link
-                                    >Kolonie <img class="arrow_down" src="images/arrow.svg"
-                                /></a>
-                                <div class="dropdown-content">
-                                    <a class="dp-link" href="#">Obozy zagraniczne </a>
-
-                                    <a class="dp-link" href="#">Kolonie nad morzem </a>
-
-                                    <a class="dp-link" href="#">Kolonie w górach </a>
-                                </div>
-                            </div>
-                            <a class="padding_resp" href="/promocje" data-link>Promocje</a>
-                            <div class="dropdown">
-                                <a class="padding_resp dropbtn" href="/onas" data-link
-                                    >O nas <img class="arrow_down" src="images/arrow.svg"
-                                /></a>
-                                <div class="dropdown-content">
-                                    <a class="dp-link" href="#">Kadra </a>
-
-                                    <a class="dp-link" href="#">Dokumenty </a>
-
-                                    <a class="dp-link" href="#">Pytania i odpowiedzi</a>
-                                </div>
-                            </div>
-                            <a class="padding_resp" href="/Kontakt" data-link>Kontakt</a>
+                    <div class="nav-links">
+                        <div class="sidebar-logo">
+                            <span class="logo_name">
+                                <img class="logo" src="images/logo.svg"
+                            /></span>
+                            <i class="bx bx-x bx-x-menu-resp"></i>
                         </div>
+
+                        <ul class="links">
+                            <li>
+                                <a href="/kolonie" data-link
+                                    >Kolonie <i class="bx bx-chevron-down"></i
+                                ></a>
+                                <ul class="camp-sub-menu sub-menu">
+                                    <li><a href="/#">Obozy zagraniczne </a></li>
+                                    <li><a href="/#">Kolonie nad morzem </a></li>
+                                    <li><a href="/#">Kolonie w górach </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/promocje" data-link>Promocje </a></li>
+                            <li>
+                                <a href="/onas" data-link
+                                    >O nas <i class="bx bx-chevron-down"></i>
+                                </a>
+                                <ul class="about-sub-menu sub-menu">
+                                    <li><a href="/#">Kadra</a></li>
+                                    <li><a href="/#">Dokumenty</a></li>
+                                    <li><a href="/#">Pytania i odpowiedzi</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/kontakt" data-link>Kontakt </a></li>
+                        </ul>
                     </div>
-                    <div class="nav_item_right nav-item">
-                        <a class="padding_resp border_blue" href="#">
-                            <img class="menu-icon phone" src="images/phone.svg" />
-                            987 456 321
-                        </a>
-                        <a class="padding_resp" href="#">
-                            <img class="menu-icon loop" src="images/loop.svg" />
-                        </a>
+                    <div class="phone-loop">
+                        <div class="phone_box">
+                            <i class="bx bxs-phone"></i>
+                            <a href="#" class="phone_number"> 987 456 321</a>
+                        </div>
+                        <div class="search-box">
+                            <i class="bx bx-search"></i>
+                            <div class="input-box">
+                                <input type="text" placeholder="search..." />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
         </header>
 
         <div id="app"></div>
+
+        <footer>
+            <div class="footer">
+                <div class="small_description">
+                    <a data-link  href="/#">
+                        <img class="logo_footer" src="images/logo.svg"
+                    /></a>
+                    <p>
+                        Niniejszy serwis należy do Centrum Podróży. Specjalizujemy się w wyjazdach
+                        dla dzieci i młodzieży. Jesteśmy członkiem Polskiej Izby Turystyki oraz
+                        Turystycznej Organizacji Otwartej.
+                    </p>
+                </div>
+                    <div class="info">
+                        <H2 class="info_bottom">
+                            Informacje
+                        </H2>
+                        <p>
+                            Pytania i odpowiedzi<br/>
+                            Regulamin serwisu<br/>
+                            Reklama i współpraca<br/>
+                            Polityka Prywatności<br/>
+                        </p>
+                    </div>
+                    <div class="menu_bottom">
+                        <h2>Menu</h2>
+                        <a href="/kolonie" data-link>Kup</a>
+                        <a href="/promocje" data-link>Sprzedaj</a>
+                        <a href="/onas" data-link>O nas</a>
+                        <a href="/kontakt" data-link>Kontakt</a>
+                    </div>
+
+                <div class="contact_bottom">
+                        <h2>Kontakt</h2>
+                        <p>
+                            ul. Granitowa<br />
+                            00-000 Waszynkton
+                            <br />
+                            tel. 987 456 321<br />
+                            mail: kontakt@camp.pl
+                        </p>
+                        <div class="social_media">
+                            <i class='bx bxl-facebook bx-media'></i>
+                            <i class='bx bxl-instagram bx-media' ></i>
+                            <i class='bx bxl-pinterest-alt bx-media' ></i>
+                            <i class='bx bxl-tiktok bx-media' ></i>
+                        </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy 2022, Anna Troczyńska</p>
+            </div>
+      
+        </footer>
     </body>
 </html>

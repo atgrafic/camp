@@ -2,7 +2,6 @@
 
 $width: 1200px;
 
-
 $font_title: "Baloo Paaji 2", cursive;
 $font_basic: "Open Sans", sans-serif;
 
@@ -19,7 +18,7 @@ $color-text: #707070;
     font-family: $font_basic;
     font-size: 1em;
     font-weight: 400;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
     margin: 0;
     color: $color_text;
 }
@@ -28,6 +27,7 @@ $color-text: #707070;
     font-family: $font_title;
     color: $color_descripttion;
     font-weight: 700;
+    font-size: 1.25em;
 }
 @mixin link {
     color: $color_descripttion;
@@ -38,4 +38,20 @@ body {
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: #98e6f0;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+  
+}
+h2{
+    @include title;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+p{
+    @include font_description;
+
 }
