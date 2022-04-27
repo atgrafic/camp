@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[contenthash].bundle.js",
-        assetModuleFilename: 'images/[name][ext][query]',
+        assetModuleFilename: "image/[name][ext][query]",
         clean: true,
     },
     devServer: {
@@ -40,9 +40,11 @@ module.exports = {
 
             // },
             {
-                test: /\.(png|svg|jpg|gif)$/,
-                type: 'asset/resource'
-              },
+                test: /\.(mp4|png|svg|jpg|gif)$/,
+                type: "asset/resource",
+
+            },
+
             {
                 test: /\.(html)$/,
                 use: ["html-loader"],

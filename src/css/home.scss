@@ -1,0 +1,186 @@
+@import "index.scss";
+.baner {
+    // background: url("../assets/image/baner_animate.gif");
+    width: 100vw;
+    height: 600px;
+    // padding: 60px;
+}
+.camp_choose {
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: $width;
+}
+.palm {
+    background: $color_secend;
+    width: 350px;
+    height: 180px;
+    border: 1px dashed $color_white;
+    border-radius: 5px;
+    color: $color_white;
+    outline: $color_secend solid 5px;
+    a {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0 25px 0 10px;
+        .choose {
+            font-family: $font_title;
+            color: $color_white;
+            font-size: 2em;
+            text-align: right;
+            line-height: 30px;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+        .camp_choose_img {
+            width: 130px;
+            height: auto;
+            position: absolute;
+            bottom: 10px;
+        }
+    }
+}
+.sea {
+    background: $color_descripttion;
+    width: 350px;
+    height: 180px;
+    border: 1px dashed $color_white;
+    border-radius: 5px;
+    color: $color_white;
+    outline: $color_descripttion solid 5px;
+    a {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0 25px 0 10px;
+        .choose {
+            font-family: $font_title;
+            color: $color_white;
+            font-size: 2em;
+            text-align: right;
+            line-height: 30px;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+        .camp_choose_img {
+            width: 180px;
+            height: auto;
+            position: absolute;
+            bottom: 10px;
+        }
+    }
+}
+.mountains {
+    background: $color_third;
+    border: 1px dashed $color_white;
+    border-radius: 5px;
+    color: $color_white;
+    outline: $color_third solid 5px;
+    width: 350px;
+    height: 180px;
+    a {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0 25px 0 10px;
+        .choose {
+            font-family: $font_title;
+            color: $color_white;
+            font-size: 2em;
+            text-align: right;
+            line-height: 30px;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+        .camp_choose_img {
+            width: 200px;
+            height: auto;
+            position: absolute;
+            bottom: 10px;
+        }
+    }
+}
+.description {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+    background-image: url("../assets/image/sun.svg"), url("../assets/image/samolot.svg"),
+        url("../assets/image/car.svg"), url("../assets/image/casel.svg");
+    background-position: right 50px top 0, left 50px top 80px, left 100px bottom 0, right 100px bottom 0;
+
+    background-repeat: no-repeat;
+    background-size: 200px, 300px, 200px, 230px;
+    background-attachment: scroll;
+    p {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+.academy {
+    max-width: $width;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.academy_img {
+    border-radius: 25px;
+    width: 250px;
+    height: auto;
+}
+.academy_choose {
+    text-transform: none;
+}
+.academy_padding {
+    padding-bottom: 40px;
+}
+.academy_choose {
+    padding-top: 10px;
+}
+.first_minute{
+   background:$color_descripttion url("../assets/image/torba.svg") no-repeat right 50px bottom 15px;
+   background-size: 10%;
+   display:flex;
+}
+.first_minute_girl{
+   width: 50%;
+
+}
+.first_descript {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+
+.descript_h1{
+   background: $color-five;
+   padding: 0px 20px;
+   transform: rotate(-3deg);
+   margin-bottom: 20px;
+}
+.descript_h2{
+   background: $color-four;
+   padding: 0px 50px;
+   transform: rotate(3deg);
+}
+
+.first_p{
+   color: $color_white !important;
+   @include font_description;
+   width: 50%;
+   padding: 50px 0;
+   text-align: center;
+}
+}
+.button{
+   font-family: $font_title;
+   color: $color_white;
+   font-weight: 700;
+   font-size: 1.25em;
+   background: $color_secend;
+   padding: 5px 15px;
+   border-radius:15px ;
+}
+

@@ -38,12 +38,15 @@ body {
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #98e6f0;
     height: 100vh;
 }
 a {
     text-decoration: none;
-  
+
+}
+h1{
+    @include title;
+    font-size: 2.25em !important;
 }
 h2{
     @include title;
