@@ -107,7 +107,8 @@
     padding-bottom: 80px;
     background-image: url("../assets/image/sun.svg"), url("../assets/image/samolot.svg"),
         url("../assets/image/car.svg"), url("../assets/image/casel.svg");
-    background-position: right 50px top 0, left 50px top 80px, left 100px bottom 0, right 100px bottom 0;
+    background-position: right 50px top 0, left 50px top 80px, left 100px bottom 0,
+        right 100px bottom 0;
 
     background-repeat: no-repeat;
     background-size: 200px, 300px, 200px, 230px;
@@ -138,49 +139,123 @@
 .academy_choose {
     padding-top: 10px;
 }
-.first_minute{
-   background:$color_descripttion url("../assets/image/torba.svg") no-repeat right 50px bottom 15px;
-   background-size: 10%;
-   display:flex;
+.first_minute {
+    background: $color_descripttion url("../assets/image/torba.svg") no-repeat right 50px bottom
+        15px;
+    background-size: 10%;
+    display: flex;
 }
-.first_minute_girl{
-   width: 50%;
-
+.first_minute_girl {
+    width: 50%;
 }
 .first_descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    .descript_h1 {
+        background: $color-five;
+        padding: 0px 20px;
+        transform: rotate(-3deg);
+        margin-bottom: 20px;
+    }
+    .descript_h2 {
+        background: $color-four;
+        padding: 0px 50px;
+        transform: rotate(3deg);
+    }
+
+    .first_p {
+        color: $color_white !important;
+        @include font_description;
+        width: 50%;
+        padding: 50px 0;
+        text-align: center;
+    }
+}
+.button {
+    font-family: $font_title;
+    color: $color_white;
+    font-weight: 700;
+    font-size: 1.25em;
+    background: $color_secend;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.social_media_big {
+    background: $color_third;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .media {
+        color: $color_third;
+        background: $color_white;
+        font-size: 3em;
+        border-radius: 15%;
+        margin: 0 20px;
+       }
+       .media:hover{
+         background: $color_descripttion;
+       }
+}
+
+
+//carousel
+.slides{
+   display:flex;
+   flex-direction: row;
+
+   width: 100%;
+   height: auto;
+   animation: travel 25s ease-in-out infinite;
+   animation-delay: 1s;
+}
+@keyframes travel {
+   0%, 100%  {
+      transform: translate3d(00,0,0);
+    }
+  50% {
+      transform: translate3d(-100%,0,0);
+    }
+ }
+
+ .slides img{
+    width: 75%;
+    height: auto;
+ }
+
+.carousel{
+   position: relative;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   width: 50%;
+   overflow: hidden;
+}
+// .controls{
+//    width: 100%;
+//    padding: 0 30px;
+//    position: absolute;
+//    top: 50%;
+//    display: flex;
+//    justify-content: space-between;
 
-.descript_h1{
-   background: $color-five;
-   padding: 0px 20px;
-   transform: rotate(-3deg);
-   margin-bottom: 20px;
-}
-.descript_h2{
-   background: $color-four;
-   padding: 0px 50px;
-   transform: rotate(3deg);
-}
+//    z-index: 99999;
+//    transition: all ease 0.8s;
 
-.first_p{
-   color: $color_white !important;
-   @include font_description;
-   width: 50%;
-   padding: 50px 0;
-   text-align: center;
-}
-}
-.button{
-   font-family: $font_title;
-   color: $color_white;
-   font-weight: 700;
-   font-size: 1.25em;
-   background: $color_secend;
-   padding: 5px 15px;
-   border-radius:15px ;
-}
 
+// }
+// .control{
+//    border-radius: 50%;
+//    padding: 10px;
+//    background: $color_white;
+//    color: $color_descripttion;
+//    font-size: 1.25em;
+//    opacity: 0.4;
+//    cursor: pointer;
+//    &:hover {
+//       opacity: 0.8;
+//     }
+// }

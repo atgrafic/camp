@@ -1,4 +1,5 @@
 import view from "./view.js";
+
 import style from "../css/index.scss";
 import home_style from "../css/home.scss";
 
@@ -16,6 +17,20 @@ import adventures from "../assets/image/kolonia_15_przygod.jpg";
 import horse from "../assets/image/kolonia_konna.jpg";
 import girl from "../assets/image/usniechniente_dziewczyny.jpg";
 
+//gallery
+import galery_1 from "../assets/image/galery_1.jpg";
+import galery_2 from "../assets/image/galery_2.jpg";
+import galery_3 from "../assets/image/galery_3.jpg";
+import galery_4 from "../assets/image/galery_4.jpg";
+import galery_5 from "../assets/image/galery_5.jpg";
+import galery_6 from "../assets/image/galery_6.jpg";
+import galery_7 from "../assets/image/galery_7.jpg";
+import galery_8 from "../assets/image/galery_8.jpg";
+import galery_9 from "../assets/image/galery_9.jpg";
+import galery_10 from "../assets/image/galery_10.jpg";
+import galery_11 from "../assets/image/galery_11.jpg";
+import galery_12 from "../assets/image/galery_12.jpg";
+
 const json = require("../json/list.json");
 const campList = json.campData;
 
@@ -26,7 +41,8 @@ export default class extends view {
     }
 
     async getHtml() {
-        return `<div class="baner">
+        return (
+            `<div class="baner">
           <img src="${videoFile}" /></div>
           <div class="camp_choose">
           <div class="palm">
@@ -91,27 +107,109 @@ export default class extends view {
           Nie zwlekaj, zanim będzie za późno!</p>
           <a href="/#" class="button" data-link>czytaj więcej . . .</a>
           </div>
-          </div>`+
-          `<div class="best">
-          <h2 class="best_h1">Najczęściej wybierane</h2>
-        <hr/>
-          </div>`+
-         `<div id='campList'>`+
-            json.campData.map(campTemplate).join("") +
-        `</div>`;
+          </div>` +
+            best() +
+            `<div class="social_media_big">
+          <i class='bx bxl-facebook media'></i>
+          <i class='bx bxl-instagram media' ></i>
+          <i class='bx bxl-pinterest-alt media' ></i>
+          <i class='bx bxl-tiktok media' ></i>
+      </div>` +
+            carousel()
+        );
     }
 }
-let camp = json.campData.map(campTemplate).join("");
-function campTemplate(camp){
-    return `
-    <div class="camp" id=${camp.id}>
-    <a class="tab-camp" href="/kolonia/${camp.id}" data-link>
-    <img class="camp-photo" src="${camp.image[0]}">
-    <h2 class="camp-city">${camp.city}</h2>
-    <p class="camp-name">${camp.name}</p>
-    </a>
-     </div>
-    `;
 
+function best() {
+    return `<div class="best">
+    <h2>Najczęściej wybierane</h2>
+
+    </div>`;
 }
-document.getElementById("campList").innerHTML = camp;
+
+//GALLERY
+function carousel() {
+    console.log("carusel");
+    return `<div class="carousel">
+      <div class="slides" >
+      <img src="${galery_1}" class="slide"/>
+      <img src="${galery_2}" class="slide" />
+      <img src="${galery_3}" class="slide" />
+      <img src="${galery_4}" class="slide" />
+      <img src="${galery_5}" class="slide"/ >
+      <img src="${galery_6}" class="slide"/ >
+      <img src="${galery_7}" class="slide" />
+      <img src="${galery_8}" class="slide" />
+      <img src="${galery_9}" class="slide" />
+      <img src="${galery_10}" class="slide" />
+      <img src="${galery_11}" class="slide" />
+      <img src="${galery_12}" class="slide" />
+
+      </div>
+    <div class="controls">
+      <div class="control" id="prev"><i class='bx bx-chevron-left'></i></div>
+      <div class="control" id="next"><i class='bx bx-chevron-right'></i></div>
+    </div>
+  </div>`;
+}
+
+window.addEventListener("load", carouselBuild);
+
+function carouselBuild() {
+    console.log("event");
+
+    slider();
+}
+//carusela
+// function slider() {
+//     console.log("slider");
+
+//     const carouselSlider = document.querySelector(".slides");
+//     const carouselImages = document.querySelectorAll(".slides img");
+
+//     //button
+//     const prevBth = document.querySelector("#prev");
+//     const nextBth = document.querySelector("#next");
+//     console.log(carouselImages);
+
+//     //Counter
+
+//     let counter = 1;
+//     // let counter = 0;
+//     const size = carouselImages[0].clientWidth;
+//     console.log(carouselImages[0].clientWidth);
+//     carouselSlider.style.transform = "translateX(" + -size * counter + "px)";
+
+//     //buton listeners
+//     nextBth.addEventListener("click", () => {
+//         if (counter >= carouselImages.length) return;
+//         // if( counter <= 0) return
+//         carouselSlider.style.transform = "transform 0.4s ease";
+//         counter++;
+//         carouselSlider.style.transform = "translateX(" + -size * counter + "px)";
+//     });
+
+//     prevBth.addEventListener("click", () => {
+//         if (counter <= 0) return;
+//         carouselSlider.style.transform = "transform 0.4s ease";
+//         counter--;
+//         carouselSlider.style.transform = "translateX(" + -size * counter + "px)";
+//     });
+
+//     carouselSlider.addEventListener("transitionend", () => {
+//         if (carouselImages[counter].id === "lastClone") {
+//             carouselSlider.style.transform = "none";
+//             counter = carouselImages.length - 2;
+//             carouselSlider.style.transform = "translateX(" + -size * counter + "px)";
+//         }
+//         if (carouselImages[counter].id === "firstClone") {
+//             console.log("dddd");
+//             carouselSlider.style.transform = "none";
+//             counter = carouselImages.length - counter;
+//             carouselSlider.style.transform = "translateX(" + -size * counter + "px)";
+//         }
+//     });
+//     //setInterval
+
+//     return ``;
+// }
