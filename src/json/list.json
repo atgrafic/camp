@@ -1,5 +1,5 @@
 {
-    "carsData": [
+    "campData": [
         {
             "id": "1",
             "place": "world",
@@ -45,7 +45,7 @@
             "sleep_title_2": "O ośrodku",
             "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
-                "https://atgrafic.github.io/camp/dist/image/relaks_8.jpg",
+                "https://atgrafic.github.io/camp//dist/image/relaks_8.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_7.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_9.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_10.jpg"

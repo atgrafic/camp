@@ -2,7 +2,7 @@ const path = require("path");
 
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-//const CopyPlugin = require("copy-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     entry: { index: "./src/index.js" },
@@ -22,9 +22,9 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/index.html",
         }),
-        // new CopyPlugin({
-        //     patterns: [{ from: "src/assets/image", to: "./image" }],
-        // }),
+        new CopyPlugin({
+            patterns: [{ from: "src/assets/image", to: "./image" }],
+        }),
     ],
     module: {
         rules: [
@@ -40,7 +40,7 @@ module.exports = {
 
             // },
             {
-                test: /\.(mp4|png|svg|jpg|gif)$/,
+                test: /\.(png|svg|jpg|gif)$/,
                 type: "asset/resource",
 
             },
@@ -49,7 +49,10 @@ module.exports = {
                 test: /\.(html)$/,
                 use: ["html-loader"],
             },
-          
+            {
+                test: /\.json$/,
+                type: 'json',
+              },
             {
                 test: /\.m?js$/,
                 exclude: /(node_modules|bower_components)/,

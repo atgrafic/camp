@@ -31,9 +31,6 @@ import galery_10 from "../assets/image/galery_10.jpg";
 import galery_11 from "../assets/image/galery_11.jpg";
 import galery_12 from "../assets/image/galery_12.jpg";
 
-const json = require("../json/list.json");
-const campList = json.campData;
-
 export default class extends view {
     constructor(params) {
         super(params);
@@ -107,9 +104,13 @@ export default class extends view {
           Nie zwlekaj, zanim będzie za późno!</p>
           <a href="/#" class="button" data-link>czytaj więcej . . .</a>
           </div>
-          </div>` +
-            best() +
-            `<div class="social_media_big">
+          </div>
+          <div class="best">
+          <h2>Najczęściej wybierane</h2>
+          <hr/> ` +
+            bestChoose() +
+            `</div>
+            <div class="social_media_big">
           <i class='bx bxl-facebook media'></i>
           <i class='bx bxl-instagram media' ></i>
           <i class='bx bxl-pinterest-alt media' ></i>
@@ -120,11 +121,35 @@ export default class extends view {
     }
 }
 
-function best() {
-    return `<div class="best">
-    <h2>Najczęściej wybierane</h2>
+//json-best
+const json = require("../json/list.json");
+const campList = json.campData;
 
-    </div>`;
+// function best(camp) {
+//     return `
+//         <div class="camp" id=${camp.id}>
+//         <a class="tab-camp" href="/kolonia/${camp.id}" data-link>
+//         <img class="camp-photo" src="${camp.image[0]}">
+//         <h2 class="camp-city">${camp.city}</h2>
+//         <p class="camp-name">${camp.name}</p>
+//         </a>
+//          </div>`;
+// }
+// window.addEventListener("load",  bestChoose);
+function bestChoose() {
+    let camp = json.campData;
+    for (let i = 0; i < 8; i++) {
+        console.log("i for");
+        console.log(camp[0].image[0]);
+        return `
+        <div class="camp" id=${camp[i].id}>
+        <a class="tab-camp" href="/kolonia/${camp[i].id}" data-link>
+        <img class="camp-photo" src="${camp[i].image[0]}">
+        <h2 class="camp-city">${camp[i].city}</h2>
+        <p class="camp-name">${camp[i].name}</p>
+        </a>
+         </div>`;
+    }
 }
 
 //GALLERY
@@ -153,13 +178,6 @@ function carousel() {
   </div>`;
 }
 
-window.addEventListener("load", carouselBuild);
-
-function carouselBuild() {
-    console.log("event");
-
-    slider();
-}
 //carusela
 // function slider() {
 //     console.log("slider");
