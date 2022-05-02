@@ -9,7 +9,7 @@ $color_descripttion: #454c6a;
 $color_secend: #f990ae;
 $color_third: #6ed2ca;
 $color-four: #98e6f0;
-$color-five: #fed464;
+$color-five: #ffc128;
 $color_white: #fff;
 $color-footer: #e9e7e7;
 $color-text: #707070;
@@ -53,6 +53,11 @@ h2{
     font-size: 1.25em;
     text-transform: uppercase;
     padding-bottom: 1em;
+}
+h3{
+    @include title;
+    font-size: 1em;
+
 }
 p{
     @include font_description;

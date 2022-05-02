@@ -1,9 +1,61 @@
 @import "index.scss";
 .baner {
-    // background: url("../assets/image/baner_animate.gif");
+    background: $color-five;
     width: 100vw;
     height: 600px;
-    // padding: 60px;
+    background-image: url("../assets/image/palm.svg"), url("../assets/image/mountine.svg");
+
+    background-position: left -50px bottom -40px,  right -40px bottom -40px;
+
+    background-repeat: no-repeat;
+    background-size: 500px, 700px;
+    // pad
+
+
+//     animation: travel 25s ease-in-out infinite;
+//     animation-delay: 1s;
+// }
+// @keyframes travel {
+//     0%,
+//     100% {
+//         transform: translate3d(00, 0, 0);
+//     }
+//     50% {
+//         transform: translate3d(-100%, 0, 0);
+//     }
+}
+.baner_1{
+position: relative;
+left: 200px;
+// transform: translateY(1000px);
+animation: baner 3s ease;
+animation-delay: 0;
+@keyframes baner {
+   from {
+     transform: translateY(1000px) ;
+     opacity: 0;
+   }
+   to {
+     transform: translateY(0) ;
+     opacity: 1;
+   }
+}
+}
+.baner_2{
+   position: relative;
+   left: 500px;
+   animation: baner 3s ease;
+animation-delay: 0;
+@keyframes baner {
+   from {
+     transform: translateY(1000px) ;
+     opacity: 0;
+   }
+   to {
+     transform: translateY(0) ;
+     opacity: 1;
+   }
+}
 }
 .camp_choose {
     margin: 80px auto;
@@ -198,54 +250,78 @@
         font-size: 3em;
         border-radius: 15%;
         margin: 0 20px;
-       }
-       .media:hover{
-         background: $color_descripttion;
-       }
+    }
+    .media:hover {
+        background: $color_descripttion;
+    }
 }
 //best
-.best{
-   max-width: $width;
-   margin: 80px auto;
+.best {
+    max-width: $width;
+    margin: 80px auto;
 
-   h2{
-      text-transform: none;
-      padding-bottom: 0.5em;
-   }
-   hr{
-      outline: none;
-      color: $color-text;
-   }
+    h2 {
+        text-transform: none;
+        padding-bottom: 0.5em;
+    }
+    hr {
+        outline: none;
+        color: $color-text;
+        margin-bottom: 20px;
+    }
 }
-
+.campBest {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.tab-camp {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    .camp-name {
+        @include title;
+        font-size: 0.9em;
+        color: $color_secend;
+    }
+}
+.camp-photo {
+    width: 140px;
+    height: auto;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
 //carousel
-.slides{
-   display:flex;
-   flex-direction: row;
+.slides {
+    display: flex;
+    flex-direction: row;
 
-   width: 100%;
-   height: auto;
-   animation: travel 25s ease-in-out infinite;
-   animation-delay: 1s;
+    width: 100%;
+    height: auto;
+    animation: travel 25s ease-in-out infinite;
+    animation-delay: 1s;
 }
 @keyframes travel {
-   0%, 100%  {
-      transform: translate3d(00,0,0);
+    0%,
+    100% {
+        transform: translate3d(00, 0, 0);
     }
-  50% {
-      transform: translate3d(-100%,0,0);
+    50% {
+        transform: translate3d(-100%, 0, 0);
     }
- }
+}
 
- .slides img{
+.slides img {
     width: 75%;
     height: auto;
- }
+}
 
-.carousel{
-   position: relative;
-   display: flex;
-   overflow: hidden;
+.carousel {
+    position: relative;
+    display: flex;
+    overflow: hidden;
 }
 // .controls{
 //    width: 100%;
@@ -257,7 +333,6 @@
 
 //    z-index: 99999;
 //    transition: all ease 0.8s;
-
 
 // }
 // .control{

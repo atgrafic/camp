@@ -3,7 +3,9 @@ import view from "./view.js";
 import style from "../css/index.scss";
 import home_style from "../css/home.scss";
 
-import videoFile from "../assets/image/baner_animate.gif";
+import baner_1 from "../assets/image/baner_1.png";
+import baner_2 from "../assets/image/baner_2.png";
+
 import campPalms from "../assets/image/palma.svg";
 import campSea from "../assets/image/morze.svg";
 import campMountains from "../assets/image/gory.svg";
@@ -40,7 +42,9 @@ export default class extends view {
     async getHtml() {
         return (
             `<div class="baner">
-          <img src="${videoFile}" /></div>
+            <img class="baner_1" src="${baner_1}"/>
+            <img class="baner_2" src="${baner_2}"/>
+            </div>
           <div class="camp_choose">
           <div class="palm">
           <a href="/#" data-link><img class="camp_choose_img" src="${campPalms}" />
@@ -107,15 +111,15 @@ export default class extends view {
           </div>
           <div class="best">
           <h2>Najczęściej wybierane</h2>
-          <hr/> ` +
+          <hr/> <div class="campBest">` +
             bestChoose() +
-            `</div>
+            `</div></div>
             <div class="social_media_big">
           <i class='bx bxl-facebook media'></i>
           <i class='bx bxl-instagram media' ></i>
           <i class='bx bxl-pinterest-alt media' ></i>
           <i class='bx bxl-tiktok media' ></i>
-      </div>` +
+      </div></div>` +
             carousel()
         );
     }
@@ -123,33 +127,25 @@ export default class extends view {
 
 //json-best
 const json = require("../json/list.json");
-const campList = json.campData;
+const camp = json.campData;
 
-// function best(camp) {
-//     return `
-//         <div class="camp" id=${camp.id}>
-//         <a class="tab-camp" href="/kolonia/${camp.id}" data-link>
-//         <img class="camp-photo" src="${camp.image[0]}">
-//         <h2 class="camp-city">${camp.city}</h2>
-//         <p class="camp-name">${camp.name}</p>
-//         </a>
-//          </div>`;
-// }
-// window.addEventListener("load",  bestChoose);
 function bestChoose() {
-    let camp = json.campData;
-    for (let i = 0; i < 8; i++) {
+    let bestCamp = "";
+
+    for (let i = 0; i < 9; i++) {
         console.log("i for");
         console.log(camp[0].image[0]);
-        return `
-        <div class="camp" id=${camp[i].id}>
+        bestCamp += ` <div class="camp" id=${camp[i].id}>
         <a class="tab-camp" href="/kolonia/${camp[i].id}" data-link>
         <img class="camp-photo" src="${camp[i].image[0]}">
-        <h2 class="camp-city">${camp[i].city}</h2>
+        <div>
+        <h3 class="camp-city">${camp[i].city}</h3>
         <p class="camp-name">${camp[i].name}</p>
+        </div>
         </a>
          </div>`;
     }
+    return bestCamp;
 }
 
 //GALLERY
