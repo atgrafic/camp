@@ -1,62 +1,164 @@
 @import "index.scss";
 .baner {
+    z-index: -100;
+    position: relative;
     background: $color-five;
     width: 100vw;
     height: 600px;
     background-image: url("../assets/image/palm.svg"), url("../assets/image/mountine.svg");
 
-    background-position: left -50px bottom -40px,  right -40px bottom -40px;
+    background-position: left -50px bottom -40px, right -40px bottom -40px;
 
     background-repeat: no-repeat;
     background-size: 500px, 700px;
     // pad
 
+    //     animation: travel 25s ease-in-out infinite;
+    //     animation-delay: 1s;
+    // }
+    // @keyframes travel {
+    //     0%,
+    //     100% {
+    //         transform: translate3d(00, 0, 0);
+    //     }
+    //     50% {
+    //         transform: translate3d(-100%, 0, 0);
+    //     }
+}
+.baner_1 {
+    position: absolute;
+    left: 10%;
+    // transform: translateY(1000px);
+    animation: baner 3s ease;
+    animation-delay: 0;
+    @keyframes baner {
+        from {
+            transform: translateX(-1000px);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+.baner_2 {
+    position: absolute;
+    right: 18%;
+    bottom: 0;
+    animation: baner_1 3s linear;
+    animation-delay: 0;
+    @keyframes baner_1 {
+        from {
+            transform: translateX(1000px);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+.text_1 {
+    position: absolute;
+    left: 43%;
+    top: 22%;
+    width: 400px;
+    height: auto;
+    opacity: 0;
+    transform: rotate(-15deg);
 
-//     animation: travel 25s ease-in-out infinite;
-//     animation-delay: 1s;
-// }
-// @keyframes travel {
-//     0%,
-//     100% {
-//         transform: translate3d(00, 0, 0);
-//     }
-//     50% {
-//         transform: translate3d(-100%, 0, 0);
-//     }
+    animation: sea 2s ease infinite;
+    animation-delay: 2s;
+    @keyframes sea {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 }
-.baner_1{
-position: relative;
-left: 200px;
-// transform: translateY(1000px);
-animation: baner 3s ease;
-animation-delay: 0;
-@keyframes baner {
-   from {
-     transform: translateY(1000px) ;
-     opacity: 0;
-   }
-   to {
-     transform: translateY(0) ;
-     opacity: 1;
-   }
+.text_2 {
+    position: absolute;
+    right: 40%;
+    top: 43%;
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    transform: rotate(5deg);
+
+    animation: sea 2s ease infinite;
+    animation-delay: 3s;
+    @keyframes sea {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 }
+.star_1 {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 40px;
+    height: auto;
 }
-.baner_2{
-   position: relative;
-   left: 500px;
-   animation: baner 3s ease;
-animation-delay: 0;
-@keyframes baner {
-   from {
-     transform: translateY(1000px) ;
-     opacity: 0;
-   }
-   to {
-     transform: translateY(0) ;
-     opacity: 1;
-   }
+.star_2 {
+    position: absolute;
+    left: 40%;
+    bottom: 15%;
+    width: 40px;
+    height: auto;
 }
+
+.star_3 {
+    position: absolute;
+    right: 40%;
+    bottom: 10%;
+    width: 50px;
+    height: auto;
 }
+.star_4 {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width: 50px;
+    height: auto;
+}
+.star_1,
+.star_2,
+.star_3,
+.star_4 {
+    animation: star 5s 1s ease-in-out infinite;
+    @keyframes star {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(25deg);
+        }
+        50% {
+            transform: rotate(0deg);
+        }
+        75% {
+            transform: rotate(-25deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+}
+
+//choose camp
 .camp_choose {
     margin: 80px auto;
     display: flex;
@@ -67,10 +169,11 @@ animation-delay: 0;
     background: $color_secend;
     width: 350px;
     height: 180px;
-    border: 1px dashed $color_white;
+    border: 3px dashed $color_white;
     border-radius: 5px;
     color: $color_white;
     outline: $color_secend solid 5px;
+
     a {
         display: flex;
         justify-content: space-between;
@@ -97,7 +200,7 @@ animation-delay: 0;
     background: $color_descripttion;
     width: 350px;
     height: 180px;
-    border: 1px dashed $color_white;
+    border: 3px dashed $color_white;
     border-radius: 5px;
     color: $color_white;
     outline: $color_descripttion solid 5px;
@@ -125,7 +228,7 @@ animation-delay: 0;
 }
 .mountains {
     background: $color_third;
-    border: 1px dashed $color_white;
+    border: 3px dashed $color_white;
     border-radius: 5px;
     color: $color_white;
     outline: $color_third solid 5px;
@@ -201,6 +304,7 @@ animation-delay: 0;
     width: 50%;
 }
 .first_descript {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,14 +331,73 @@ animation-delay: 0;
         text-align: center;
     }
 }
-.button {
-    font-family: $font_title;
+.button_effect {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.btn-flip {
+    opacity: 1;
+    outline: 0;
     color: $color_white;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: $font_title;
     font-weight: 700;
     font-size: 1.25em;
-    background: $color_secend;
-    padding: 5px 15px;
     border-radius: 15px;
+
+    &:hover {
+        &:after {
+            opacity: 1;
+            transform: translateY(0) rotateX(0);
+        }
+
+        &:before {
+            opacity: 0;
+            transform: translateY(50%) rotateX(90deg);
+        }
+    }
+
+    &:after {
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        color: $color_white;
+        display: block;
+        transition: 0.5s ease-in-out;
+        position: absolute;
+      //   background: $color_third;
+        border-radius: 5px;
+        background: $color_third url("../assets/image/plane.svg");
+        background-position: right 5% bottom 45%;
+
+        background-repeat: no-repeat;
+        background-size: 25px;
+        content: attr(data-back);
+        transform: translateY(-50%) rotateX(90deg);
+    }
+
+    &:before {
+        top: 0;
+        left: 0;
+        opacity: 1;
+        color: $color_white;
+        display: block;
+        padding: 0 30px;
+        line-height: 40px;
+        transition: 0.5s ease-in-out;
+        position: relative;
+        background: $color_secend;
+        border-radius: 5px;
+        content: attr(data-front);
+        transform: translateY(0) rotateX(0);
+    }
 }
 
 .social_media_big {
@@ -292,6 +455,9 @@ animation-delay: 0;
     border-radius: 5%;
     margin-bottom: 20px;
     margin-right: 20px;
+    &:hover {
+        opacity: 0.7;
+    }
 }
 //carousel
 .slides {

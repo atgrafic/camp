@@ -5,6 +5,10 @@ import home_style from "../css/home.scss";
 
 import baner_1 from "../assets/image/baner_1.png";
 import baner_2 from "../assets/image/baner_2.png";
+import text_1 from "../assets/image/text_1.svg";
+import text_2 from "../assets/image/text_2.svg";
+import star_1 from "../assets/image/star_1.svg";
+import star_2 from "../assets/image/star_2.svg";
 
 import campPalms from "../assets/image/palma.svg";
 import campSea from "../assets/image/morze.svg";
@@ -44,8 +48,16 @@ export default class extends view {
             `<div class="baner">
             <img class="baner_1" src="${baner_1}"/>
             <img class="baner_2" src="${baner_2}"/>
+            <img class="text_1" src="${text_1}"/>
+            <img class="text_2" src="${text_2}"/>
+             <img class="star_1" src="${star_1}"/>
+             <img class="star_2" src="${star_1}"/>
+             <img class="star_3" src="${star_2}"/>
+             <img class="star_4" src="${star_2}"/>
+
             </div>
           <div class="camp_choose">
+
           <div class="palm">
           <a href="/#" data-link><img class="camp_choose_img" src="${campPalms}" />
           <p class="choose">Obozy<br/> zagraniczne</p> </a>
@@ -106,7 +118,9 @@ export default class extends view {
           <p class="first_p">Dowiedz się o najlepszych promocjach
           i ofercie jako pierwszy.
           Nie zwlekaj, zanim będzie za późno!</p>
-          <a href="/#" class="button" data-link>czytaj więcej . . .</a>
+          <div class="button_effect">
+          <a href="#" class="btn-flip" data-back="czytaj więcej  " data-front="czytaj więcej ..."></a>
+          </div>
           </div>
           </div>
           <div class="best">
