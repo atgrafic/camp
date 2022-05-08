@@ -8,6 +8,7 @@ import footer_style from "./css/footer.scss";
 
 import header from "./views/header.js";
 import home from "./views/home.js";
+import about from "./views/about.js";
 console.log("Hello World");
 
 
@@ -32,7 +33,11 @@ const navigateTo = (url) => {
 
 const router = async () => {
     const routes = [
-        { path: "/kolonie", view: home },
+        { path: "/Camp", view: home },
+        // { path: "/Kolonie", view: kolonie },
+        { path: "/promocje", view: sale },
+        { path: "/O nas", view: about },
+        { path: "/kontakt", view: contact },
         // { path: "/kup/:id", view: carList },
         // { path: "/form", view: formCar },
         // { path: "/newCar", view: carNew },

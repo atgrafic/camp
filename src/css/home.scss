@@ -7,30 +7,18 @@
     height: 600px;
     background-image: url("../assets/image/palm.svg"), url("../assets/image/mountine.svg");
 
-    background-position: left -50px bottom -40px, right -40px bottom -40px;
+    background-position: left -5% bottom -450%, right -5% bottom -45%;
 
     background-repeat: no-repeat;
     background-size: 500px, 700px;
-    // pad
-
-    //     animation: travel 25s ease-in-out infinite;
-    //     animation-delay: 1s;
-    // }
-    // @keyframes travel {
-    //     0%,
-    //     100% {
-    //         transform: translate3d(00, 0, 0);
-    //     }
-    //     50% {
-    //         transform: translate3d(-100%, 0, 0);
-    //     }
 }
 .baner_1 {
     position: absolute;
     left: 10%;
-    // transform: translateY(1000px);
+    bottom: 0;
+    width: 33%;
+    height: auto;
     animation: baner 3s ease;
-    animation-delay: 0;
     @keyframes baner {
         from {
             transform: translateX(-1000px);
@@ -46,8 +34,9 @@
     position: absolute;
     right: 18%;
     bottom: 0;
+    width: 23%;
+    height: auto;
     animation: baner_1 3s linear;
-    animation-delay: 0;
     @keyframes baner_1 {
         from {
             transform: translateX(1000px);
@@ -61,9 +50,9 @@
 }
 .text_1 {
     position: absolute;
-    left: 43%;
-    top: 22%;
-    width: 400px;
+    left: 45%;
+    top: 25%;
+    width: 20%;
     height: auto;
     opacity: 0;
     transform: rotate(-15deg);
@@ -85,8 +74,8 @@
 .text_2 {
     position: absolute;
     right: 40%;
-    top: 43%;
-    width: 300px;
+    top: 45%;
+    width: 15%;
     height: auto;
     opacity: 0;
     transform: rotate(5deg);
@@ -109,14 +98,14 @@
     position: absolute;
     right: 10%;
     top: 10%;
-    width: 40px;
+    width: 3%;
     height: auto;
 }
 .star_2 {
     position: absolute;
     left: 40%;
     bottom: 15%;
-    width: 40px;
+    width: 4%;
     height: auto;
 }
 
@@ -124,14 +113,14 @@
     position: absolute;
     right: 40%;
     bottom: 10%;
-    width: 50px;
+    width: 5%;
     height: auto;
 }
 .star_4 {
     position: absolute;
     left: 20%;
     top: 10%;
-    width: 50px;
+    width: 4%;
     height: auto;
 }
 .star_1,
@@ -167,12 +156,16 @@
 }
 .palm {
     background: $color_secend;
+    position: relative;
     width: 350px;
     height: 180px;
     border: 3px dashed $color_white;
     border-radius: 5px;
     color: $color_white;
     outline: $color_secend solid 5px;
+    &:hover {
+        border: 3px dashed $color_descripttion;
+    }
 
     a {
         display: flex;
@@ -192,18 +185,28 @@
             width: 130px;
             height: auto;
             position: absolute;
-            bottom: 10px;
+            bottom: 1%;
+            transform: 1s ease-in-out;
+            &:hover {
+                width: 160px;
+                height: auto;
+                transform: translate(-15%, 0);
+            }
         }
     }
 }
 .sea {
     background: $color_descripttion;
+    position: relative;
     width: 350px;
     height: 180px;
     border: 3px dashed $color_white;
     border-radius: 5px;
     color: $color_white;
     outline: $color_descripttion solid 5px;
+    &:hover {
+        border: 3px dashed $color_five;
+    }
     a {
         display: flex;
         justify-content: space-between;
@@ -222,7 +225,13 @@
             width: 180px;
             height: auto;
             position: absolute;
-            bottom: 10px;
+            bottom: 2%;
+            transform: 1s ease-in-out;
+            &:hover {
+                width: 210px;
+                height: auto;
+                // transform: translate( -10%, 0);
+            }
         }
     }
 }
@@ -234,6 +243,10 @@
     outline: $color_third solid 5px;
     width: 350px;
     height: 180px;
+    position: relative;
+    &:hover {
+        border: 3px dashed $color_descripttion;
+    }
     a {
         display: flex;
         justify-content: space-between;
@@ -252,7 +265,13 @@
             width: 200px;
             height: auto;
             position: absolute;
-            bottom: 10px;
+            bottom: 2%;
+            transform: 1s ease-in-out;
+            &:hover {
+                width: 230px;
+                height: auto;
+                transform: translate(-10%, 0);
+            }
         }
     }
 }
@@ -280,19 +299,63 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.academy_img {
+.academy_continer {
+    position: relative;
+    display: block;
     border-radius: 25px;
     width: 250px;
-    height: auto;
+    height: 280px;
 }
-.academy_choose {
-    text-transform: none;
+.academy_img {
+    position: relative;
+    border-radius: 25px;
+    width: 250px;
+    height: 280px;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color_white;
+        opacity: 0.7;
+    }
 }
+
+.bth {
+    border-radius: 25px;
+    width: 250px;
+    height: 280px;
+    background: $color_white;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color_descripttion;
+        opacity: 0.95;
+    }
+    .bth_text {
+        width: 200px;
+        color: $color_white;
+        background: $color_secend;
+        border-radius: 5px;
+        padding: 0 20px;
+        font-family: $font_title;
+        font-weight: 700;
+        font-size: 1.25em;
+    }
+}
+
 .academy_padding {
     padding-bottom: 40px;
 }
 .academy_choose {
     padding-top: 10px;
+    text-transform: none;
+    &:hover {
+        color: $color_secend;
+    }
 }
 .first_minute {
     background: $color_descripttion url("../assets/image/torba.svg") no-repeat right 50px bottom
@@ -372,7 +435,7 @@
         display: block;
         transition: 0.5s ease-in-out;
         position: absolute;
-      //   background: $color_third;
+        //   background: $color_third;
         border-radius: 5px;
         background: $color_third url("../assets/image/plane.svg");
         background-position: right 5% bottom 45%;
@@ -403,7 +466,7 @@
 .social_media_big {
     background: $color_third;
     width: 100%;
-    height: 100px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,7 +475,7 @@
         background: $color_white;
         font-size: 3em;
         border-radius: 15%;
-        margin: 0 20px;
+        margin: 20px 20px;
     }
     .media:hover {
         background: $color_descripttion;
@@ -489,27 +552,763 @@
     display: flex;
     overflow: hidden;
 }
-// .controls{
-//    width: 100%;
-//    padding: 0 30px;
-//    position: absolute;
-//    top: 50%;
-//    display: flex;
-//    justify-content: space-between;
+@media only screen and (max-width: 1750px) {
+    .baner_1 {
+        left: 8%;
+    }
+    .baner_2 {
+        right: 16%;
+    }
+    .text_1 {
+        left: 43%;
+    }
+    .text_2 {
+        right: 38%;
+    }
+    .star_1 {
+        width: 3%;
+    }
+    .star_2 {
+        width: 3%;
+    }
 
-//    z-index: 99999;
-//    transition: all ease 0.8s;
+    .star_3 {
+        width: 4%;
+    }
+    .star_4 {
+        top: 10%;
+    }
+    .description {
+        background-position: right 50px top 0, left 10px top 80px, left 80px bottom 0,
+            right 50px bottom 0;
+        background-size: 200px, 260px, 200px, 230px;
+    }
+}
+@media only screen and (max-width: 1650px) {
+    .text_1 {
+        left: 40%;
+        top: 30%;
+    }
+    .text_2 {
+        right: 38%;
+        top: 50%;
+    }
+    .description {
+        background-position: right 20px top 0, left 10px top 30px, left 80px bottom 0,
+            right 20px bottom 0;
+        background-size: 180px, 200px, 180px, 180px;
+    }
+}
+@media only screen and (max-width: 1450px) {
+    .baner {
+        width: 100vw;
+        height: 500px;
+        background-position: left -5% bottom -100%, right -15% bottom -85%;
+        background-size: 400px, 600px;
+    }
+    .description {
+        background-position: right 20px top 0, left 10px top 30px, left 50px bottom 0,
+            right 10px bottom 0;
+        background-size: 180px, 200px, 150px, 140px;
+    }
+    .best {
+        max-width: 1000px;
+        margin: 80px auto;
+    }
 
-// }
-// .control{
-//    border-radius: 50%;
-//    padding: 10px;
-//    background: $color_white;
-//    color: $color_descripttion;
-//    font-size: 1.25em;
-//    opacity: 0.4;
-//    cursor: pointer;
-//    &:hover {
-//       opacity: 0.8;
-//     }
-// }
+    .tab-camp {
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    .baner {
+        width: 100vw;
+        height: 400px;
+        background-position: left -5% bottom -100%, right -15% bottom -100%;
+        background-size: 300px, 500px;
+    }
+    .text_1 {
+        left: 41%;
+        top: 30%;
+    }
+    .text_2 {
+        right: 38%;
+        top: 50%;
+    }
+    .camp_choose {
+        max-width: 1000px;
+    }
+    .palm {
+        width: 300px;
+        a {
+            padding: 0 10px;
+        }
+        .choose {
+            font-size: 1.8em;
+            padding-top: 15px;
+        }
+        .camp_choose_img {
+            left: -2%;
+        }
+    }
+    .sea {
+        width: 300px;
+
+        a {
+            padding: 0 10px;
+            .choose {
+                font-size: 1.8em;
+                padding-top: 15px;
+            }
+        }
+    }
+    .mountains {
+        width: 300px;
+
+        a {
+            padding: 0 10px;
+            .choose {
+                font-size: 1.8em;
+                padding-top: 15px;
+            }
+        }
+    }
+    .description {
+        background-position: right 20px top 0, left 10px top 30px, left 50px bottom 0,
+            right 10px bottom 0;
+        background-size: 180px, 200px, 150px, 140px;
+        p {
+            max-width: 50%;
+        }
+    }
+    .academy {
+        max-width: 1000px;
+        margin: 50px auto 0 auto;
+    }
+    .academy_continer {
+        width: 220px;
+        height: 250px;
+    }
+    .academy_img {
+        width: 220px;
+        height: 250px;
+    }
+
+    .bth {
+        width: 220px;
+        height: 250px;
+    }
+    .first_minute {
+        background: #454c6a url(file:///C:/grafika/kolonia/kolonia_webpack/dist/image/torba.svg)
+            no-repeat right 20px bottom 15px;
+        background-size: 10%;
+    }
+    .first_descript {
+        .descript_h1 {
+            font-size: 1.75em !important;
+        }
+        .descript_h2 {
+            font-size: 1.75em !important;
+        }
+        .first_p {
+            padding: 35px 0;
+        }
+    }
+    .best {
+        max-width: 950px;
+    }
+    .tab-camp {
+        width: 250px;
+    }
+    .camp-photo {
+        width: 120px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .baner {
+        width: 100vw;
+        height: 350px;
+        background-position: left -5% bottom -100%, right -15% bottom -100%;
+        background-size: 280px, 450px;
+    }
+    .baner_2 {
+        right: 20%;
+    }
+    .text_1 {
+        left: 41%;
+        top: 35%;
+    }
+    .text_2 {
+        right: 42%;
+        top: 50%;
+    }
+    .camp_choose {
+        max-width: 85%;
+    }
+    .palm {
+        width: 200px;
+        height: 200px;
+        a {
+            .choose {
+                font-size: 1.75em;
+                padding-top: 10px;
+            }
+            .camp_choose_img {
+                width: 100px;
+                bottom: 1%;
+                left: -2%;
+            }
+        }
+    }
+    .sea {
+        width: 200px;
+        height: 200px;
+        a {
+            .choose {
+                font-size: 1.75em;
+                padding-top: 10px;
+            }
+            .camp_choose_img {
+                bottom: 1%;
+                width: 160px;
+                height: auto;
+            }
+        }
+    }
+
+    .mountains {
+        width: 200px;
+        height: 200px;
+        a {
+            .choose {
+                font-size: 1.75em;
+                padding-top: 10px;
+            }
+            .camp_choose_img {
+                bottom: 1%;
+                width: 160px;
+                height: auto;
+            }
+        }
+    }
+    .academy {
+        max-width: 85%;
+        justify-content: space-evenly;
+    }
+    .academy_continer {
+        width: 200px;
+        height: 230px;
+    }
+    .academy_img {
+        width: 200px;
+        height: 230px;
+    }
+
+    .bth {
+        width: 200px;
+        height: 230px;
+    }
+    .first_descript {
+        .descript_h1 {
+            font-size: 1.55em !important;
+        }
+        .descript_h2 {
+            font-size: 1.55em !important;
+            padding: 0 30px;
+        }
+        .first_p {
+            padding: 25px 0;
+            width: 70%;
+        }
+    }
+    .best {
+        max-width: 700px;
+    }
+    .tab-camp {
+        width: 300px;
+    }
+    .camp-photo {
+        width: 120px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .baner {
+        width: 100vw;
+        height: 350px;
+        background-position: left -5% bottom -100%, right -20% bottom -100%;
+        background-size: 280px, 420px;
+    }
+    .baner_1 {
+        left: 10%;
+        bottom: 0;
+        width: 40%;
+
+        opacity: 0;
+        animation: sea 2s ease infinite;
+        animation-delay: 2s;
+        @keyframes sea {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    .baner_2 {
+        right: 18%;
+        bottom: 0;
+        width: 28%;
+        opacity: 0;
+
+        animation: sea 2s ease infinite;
+        animation-delay: 3s;
+        @keyframes sea {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+    .text_1 {
+        left: 50%;
+        top: 28%;
+        width: 30%;
+
+        opacity: 0;
+        transform: rotate(-15deg);
+
+        animation: sea 2s ease infinite;
+        animation-delay: 2s;
+        @keyframes sea {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    .text_2 {
+        right: 45%;
+        top: 40%;
+        width: 25%;
+
+        opacity: 0;
+        transform: rotate(5deg);
+
+        animation: sea 2s ease infinite;
+        animation-delay: 3s;
+        @keyframes sea {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+    .camp_choose {
+        max-width: 85%;
+    }
+    .academy_continer {
+        width: 180px;
+        height: 210px;
+    }
+    .academy_img {
+        width: 180px;
+        height: 210px;
+    }
+
+    .bth {
+        width: 180px;
+        height: 210px;
+    }
+    .academy_padding {
+        padding-bottom: 20px;
+    }
+    .first_minute {
+        background-image: none;
+    }
+    .first_descript {
+        .descript_h1 {
+            font-size: 1.25em !important;
+        }
+        .descript_h2 {
+            font-size: 1.25em !important;
+        }
+        .first_p {
+            padding: 20px 0;
+            font-size: 0.8em;
+        }
+    }
+    .btn-flip {
+        font-size: 1em;
+        &:before {
+            padding: 0 20px;
+        }
+    }
+}
+@media only screen and (max-width: 750px) {
+    .baner {
+        width: 100vw;
+        height: 350px;
+        background-position: left -15% bottom -100%, right -30% bottom -100%;
+        background-size: 260px, 400px;
+    }
+    .baner_1 {
+        left: 10%;
+        bottom: 0;
+        width: 50%;
+    }
+    .baner_2 {
+        right: 18%;
+        bottom: 0;
+        width: 38%;
+        opacity: 0;
+    }
+    .text_1 {
+        left: 60%;
+        top: 28%;
+        width: 35%;
+    }
+    .text_2 {
+        right: 55%;
+        top: 40%;
+        width: 30%;
+    }
+    .camp_choose {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .palm {
+        width: 350px;
+        height: 180px;
+        margin-bottom: 80px;
+        a {
+            padding: 0 25px 0 10px;
+            .choose {
+                font-size: 2em;
+            }
+            .camp_choose_img {
+                width: 130px;
+                bottom: 1%;
+                left: 0;
+                &:hover {
+                    width: 160px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .sea {
+        width: 350px;
+        height: 180px;
+        margin-bottom: 80px;
+        a {
+            padding: 0 25px 0 10px;
+            .choose {
+                font-size: 2em;
+            }
+            .camp_choose_img {
+                width: 180px;
+                bottom: 2%;
+            }
+        }
+    }
+    .mountains {
+        width: 350px;
+        height: 180px;
+        a {
+            padding: 0 25px 0 10px;
+            .choose {
+                font-size: 2em;
+            }
+            .camp_choose_img {
+                width: 200px;
+                bottom: 2%;
+            }
+        }
+    }
+    .first_descript {
+        .descript_h1 {
+            margin-bottom: 10px;
+        }
+    }
+    .best {
+        max-width: 500px;
+    }
+    .tab-camp {
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+    }
+    .camp-photo {
+        width: 120px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .camp-name,
+    .camp-city {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .baner {
+        width: 100vw;
+        height: 350px;
+        background-position: left -10% bottom -50%, right -30% bottom -50%;
+        background-size: 250px, 380px;
+    }
+    .baner_1 {
+        opacity: 0;
+        animation: none;
+    }
+    .baner_2 {
+        opacity: 0;
+        animation: none;
+    }
+    .text_1 {
+        left: 30%;
+        top: 28%;
+        width: 35%;
+        height: auto;
+        opacity: 0;
+        transform: rotate(0deg);
+
+        animation: sea 2s ease infinite;
+        animation-delay: 2s;
+        @keyframes sea {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    .text_2 {
+        position: absolute;
+        right: 40%;
+        top: 26%;
+        width: 30%;
+        height: auto;
+        opacity: 0;
+        transform: rotate(0deg);
+
+        animation: sea 2s ease infinite;
+        animation-delay: 3s;
+        @keyframes sea {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+    .star_1 {
+        width: 4%;
+    }
+    .star_2 {
+        left: 30%;
+        bottom: 15%;
+        width: 5%;
+    }
+
+    .star_3 {
+        right: 30%;
+        bottom: 10%;
+        width: 6%;
+    }
+    .description {
+        background-image: none;
+        padding-bottom: 40px;
+        h1 {
+            font-size: 1.75em !important;
+        }
+    }
+    .academy {
+        justify-content: space-around;
+        align-items: center;
+    }
+    .academy_choose {
+        font-size: 1.25em;
+    }
+    .academy_padding {
+        margin: 0 20px;
+    }
+    .first_minute {
+        background: $color_descripttion url("../assets/image/torba.svg") no-repeat right 50px bottom
+            20px;
+        background-size: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .first_minute_girl {
+        width: 100%;
+    }
+    .first_descript {
+        width: 100%;
+        margin: 50px auto;
+
+        .descript_h1 {
+            font-size: 2em !important;
+            padding: 0px 20px;
+            margin-bottom: 20px;
+        }
+        .descript_h2 {
+            font-size: 2em !important;
+            padding: 0px 50px;
+        }
+
+        .first_p {
+            color: $color_white !important;
+            @include font_description;
+            width: 60%;
+            padding: 30px 0;
+            text-align: center;
+        }
+    }
+}
+@media only screen and (max-width: 550px) {
+    .baner {
+        background-position: left -15% bottom -50%, right -30% bottom -50%;
+        background-size: 220px, 350px;
+    }
+    .text_1 {
+        left: 25%;
+        top: 30%;
+        width: 55%;
+        height: auto;
+    }
+    .text_2 {
+        left: 25%;
+        top: 25%;
+        width: 50%;
+        height: auto;
+    }
+    .star_1 {
+        right: 15%;
+        top: 12%;
+        width: 8%;
+    }
+    .star_2 {
+        left: 33%;
+        bottom: 30%;
+        width: 7%;
+    }
+
+    .star_3 {
+        opacity: 0;
+    }
+    .star_4 {
+        right: 30%;
+        bottom: 12%;
+        width: 8%;
+    }
+
+    .palm {
+        width: 300px;
+        a {
+            padding: 0 10px 0;
+        }
+        .choose {
+            font-size: 1.8em;
+        }
+    }
+    .sea {
+        width: 300px;
+
+        a {
+            padding: 0 10px;
+            .choose {
+                font-size: 1.8em;
+                text-align: right;
+            }
+        }
+    }
+    .mountains {
+        width: 300px;
+
+        a {
+            padding: 0 10px;
+            .choose {
+                font-size: 1.8em;
+            }
+        }
+    }
+    .first_minute {
+        background: $color_descripttion url("../assets/image/torba.svg") no-repeat right 20px bottom
+            20px;
+        background-size: 20%;
+    }
+    .first_minute_girl {
+        width: 100%;
+    }
+    .first_descript {
+        .descript_h1 {
+            font-size: 1.75em !important;
+        }
+        .descript_h2 {
+            font-size: 1.75em !important;
+        }
+        .first_p {
+            width: 75%;
+            padding: 30px 0;
+        }
+    }
+
+    .best {
+        max-width: 300px;
+        text-align: center;
+    }
+    .tab-camp {
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    .camp-photo {
+        width: 150px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .social_media_big {
+        flex-direction: column;
+
+        .media {
+            margin: 10px 20px;
+        }
+        .bxl-facebook {
+            margin-top: 20px;
+        }
+        .bxl-tiktok {
+            margin-bottom: 20px;
+        }
+    }
+  
+}

@@ -77,36 +77,92 @@ export default class extends view {
           To Tobie pozostawiamy decyzję, na które zajęcia zapiszecie się w trakcie trwania turnusu.</p>
           <div class="academy">
           <div class="relax academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${relax}"/>
-          <h2 class="academy_choose">Akademia Relaksu</h2> </a>
+          <a href="/#" class="academy_continer" data-link>
+          <img class="academy_img" src="${relax}"/>
+          <div class="bth">
+          <div class="bth_text"> znajdź swój Camp</div>
+          </div>
+          </a>
+          <a href="/#" data-link>
+          <h2 class="academy_choose">Akademia Relaksu</h2>
+           </a>
           </div>
        <div class="dance academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${dance}"/>
-          <h2 class="academy_choose">Akademia Tańca</h2> </a>
+          <a href="/#" class="academy_continer" data-link>
+          <img class="academy_img" src="${dance}"/>
+          <div class="bth">
+          <div class="bth_text"> znajdź swój Camp</div>
+          </div>
+          </a>
+          <a href="/#" data-link>
+          <h2 class="academy_choose">Akademia Tańca</h2>
+          </a>
           </div>
         <div class="paint academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${paint}"/>
-          <h2 class="academy_choose">Akademia Malarstwa</h2> </a>
+        <a href="/#" class="academy_continer" data-link>
+        <img class="academy_img" src="${paint}"/>
+        <div class="bth">
+        <div class="bth_text"> znajdź swój Camp</div>
+        </div>
+        </a>
+        <a href="/#" data-link>
+        <h2 class="academy_choose">Akademia Malarstwa</h2>
+         </a>
           </div>
           <div class="sing academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${sing}"/>
-          <h2 class="academy_choose">Akademia Wokalu</h2> </a>
+          <a href="/#" class="academy_continer" data-link>
+          <img class="academy_img" src="${sing}"/>
+          <div class="bth">
+          <div class="bth_text"> znajdź swój Camp</div>
+          </div>
+          </a>
+          <a href="/#" data-link>
+          <h2 class="academy_choose">Akademia Wokalu</h2>
+           </a>
           </div>
           <div class="sport academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${sport}"/>
-          <h2 class="academy_choose">Akademia Sportu</h2> </a>
+          <a href="/#" class="academy_continer" data-link>
+          <img class="academy_img" src="${sport}"/>
+          <div class="bth">
+          <div class="bth_text"> znajdź swój Camp</div>
+          </div>
+          </a>
+          <a href="/#" data-link>
+          <h2 class="academy_choose">Akademia Sportu</h2>
+           </a>
           </div>
           <div class="survival academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${survival}"/>
-          <h2 class="academy_choose">Kolonia Survivalowa</h2> </a>
+          <a href="/#" class="academy_continer" data-link>
+          <img class="academy_img" src="${survival}"/>
+          <div class="bth">
+          <div class="bth_text"> znajdź swój Camp</div>
+          </div>
+          </a>
+          <a href="/#" data-link>
+          <h2 class="academy_choose">Kolonia Survivalowa</h2>
+           </a>
           </div>
           <div class="adventures academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${adventures}"/>
-          <h2 class="academy_choose">Kolonie 15 Przygód</h2> </a>
+          <a href="/#" class="academy_continer" data-link>
+          <img class="academy_img" src="${adventures}"/>
+          <div class="bth">
+          <div class="bth_text"> znajdź swój Camp</div>
+          </div>
+          </a>
+          <a href="/#" data-link>
+          <h2 class="academy_choose">Kolonia 15 Przygód</h2>
+           </a>
           </div>
           <div class="horse academy_padding">
-          <a href="/#" data-link><img class="academy_img" src="${horse}"/>
-          <h2 class="academy_choose">Kolonia Jazdy konnej</h2> </a>
+          <a href="/#" class="academy_continer" data-link>
+          <img class="academy_img" src="${horse}"/>
+          <div class="bth">
+          <div class="bth_text"> znajdź swój Camp</div>
+          </div>
+          </a>
+          <a href="/#" data-link>
+          <h2 class="academy_choose">Kolonia Jazdy konnej</h2>
+           </a>
           </div>
           </div>
           </div>
@@ -181,11 +237,8 @@ function carousel() {
       <img src="${galery_12}" class="slide" />
 
       </div>
-    <div class="controls">
-      <div class="control" id="prev"><i class='bx bx-chevron-left'></i></div>
-      <div class="control" id="next"><i class='bx bx-chevron-right'></i></div>
-    </div>
-  </div>`;
+
+       </div>`;
 }
 
 //carusela
