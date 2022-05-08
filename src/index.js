@@ -10,7 +10,7 @@ import header from "./views/header.js";
 import home from "./views/home.js";
 import about from "./views/about.js";
 import sale from "./views/sale.js";
-import contact from "./views/contact";
+import contact from "./views/contact.js";
 console.log("Hello World");
 
 
