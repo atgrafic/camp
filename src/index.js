@@ -11,8 +11,6 @@ import header from "./views/header.js";
 import home from "./views/home.js";
 import chooseCamp  from "./views/chooseCamp.js";
 import about from "./views/about.js";
-import sale from "./views/sale.js";
-import contact from "./views/contact.js";
 console.log("Hello World");
 
 
@@ -37,14 +35,14 @@ const navigateTo = (url) => {
 
 const router = async () => {
     const routes = [
-        // { path: "/camp", view: home },
+        { path: "/camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
-        { path: "/promocje", view: sale },
+        { path: "/promocje", view: about},
         { path: "/Onas", view: about },
         { path: "/Kadra", view: about },
         { path: "/Dokumenty", view: about },
         { path: "/Pytania-i-odpowiedzi", view: about },
-        { path: "/kontakt", view: contact },
+        { path: "/kontakt", view: about },
         // { path: "/kup/:id", view: carList },
         // { path: "/form", view: formCar },
         // { path: "/newCar", view: carNew },

@@ -11,8 +11,10 @@ export default class extends view {
 
     async getHtml() {
     return `
-   <h2>Strona w budowie</h2>
+    ,div class="build"
+   <h1>Strona w budowie</h1>
    <p>Zajrzyj do nas później</p>
+   </div>
     `;
 }
 
