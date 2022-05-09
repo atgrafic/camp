@@ -1,5 +1,7 @@
 import view from "./view.js";
 
+import webBuild from "../css/build.scss";
+
 
 export default class extends view {
     constructor(params) {

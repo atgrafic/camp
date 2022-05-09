@@ -4,6 +4,7 @@ import style from "./css/index.scss";
 import header_style from "./css/header.scss";
 import home_style from "./css/home.scss";
 import footer_style from "./css/footer.scss";
+import webBuild from "./css/build.scss";
 
 
 import header from "./views/header.js";
@@ -36,7 +37,7 @@ const navigateTo = (url) => {
 
 const router = async () => {
     const routes = [
-        { path: "/camp", view: home },
+        // { path: "/camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
         { path: "/promocje", view: sale },
         { path: "/Onas", view: about },
