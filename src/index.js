@@ -7,7 +7,7 @@ import footer_style from "./css/footer.scss";
 
 
 import header from "./views/header.js";
-import home from "./views/home.js";
+import camp from "./views/home.js";
 import about from "./views/about.js";
 import sale from "./views/sale.js";
 import contact from "./views/contact.js";
@@ -35,10 +35,13 @@ const navigateTo = (url) => {
 
 const router = async () => {
     const routes = [
-        { path: "/Camp", view: home },
+        { path: "/camp", view: home },
         // { path: "/Kolonie", view: kolonie },
         { path: "/promocje", view: sale },
-        { path: "/O nas", view: about },
+        { path: "/Onas", view: about },
+        { path: "/Kadra", view: about },
+        { path: "/Dokumenty", view: about },
+        { path: "/Pytania-i-odpowiedzi", view: about },
         { path: "/kontakt", view: contact },
         // { path: "/kup/:id", view: carList },
         // { path: "/form", view: formCar },
