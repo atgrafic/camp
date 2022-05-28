@@ -3,9 +3,11 @@
 
 .build{
     width: 100%;
-    height: 40%;
+    //height: 61vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // position: absolute;
+    margin: 50px auto;
 }

@@ -35,14 +35,14 @@ const navigateTo = (url) => {
 
 const router = async () => {
     const routes = [
-        { path: "/camp", view: home },
+        { path: "/Camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
         { path: "/promocje", view: about},
-        { path: "/Onas", view: about },
+        { path: "/onas", view: about },
         { path: "/Kadra", view: about },
         { path: "/Dokumenty", view: about },
         { path: "/Pytania-i-odpowiedzi", view: about },
-        { path: "/kontakt", view: about }
+        { path: "/kontakt", view: about },
 
     ];
 

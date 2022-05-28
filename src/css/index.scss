@@ -38,6 +38,10 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 a {
     text-decoration: none;
@@ -61,4 +65,7 @@ h3{
 p{
     @include font_description;
 
+}
+#app{
+    height: auto;
 }
