@@ -3,7 +3,6 @@
 footer {
     background: $color_white;
     width: 100%;
-
 }
 .footer {
     background: $color_white;
@@ -11,12 +10,15 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
-   margin: 40px auto 20px auto;
+    margin: 40px auto 20px auto;
 }
 .logo_footer {
+    display: block;
+    background: url("../assets/image/logo.svg") center no-repeat;
     width: 65px;
     height: auto;
-    padding-bottom: 1em;
+    padding-bottom: 3.5em;
+    margin: 0;
 }
 .small_description {
     width: 300px;
@@ -49,7 +51,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     margin: 0 auto;
-    p{
+    p {
         font-size: 0.8em;
         padding-bottom: 10px;
     }
@@ -69,6 +71,7 @@ footer {
     }
     .logo_footer {
         text-align: center;
+        margin: 0 auto;
     }
     .small_description {
         width: 250px;

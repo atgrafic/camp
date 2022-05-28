@@ -19,6 +19,7 @@ nav {
 
 .logo {
     display: block;
+    background: url("../assets/image/logo.svg") center no-repeat;
     width: 90px;
     height: 72px;
 }
@@ -179,7 +180,7 @@ i {
     }
     .logo {
         width: 80px;
-        height: auto;
+        height: 62px;
     }
     .phone_box {
         padding: 5px;

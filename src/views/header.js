@@ -19,6 +19,7 @@ let menuOpenBtn = document.querySelector(".navbar .bx-menu");
 let CloseOpenBtn = document.querySelector(".nav-links .bx-x");
 let navLinks = document.querySelector(".nav-links");
 let logo = document.querySelector(".logo");
+let close = document.querySelector(".close");
 
 menuOpenBtn.addEventListener("click", () => {
     navLinks.style.left = "0";
@@ -27,5 +28,12 @@ menuOpenBtn.addEventListener("click", () => {
 
 CloseOpenBtn.addEventListener("click", () => {
     navLinks.style.left = "-100%";
+
+    logo.style.display = "block";
+});
+
+close.addEventListener("click", () => {
+    navLinks.style.left = "-100%";
+
     logo.style.display = "block";
 });
