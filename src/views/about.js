@@ -6,7 +6,7 @@ import webBuild from "../css/build.scss";
 export default class extends view {
     constructor(params) {
         super(params);
-        this.setTitle("Camp | O nas");
+        // this.setTitle("Camp | O nas")
     }
 
     async getHtml() {

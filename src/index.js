@@ -42,10 +42,8 @@ const router = async () => {
         { path: "/Kadra", view: about },
         { path: "/Dokumenty", view: about },
         { path: "/Pytania-i-odpowiedzi", view: about },
-        { path: "/kontakt", view: about },
-        // { path: "/kup/:id", view: carList },
-        // { path: "/form", view: formCar },
-        // { path: "/newCar", view: carNew },
+        { path: "/kontakt", view: about }
+
     ];
 
     const potentialMatches = routes.map((route) => {
