@@ -40,4 +40,6 @@ function closeMenu() {
 
     navLinks.style.left = "-100%";
 
+    logo.style.display = "block";
+
 }
