@@ -1,0 +1,71 @@
+@import "index.scss";
+
+.bg_breadcrumb {
+    background-color: rgba($color-third, $alpha: 0.15);
+    height: 80px;
+}
+.small_menu {
+    background: url("../assets/image/menu.svg") center no-repeat;
+    opacity: 0.65;
+    width: 100vw;
+    height: 70px;
+    z-index: -99;
+}
+
+.breadcrumb_menu {
+    max-width: $width;
+    margin: 0 auto;
+    position: relative;
+    bottom: 40px;
+}
+.breadcrumb {
+    padding-left: 50px;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 1em;
+}
+.home_camp {
+    color: $color-text;
+    text-decoration: none;
+    &:hover {
+        color: $color_descripttion;
+        font-weight: 700;
+    }
+}
+.position_page {
+    color: $color_secend;
+    text-decoration: none;
+    &:hover {
+        color: $color_descripttion;
+        font-weight: 700;
+    }
+}
+ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: $color_text;
+    content: ">\00a0";
+}
+  @media only screen and (max-width: 1400px) {
+    .breadcrumb {
+         padding-left: 100px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .breadcrumb {
+         padding-left: 180px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .breadcrumb {
+         padding-left: 120px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .breadcrumb {
+         padding-left: 50px;
+    }
+    .small_menu{
+        background: none;
+    }
+}
