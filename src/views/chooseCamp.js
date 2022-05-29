@@ -11,16 +11,14 @@ export default class extends view {
     async getHtml() {
         return `
     <div class="bg_breadcrumb">
-    <div class="small_menu">
+        <div class="small_menu"></div>
+        <div class="breadcrumb_menu">
+            <ul class="breadcrumb">
+                 <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
+                 <li> <a class="position_page" href="/Kolonie" data-link>Kolonia</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="breadcrumb_menu">
-         <ul class="breadcrumb">
-             <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
-             <li> <a class="position_page" href="/Kolonie" data-link>Kolonia</a></li>
-        </ul>
-    </div>
-    </div>
-
     `;
     }
 }
