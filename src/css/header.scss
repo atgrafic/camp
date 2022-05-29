@@ -54,6 +54,7 @@ nav {
     display: none;
     background: $color_white;
     border-radius: 5px;
+    z-index: 1;
 
     .sub-menu li {
         list-style: none;
