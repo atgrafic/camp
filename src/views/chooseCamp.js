@@ -9,8 +9,8 @@ export default class extends view {
     }
 
     async getHtml() {
-        return `
-    <div class="bg_breadcrumb">
+        return (`
+ <div class="bg_breadcrumb">
         <div class="small_menu"></div>
         <div class="breadcrumb_menu">
             <ul class="breadcrumb">
@@ -19,6 +19,6 @@ export default class extends view {
             </ul>
         </div>
     </div>
-    `;
+    `);
     }
 }

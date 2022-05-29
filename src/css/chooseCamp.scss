@@ -1,9 +1,9 @@
 @import "index.scss";
-@import "header.scss";
 
 .bg_breadcrumb {
     background-color: rgba($color-third, $alpha: 0.15);
     height: 80px;
+    z-index: -999;
 }
 .small_menu {
     background: url("../assets/image/menu.svg") center no-repeat;
