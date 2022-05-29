@@ -1,7 +1,6 @@
 import style from "../css/index.scss";
 import header_style from "../css/header.scss";
 
-
 let navbar = document.querySelector(".navbar");
 let searchBox = document.querySelector(".search-box .bx-search");
 /* <i class='bx bx-x'></i> */
@@ -19,7 +18,6 @@ let menuOpenBtn = document.querySelector(".navbar .bx-menu");
 let CloseOpenBtn = document.querySelector(".nav-links .bx-x");
 let navLinks = document.querySelector(".nav-links");
 let logo = document.querySelector(".logo");
-let close = document.querySelector(".close");
 
 menuOpenBtn.addEventListener("click", () => {
     navLinks.style.left = "0";
@@ -32,8 +30,14 @@ CloseOpenBtn.addEventListener("click", () => {
     logo.style.display = "block";
 });
 
-close.addEventListener("click", () => {
+let close = document.querySelectorAll(".close");
+
+
+close.forEach(element => {
+   element.addEventListener('click', closeMenu)
+})
+function closeMenu() {
+
     navLinks.style.left = "-100%";
 
-    logo.style.display = "block";
-});
+}
