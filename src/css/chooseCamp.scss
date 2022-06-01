@@ -47,6 +47,51 @@ ul.breadcrumb li + li:before {
     color: $color_text;
     content: ">\00a0";
 }
+.main_bg{
+    background-image:  url("../assets/image/car.svg"), url("../assets/image/torba_2.svg");
+background-position: left 100px bottom 0,
+    right 100px bottom 0;
+
+background-repeat: no-repeat;
+background-size: 200px, 230px;
+background-attachment: scroll;
+
+}
+.main_position{
+    display: flex;
+    justify-content: space-between;
+    max-width: $width;
+    margin: 0 auto;
+}
+.choose_button{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.choose_button_all{
+    padding: 0;
+    line-height: 1.5em;
+}
+.camp_all, .camp_abroad, .camp_sea, .camp_mountains{
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.camp_all{
+    border: 2px dashed $color-secend;
+    background:#FDDEE7;
+    border-radius:20px;
+
+    &:hover{
+        background:$color-secend;
+
+    }
+
+}
+
+
   @media only screen and (max-width: 1400px) {
     .breadcrumb {
          padding-left: 100px;
