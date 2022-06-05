@@ -858,6 +858,866 @@
                 "https://atgrafic.github.io/camp/dist/image/relaks_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_4.jpg"
             ]
+        },
+        {
+            "id": "18",
+            "place": "world",
+            "name": "Akademia Relaksu",
+            "city": "Grecja, Salonki",
+            "price": "2 199 zł",
+            "description": "Plażing, smażling, chilling i sun fun. ;) Wypoczynek dla aktywnych i pełnych energii osób, które kochają niepowtarzalny klimat nadmorskich miejscowości. Odpoczniemy na gorącej plaży, zaszalejemy podczas rozgrywek basenowych, zatańczymy na dyskotece, a po wszystkim wyjdziemy na mały shopping w Rowach. Obóz sun&fun,  to przede wszystkim obóz na luzie i bez zbędnego stresu. Do zobaczenia!",
+            "program_title": "Strefa chill out",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa plażingu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/relaks_8.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_7.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_9.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_10.jpg"
+            ]
+        },
+        {
+            "id": "19",
+            "place": "world",
+            "name": "Akademia Tańca",
+            "city": "Bułgaria, Sofi",
+            "price": "2 599 zł",
+            "description": "Wakacje z tańcem to najprzyjemniejsza forma spędzania wolnego czasu, gdzie na chwilę możemy zapomnieć o rzeczywistości i przenieść się w wirujący świat tańca. Co roku, aby sprostać Waszym oczekiwaniom staramy się żeby zajęcia były urozmaicone i aby każdy z Was poczuł się na nich jak prawdziwa gwiazda tanecznego show.",
+            "program_title": "Strefa warsztatu",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa zespołu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "24.06.2022 - 04.07.2022",
+                "16.07.2022 - 26.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/taniec_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/taniec_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/taniec_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/taniec_3.jpg"
+            ]
+        },
+        {
+            "id": "20",
+            "place": "sea",
+            "name": "Akademia Malarstwa",
+            "city": "Łeba",
+            "price": "1 599 zł",
+            "description": "Nasza kolonia artystyczna, to propozycja dla wszystkich wrażliwych dzieci, które kochają malować i tworzyć kreatywne przedmioty. Podczas wspólnej podróży przez krainę sztuk pięknych rozwiniemy nasze umiejętności oraz otworzymy umysły na kreatywne myślenie i działanie. Wszystko to odbędzie się w malowniczym, nadmorskim otoczeniu.",
+            "program_title": "Artystycznie",
+            "Program_description": [
+                "Nadmorski plener – wykorzystamy piękne otoczenie, by udać się na wyjątkowe warsztaty malowania pejzażu.",
+                "Inspirujące plakaty – wykorzystując najróżniejsze materiały i techniki każdy stworzy wyjątkową Mapę Inspiracji.",
+                "Elementy kostiumografii – nauczymy się pracy w grupach, i wykorzystując różne materiały stworzymy kostiumy z Zaczarowanej Krainy.",
+                "Dźwięki i kolory – czy wiesz, że dźwięki też mają kolor? Malowanie farbami inspirowane wybraną muzyką.",
+                "Wernisaż finałowy – dowiemy się, czym jest wernisaż, jak go przygotować, i oczywiście zaprosimy na niego wszystkich obozowiczów!"
+            ],
+            "program_title_2": "Warsztaty",
+            "Program_description_2": [
+                "Eko-instrumenty – stworzymy razem domowej roboty tamburyn, piszczałkę, bębenki, zaklinacze deszczu, a nawet zabawkową gitarę.",
+                "Makatka – popracujemy nad sprawnością manualną i kunsztem estetyki dobierając odpowiednie skrawki materiałów i tworząc piękne, materiałowe makatki.",
+                "Przygoda z modą – obejrzymy pokaz mody, porozmawiamy na ten temat, a następnie wykorzystując technikę kolażu samodzielnie stworzymy kolekcję Lato 2022.",
+                "Medaliony – wykonamy z gliny pięknie zdobione medaliony! Każdy sam wybierze kolorowe kamienie i ozdob"
+            ],
+            "program_title_3": "Zabawa",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "27.06.2022 - 07.07.2022",
+                "12.07.2022 - 22.07.2022",
+                "11.08.2022 - 26.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/malowanie_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/malowanie_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/malowanie_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/malowanie_3.jpg"
+            ]
+        },
+        {
+            "id": "21",
+            "place": "sea",
+            "name": "Akademia Wokalu",
+            "city": "Dąbki",
+            "price": "1 799 zł",
+            "description": "Podczas letniego campu wokalnego podszkolisz swój śpiew i sprawdzisz, jak czujesz się w zespole. Przekonamy się, czy jesteś typem Adele, Kasi Nosowskiej, czy może Lady Gagi. Zobaczymy, jaki repertuar najlepiej czujesz. Czeka na Ciebie profesjonalna instruktorka, występy live, indywidualne podejście i wyjątkowa atmosfera muzycznej placówki. Zajęcia prowadzone są przez absolwentki szkół muzycznych i aktywnie śpiewające wokalistki. Śmiało, możesz powierzyć nam swój głos!",
+            "program_title": "Strefa warsztatu",
+            "Program_description": [
+                "Najpierw rozgrzewka! – Poznamy ćwiczenia na skuteczne przygotowanie głosu do pracy.",
+                "Indywidualne konsultacje - popracujemy nad utworem dobranym do Twoich możliwości oraz dobierzemy odpowiednie dla Ciebie ćwiczenia emisyjne.",
+                "Praca z nagłośnieniem – oswoimy się ze słuchaniem swojego głosu z głośników i odkryjemy, że mikrofon nie gryzie jeśli poprawnie się nim posługujemy.",
+                "Higiena pracy głosu – poznamy budowę naszego instrumentu, dowiemy się jak skutecznie o niego dbać, żeby dobrze nam służył i zobaczymy, że śpiew zaczyna się od oddechu.",
+                "Przestrzeń sceniczna – dowiemy się, jak zachować się na scenie, żeby nie zaplątać się w kable i jednocześnie przykuć uwagę widza tak, aby nasz występ był jak najlepiej zapamiętany."
+            ],
+            "program_title_2": "​Strefa Zespołowa",
+            "Program_description_2": [
+                "Śpiew w zespole – jak pracować w zespole, doskonale się rozumieć i wyjść z twarzą z każdej scenicznej wpadki?",
+                "Duety wokalne - zapoznamy się z trudną sztuką doskonałego słyszenia swojego partnera scenicznego.",
+                "Wejdź do zespołu i zaśpiewaj na koncercie finałowym! Staniemy w rywalizacji na castingach do zespołów obozów rockowych i gitarowych.",
+                "Koncert finałowy na zakończenie obozu, czyli wokalne podsumowanie warsztatów w wykonaniu solo, duetach lub w zespołach.",
+                "Improwizacja – odczarujemy razem to pojęcie, aby móc wspólnie bawić się naszym własnym, wokalnym solo.",
+                "Karaoke – oswoimy się ze śpiewaniem przed publicznością i dowiemy się, jak radzić sobie z wpadkami, które mogą pojawić się na niespodziewanych występach."
+            ],
+            "program_title_3": "Strefa chill out",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie. Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "27.06.2022 - 07.07.2022",
+                "12.07.2022 - 22.07.2022",
+                "11.08.2022 - 26.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/wokal_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/wokal_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/wokal_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/wokal_3.jpg"
+            ]
+        },
+        {
+            "id": "22",
+            "place": "mountains",
+            "name": "Akademia Sportu",
+            "city": "Zakopane",
+            "price": "1 867 zł",
+            "description": "Plażing, smażling, chilling i sun fun. ;) Wypoczynek dla aktywnych i pełnych energii osób, które kochają niepowtarzalny klimat nadmorskich miejscowości. Odpoczniemy na gorącej plaży, zaszalejemy podczas rozgrywek basenowych, zatańczymy na dyskotece, a po wszystkim wyjdziemy na mały shopping w Rowach. Obóz sun&fun,  to przede wszystkim obóz na luzie i bez zbędnego stresu. Do zobaczenia!",
+            "program_title": "Strefa chill out",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa plażingu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/sport_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/sport_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/sport_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/sport_3.jpg"
+            ]
+        },
+        {
+            "id": "23",
+            "place": "mountains",
+            "name": "Kolonia surwiwalu",
+            "city": "Solina",
+            "price": "1 467 zł",
+            "description": "Total War, to obóz dla tych z was, którym zawsze jest za mało strzelanek i akcji. Przed wami 8 oryginalnych scenariuszy ASG rozgrywanych podczas 11 dni obozu - porządna dawka wiedzy i gwarantowany brak nudy. Szukasz czegoś nowego? Dobrze trafiłeś!",
+            "program_title": "Teaoria przetrwania",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Gra fabularna",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "19.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych namiocie.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O polu namiotowym",
+            "sleep-description_2": "toaleta i przysznic naterenie campingu",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/survival_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/survival_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/survival_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/survival_3.jpg"
+            ]
+        },
+        {
+            "id": "24",
+            "place": "sea",
+            "name": "Kolonia 15 przygód",
+            "city": "Łeba",
+            "price": "1 967 zł",
+            "description": "30 zajęć w dwóch blokach tematycznych przygotowanych specjalnie z myślą o naszych młodszych kolonistach i kolonistkach. Czeka na Was moc atrakcji – zajęcia sportowe, kreatywne, dużo śmiechu i zabawy, trochę praktycznych umiejętności oraz survival dla odważnych! Podczas wyjazdu wakacyjnego zaopiekuje się Wami nasza wykwalifikowana, troskliwa i pełna energii kadra wychowawcza, która z zaangażowaniem przygotuje każde z wybranych zajęć.",
+            "program_title": "Strefa kreatywna",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa surviwalu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "07.07.2022 - 17.07.2022",
+                "29.07.2022 - 08.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_6.jpg",
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_7.jpg",
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_3.jpg"
+            ]
+        },
+        {
+            "id": "25",
+            "place": "mountains",
+            "name": "Kolonia jazdy konnej",
+            "city": "Lądek zdrój",
+            "price": "2 867 zł",
+            "description": "Dla miłośników koni",
+            "program_title": "Strefa treningu",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Warsztaty",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na wesoło",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/konie_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_3.jpg"
+            ]
+        },
+        {
+            "id": "26",
+            "place": "sea",
+            "name": "Akademia Relaksu",
+            "city": "Pogorzelica",
+            "price": "1 799 zł",
+            "description": "Plażing, smażling, chilling i sun fun. ;) Wypoczynek dla aktywnych i pełnych energii osób, które kochają niepowtarzalny klimat nadmorskich miejscowości. Odpoczniemy na gorącej plaży, zaszalejemy podczas rozgrywek basenowych, zatańczymy na dyskotece, a po wszystkim wyjdziemy na mały shopping w Rowach. Obóz sun&fun,  to przede wszystkim obóz na luzie i bez zbędnego stresu. Do zobaczenia!",
+            "program_title": "Strefa chill out",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa plażingu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/relaks_3.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_6.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_4.jpg"
+            ]
+        },
+        {
+            "id": "27",
+            "place": "world",
+            "name": "Akademia Tańca",
+            "city": "Portugalia, Porto",
+            "price": "2 999 zł",
+            "description": "Wakacje z tańcem to najprzyjemniejsza forma spędzania wolnego czasu, gdzie na chwilę możemy zapomnieć o rzeczywistości i przenieść się w wirujący świat tańca. Co roku, aby sprostać Waszym oczekiwaniom staramy się żeby zajęcia były urozmaicone i aby każdy z Was poczuł się na nich jak prawdziwa gwiazda tanecznego show.",
+            "program_title": "Strefa warsztatu",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa zespołu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "24.06.2022 - 04.07.2022",
+                "16.07.2022 - 26.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/taniec_3.jpg",
+                "https://atgrafic.github.io/camp/dist/image/taniec_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/taniec_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/taniec_4.jpg"
+            ]
+        },
+        {
+            "id": "28",
+            "place": "mountains",
+            "name": "Akademia Malarstwa",
+            "city": "Zawoja",
+            "price": "1 599 zł",
+            "description": "Nasza kolonia artystyczna, to propozycja dla wszystkich wrażliwych dzieci, które kochają malować i tworzyć kreatywne przedmioty. Podczas wspólnej podróży przez krainę sztuk pięknych rozwiniemy nasze umiejętności oraz otworzymy umysły na kreatywne myślenie i działanie. Wszystko to odbędzie się w malowniczym, nadmorskim otoczeniu.",
+            "program_title": "Artystycznie",
+            "Program_description": [
+                "Nadmorski plener – wykorzystamy piękne otoczenie, by udać się na wyjątkowe warsztaty malowania pejzażu.",
+                "Inspirujące plakaty – wykorzystując najróżniejsze materiały i techniki każdy stworzy wyjątkową Mapę Inspiracji.",
+                "Elementy kostiumografii – nauczymy się pracy w grupach, i wykorzystując różne materiały stworzymy kostiumy z Zaczarowanej Krainy.",
+                "Dźwięki i kolory – czy wiesz, że dźwięki też mają kolor? Malowanie farbami inspirowane wybraną muzyką.",
+                "Wernisaż finałowy – dowiemy się, czym jest wernisaż, jak go przygotować, i oczywiście zaprosimy na niego wszystkich obozowiczów!"
+            ],
+            "program_title_2": "Warsztaty",
+            "Program_description_2": [
+                "Eko-instrumenty – stworzymy razem domowej roboty tamburyn, piszczałkę, bębenki, zaklinacze deszczu, a nawet zabawkową gitarę.",
+                "Makatka – popracujemy nad sprawnością manualną i kunsztem estetyki dobierając odpowiednie skrawki materiałów i tworząc piękne, materiałowe makatki.",
+                "Przygoda z modą – obejrzymy pokaz mody, porozmawiamy na ten temat, a następnie wykorzystując technikę kolażu samodzielnie stworzymy kolekcję Lato 2022.",
+                "Medaliony – wykonamy z gliny pięknie zdobione medaliony! Każdy sam wybierze kolorowe kamienie i ozdob"
+            ],
+            "program_title_3": "Zabawa",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "27.06.2022 - 07.07.2022",
+                "12.07.2022 - 22.07.2022",
+                "11.08.2022 - 26.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/malowanie_3.jpg",
+                "https://atgrafic.github.io/camp/dist/image/malowanie_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/malowanie_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/malowanie_4.jpg"
+            ]
+        },
+        {
+            "id": "29",
+            "place": "sea",
+            "name": "Akademia Wokalu",
+            "city": "Pogorzelica",
+            "price": "1 599 zł",
+            "description": "Podczas letniego campu wokalnego podszkolisz swój śpiew i sprawdzisz, jak czujesz się w zespole. Przekonamy się, czy jesteś typem Adele, Kasi Nosowskiej, czy może Lady Gagi. Zobaczymy, jaki repertuar najlepiej czujesz. Czeka na Ciebie profesjonalna instruktorka, występy live, indywidualne podejście i wyjątkowa atmosfera muzycznej placówki. Zajęcia prowadzone są przez absolwentki szkół muzycznych i aktywnie śpiewające wokalistki. Śmiało, możesz powierzyć nam swój głos!",
+            "program_title": "Strefa warsztatu",
+            "Program_description": [
+                "Najpierw rozgrzewka! – Poznamy ćwiczenia na skuteczne przygotowanie głosu do pracy.",
+                "Indywidualne konsultacje - popracujemy nad utworem dobranym do Twoich możliwości oraz dobierzemy odpowiednie dla Ciebie ćwiczenia emisyjne.",
+                "Praca z nagłośnieniem – oswoimy się ze słuchaniem swojego głosu z głośników i odkryjemy, że mikrofon nie gryzie jeśli poprawnie się nim posługujemy.",
+                "Higiena pracy głosu – poznamy budowę naszego instrumentu, dowiemy się jak skutecznie o niego dbać, żeby dobrze nam służył i zobaczymy, że śpiew zaczyna się od oddechu.",
+                "Przestrzeń sceniczna – dowiemy się, jak zachować się na scenie, żeby nie zaplątać się w kable i jednocześnie przykuć uwagę widza tak, aby nasz występ był jak najlepiej zapamiętany."
+            ],
+            "program_title_2": "​Strefa Zespołowa",
+            "Program_description_2": [
+                "Śpiew w zespole – jak pracować w zespole, doskonale się rozumieć i wyjść z twarzą z każdej scenicznej wpadki?",
+                "Duety wokalne - zapoznamy się z trudną sztuką doskonałego słyszenia swojego partnera scenicznego.",
+                "Wejdź do zespołu i zaśpiewaj na koncercie finałowym! Staniemy w rywalizacji na castingach do zespołów obozów rockowych i gitarowych.",
+                "Koncert finałowy na zakończenie obozu, czyli wokalne podsumowanie warsztatów w wykonaniu solo, duetach lub w zespołach.",
+                "Improwizacja – odczarujemy razem to pojęcie, aby móc wspólnie bawić się naszym własnym, wokalnym solo.",
+                "Karaoke – oswoimy się ze śpiewaniem przed publicznością i dowiemy się, jak radzić sobie z wpadkami, które mogą pojawić się na niespodziewanych występach."
+            ],
+            "program_title_3": "Strefa chill out",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie. Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "27.06.2022 - 07.07.2022",
+                "12.07.2022 - 22.07.2022",
+                "11.08.2022 - 26.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/wokal_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/wokal_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/wokal_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/wokal_4.jpg"
+            ]
+        },
+        {
+            "id": "30",
+            "place": "mountains",
+            "name": "Akademia Sportu",
+            "city": "Solina",
+            "price": "1 867 zł",
+            "description": "Plażing, smażling, chilling i sun fun. ;) Wypoczynek dla aktywnych i pełnych energii osób, które kochają niepowtarzalny klimat nadmorskich miejscowości. Odpoczniemy na gorącej plaży, zaszalejemy podczas rozgrywek basenowych, zatańczymy na dyskotece, a po wszystkim wyjdziemy na mały shopping w Rowach. Obóz sun&fun,  to przede wszystkim obóz na luzie i bez zbędnego stresu. Do zobaczenia!",
+            "program_title": "Strefa chill out",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa plażingu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/sport_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/sport_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/sport_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/sport_3.jpg"
+            ]
+        },
+        {
+            "id": "31",
+            "place": "sea",
+            "name": "Kolonia surwiwalu",
+            "city": "Pogorzelica",
+            "price": "1 367 zł",
+            "description": "Total War, to obóz dla tych z was, którym zawsze jest za mało strzelanek i akcji. Przed wami 8 oryginalnych scenariuszy ASG rozgrywanych podczas 11 dni obozu - porządna dawka wiedzy i gwarantowany brak nudy. Szukasz czegoś nowego? Dobrze trafiłeś!",
+            "program_title": "Teaoria przetrwania",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Gra fabularna",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "19.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych namiocie.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O polu namiotowym",
+            "sleep-description_2": "toaleta i przysznic naterenie campingu",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/survival_6.jpg",
+                "https://atgrafic.github.io/camp/dist/image/survival_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/survival_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/survival_4.jpg"
+            ]
+        },
+        {
+            "id": "32",
+            "place": "mountains",
+            "name": "Kolonia 15 przygód",
+            "city": "Zakopane",
+            "price": "1 967 zł",
+            "description": "30 zajęć w dwóch blokach tematycznych przygotowanych specjalnie z myślą o naszych młodszych kolonistach i kolonistkach. Czeka na Was moc atrakcji – zajęcia sportowe, kreatywne, dużo śmiechu i zabawy, trochę praktycznych umiejętności oraz survival dla odważnych! Podczas wyjazdu wakacyjnego zaopiekuje się Wami nasza wykwalifikowana, troskliwa i pełna energii kadra wychowawcza, która z zaangażowaniem przygotuje każde z wybranych zajęć.",
+            "program_title": "Strefa kreatywna",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa surviwalu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "07.07.2022 - 17.07.2022",
+                "29.07.2022 - 08.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/15_przygod_1.jpg"
+            ]
+        },
+        {
+            "id": "33",
+            "place": "mountains",
+            "name": "Kolonia jazdy konnej",
+            "city": "Solina",
+            "price": "2 567 zł",
+            "description": "Dla miłośników koni",
+            "program_title": "Strefa treningu",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Warsztaty",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na wesoło",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/konie_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_3.jpg"
+            ]
+        },
+        {
+            "id": "34",
+            "place": "sea",
+            "name": "Akademia Relaksu",
+            "city": "Dąbki",
+            "price": "1 799 zł",
+            "description": "Plażing, smażling, chilling i sun fun. ;) Wypoczynek dla aktywnych i pełnych energii osób, które kochają niepowtarzalny klimat nadmorskich miejscowości. Odpoczniemy na gorącej plaży, zaszalejemy podczas rozgrywek basenowych, zatańczymy na dyskotece, a po wszystkim wyjdziemy na mały shopping w Rowach. Obóz sun&fun,  to przede wszystkim obóz na luzie i bez zbędnego stresu. Do zobaczenia!",
+            "program_title": "Strefa chill out",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa plażingu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/relaks_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_4.jpg"
+            ]
         }
+
     ]
 }
