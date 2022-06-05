@@ -47,71 +47,208 @@ ul.breadcrumb li + li:before {
     color: $color_text;
     content: ">\00a0";
 }
-.main_bg{
-    background-image:  url("../assets/image/car.svg"), url("../assets/image/torba_2.svg");
-background-position: left 100px bottom 0,
-    right 100px bottom 0;
+.main_bg {
+    background-image: url("../assets/image/car.svg"), url("../assets/image/torba_2.svg");
+    background-position: left 150px bottom 0, right 150px bottom 0;
 
-background-repeat: no-repeat;
-background-size: 200px, 230px;
-background-attachment: scroll;
-
+    background-repeat: no-repeat;
+    background-size: 200px, 230px;
+    background-attachment: scroll;
 }
-.main_position{
+.main_position {
     display: flex;
     justify-content: space-between;
     max-width: $width;
-    margin: 0 auto;
+    margin: 80px auto 40px auto;
 }
-.choose_button{
+.choose_button {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    width: 900px;
 }
-.choose_button_all{
+.choose_button_all,
+.choose_button_abroad,
+.choose_button_sea,
+.choose_button_mountains {
     padding: 0;
     line-height: 1.5em;
 }
-.camp_all, .camp_abroad, .camp_sea, .camp_mountains{
-    width: 200px;
-    height: 90px;
+.camp_all,
+.camp_abroad,
+.camp_sea,
+.camp_mountains {
+    width: 170px;
+    height: 80px;
+    outline: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.camp_all{
-    border: 2px dashed $color-secend;
-    background:#FDDEE7;
-    border-radius:20px;
+.camp_all {
+    border: 2px dashed $color-white;
+    background: #fddee7;
+    border-radius: 20px;
+    outline: #fddee7 solid 5px;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color-secend;
+        outline: $color-secend solid 5px;
+    }
+}
+.camp_abroad {
+    border: 2px dashed $color-white;
+    background: #98e6f04f;
+    border-radius: 20px;
+    outline: #98e6f04f solid 5px;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color-four;
+        outline: $color-four solid 5px;
+    }
+}
+.camp_sea {
+    border: 2px dashed $color-white;
+    background: #6ed2ca66;
+    border-radius: 20px;
+    outline: #6ed2ca66 solid 5px;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color_third;
+        outline: $color-third solid 5px;
+    }
+}
+.camp_mountains {
+    border: 2px dashed $color-white;
+    background: #ffc12845;
+    border-radius: 20px;
+    outline: #ffc12845 solid 5px;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color_five;
+        outline: $color-five solid 5px;
+    }
+}
 
+.list_sub_ul {
+    list-style: none;
+    padding-left: 0;
+    li {
+        padding-bottom: 0.8em;
+    }
+    li a {
+        @include font_description;
+        transition: 0.5s ease;
+        &:hover {
+            color: $color-secend;
+        }
+    }
+}
+.list-camp {
+    margin: 80px auto 0 auto;
+    width: 900px;
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: space-between;
+}
+.camp-choose {
+    margin-bottom: 60px;
+    position: relative;
+}
+.camp-choose-photo {
+    position: relative;
+    width: 250px;
+    height: auto;
+    border-radius: 40px;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color_white;
+        opacity: 0.7;
+    }
+}
+.camp-choose-city,
+.camp-choose-name,
+.camp-choose-price {
+    text-align: center;
+    text-transform: none;
+    padding-bottom: 0.25em;
+    transition: 0.5s ease;
+}
+.camp-choose-price {
+    color: $color-secend;
+}
+.camp-choose-city:hover {
+    color: $color-secend;
+}
+
+.bth-camp {
+    border-radius: 40px;
+    width: 250px;
+    height: 265px;
+    background: $color_white;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    &:hover {
+        background: $color_descripttion;
+        opacity: 0.95;
+    }
+    .bth-camp-text {
+        width: 200px;
+        color: $color_white;
+        text-align: center;
+        background: $color_secend;
+        border-radius: 10px;
+        padding: 0 20px;
+        font-family: $font_title;
+        font-weight: 700;
+        font-size: 1.25em;
+    }
+}
+.paginacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.bxs-chevron-left,
+.bxs-chevron-right {
+    font-size: 1.5em;
+    color: $color-secend;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #70707017;
     &:hover{
-        background:$color-secend;
-
+        background-color: #7070702a;
     }
 
 }
 
-
-  @media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
     .breadcrumb {
-         padding-left: 100px;
+        padding-left: 100px;
     }
 }
 @media only screen and (max-width: 1300px) {
     .breadcrumb {
-         padding-left: 180px;
+        padding-left: 180px;
     }
 }
 @media only screen and (max-width: 900px) {
     .breadcrumb {
-         padding-left: 120px;
+        padding-left: 120px;
     }
 }
 @media only screen and (max-width: 600px) {
     .breadcrumb {
-         padding-left: 50px;
+        padding-left: 50px;
     }
-    .small_menu{
+    .small_menu {
         background: none;
     }
 }
