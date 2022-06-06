@@ -5,6 +5,8 @@ import header_style from "./css/header.scss";
 import home_style from "./css/home.scss";
 import footer_style from "./css/footer.scss";
 import chooseCampMenu  from "./css/chooseCamp.scss";
+import chooseAbroad  from "./css/chooseAbroad.scss";
+
 
 import webBuild from "./css/build.scss";
 
@@ -12,6 +14,8 @@ import webBuild from "./css/build.scss";
 import header from "./views/header.js";
 import home from "./views/home.js";
 import chooseCamp  from "./views/chooseCamp.js";
+import chooseCampAbroad  from "./views/chooseAbroad.js";
+
 import about from "./views/about.js";
 console.log("Hello World");
 
@@ -39,6 +43,7 @@ const router = async () => {
     const routes = [
         { path: "/Camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
+        { path: "/Obozy-zagraniczne", view: chooseCampAbroad},
         { path: "/promocje", view: about},
         { path: "/onas", view: about },
         { path: "/Kadra", view: about },

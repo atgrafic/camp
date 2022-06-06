@@ -87,14 +87,16 @@ ul.breadcrumb li + li:before {
 }
 .camp_all {
     border: 2px dashed $color-white;
-    background: #fddee7;
+    background: $color-secend;
+    outline: $color-secend solid 5px;
+    //background: #fddee7;
     border-radius: 20px;
-    outline: #fddee7 solid 5px;
+  //  outline: #fddee7 solid 5px;
     transition: 0.5s ease;
-    &:hover {
-        background: $color-secend;
-        outline: $color-secend solid 5px;
-    }
+    // &:hover {
+    //     background: $color-secend;
+    //     outline: $color-secend solid 5px;
+    // }
 }
 .camp_abroad {
     border: 2px dashed $color-white;

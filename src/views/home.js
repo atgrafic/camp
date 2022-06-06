@@ -59,7 +59,7 @@ export default class extends view {
           <div class="camp_choose">
 
           <div class="palm">
-          <a href="/#" data-link><img class="camp_choose_img" src="${campPalms}" />
+          <a href="/Obozy-zagraniczne" data-link><img class="camp_choose_img" src="${campPalms}" />
           <p class="choose">Obozy<br/> zagraniczne</p> </a>
           </div>
           <div class="sea">
