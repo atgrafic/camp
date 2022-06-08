@@ -167,7 +167,6 @@
     &:hover {
         border: 3px dashed $color_descripttion;
     }
-
     a {
         display: flex;
         justify-content: space-between;
@@ -175,30 +174,30 @@
         width: 350px;
         height: 180px;
         padding: 0 25px 0 10px;
+        position: absolute;
+        background: url(../assets/image/palma.svg) no-repeat;
+        background-size: 138px;
         transform: 1s ease-in-out;
-        .choose {
-            font-family: $font_title;
+        &:hover {
+            transform: scale(108%, 108%);
+
+        }
+    }
+    a::after{
+        content: "Obozy \A zagraniczne";
+        white-space: pre;
+        font-family: $font_title;
             color: $color_white;
             font-size: 2em;
             text-align: right;
             line-height: 30px;
             font-weight: 700;
             padding-top: 20px;
-        }
-        .camp_choose_img {
-            width: 130px;
-            height: auto;
-            position: absolute;
-            bottom: 1%;
-            transform: 1s ease-in-out;
-            &:hover {
-                width: 160px;
-                height: auto;
-                transform: translate(-15%, 0);
-            }
-        }
+            top: 0px;
     }
+
 }
+
 .sea {
     background: $color_descripttion;
     position: relative;
@@ -219,28 +218,27 @@
         width: 350px;
         height: 180px;
         padding: 0 25px 0 10px;
+        position: absolute;
+        background: url(../assets/image/morze.svg) no-repeat;
+        background-size: 190px;
+        background-position: left 10px bottom 10px;
         transform: 1s ease-in-out;
-        .choose {
-            font-family: $font_title;
+        &:hover {
+            transform: scale(108%, 108%);
+
+        }
+    }
+    a::after{
+        content: "Kolonie \A nad morzem";
+        white-space: pre;
+        font-family: $font_title;
             color: $color_white;
             font-size: 2em;
             text-align: right;
             line-height: 30px;
             font-weight: 700;
             padding-top: 20px;
-        }
-        .camp_choose_img {
-            width: 180px;
-            height: auto;
-            position: absolute;
-            bottom: 2%;
-            transform: 1s ease-in-out;
-            &:hover {
-                width: 210px;
-                height: auto;
-                // transform: translate( -10%, 0);
-            }
-        }
+            top: 0px;
     }
 }
 .mountains {
@@ -263,28 +261,27 @@
         width: 350px;
         height: 180px;
         padding: 0 25px 0 10px;
+        position: absolute;
+        background: url(../assets/image/gory.svg) no-repeat;
+        background-size: 190px;
+        background-position: left 10px bottom 10px;
         transform: 1s ease-in-out;
-        .choose {
-            font-family: $font_title;
+        &:hover {
+            transform: scale(108%, 108%);
+
+        }
+    }
+    a::after{
+        content: "Kolonie \A w górach";
+        white-space: pre;
+        font-family: $font_title;
             color: $color_white;
             font-size: 2em;
             text-align: right;
             line-height: 30px;
             font-weight: 700;
             padding-top: 20px;
-        }
-        .camp_choose_img {
-            width: 200px;
-            height: auto;
-            position: absolute;
-            bottom: 2%;
-            transform: 1s ease-in-out;
-            &:hover {
-                width: 230px;
-                height: auto;
-                transform: translate(-10%, 0);
-            }
-        }
+            top: 0px;
     }
 }
 .description {
@@ -1322,5 +1319,4 @@
             margin-bottom: 20px;
         }
     }
-
 }

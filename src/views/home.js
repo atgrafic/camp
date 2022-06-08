@@ -59,16 +59,14 @@ export default class extends view {
           <div class="camp_choose">
 
           <div class="palm">
-          <a href="/Obozy-zagraniczne" data-link><img class="camp_choose_img" src="${campPalms}" />
-          <p class="choose">Obozy<br/> zagraniczne</p> </a>
+          <a  href="/Obozy-zagraniczne" data-link>
+           </a>
           </div>
           <div class="sea">
-          <a href="/#" data-link><img class="camp_choose_img" src="${campSea}" />
-          <p class="choose">Kolonie<br/> nad morzem</p> </a>
+          <a href="/#" data-link></a>
           </div>
           <div class="mountains">
-          <a href="/#" data-link><img class="camp_choose_img" src="${campMountains}"/>
-          <p class="choose">Kolonie<br/> w górach</p> </a>
+          <a href="/#" data-link></a>
           </div>
           </div>
           <div class="description">
