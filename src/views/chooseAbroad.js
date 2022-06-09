@@ -6,7 +6,7 @@ import chooseAbroad from "../css/chooseAbroad.scss";
 export default class extends view {
     constructor(params) {
         super(params);
-        this.setTitle("Camp | obozy-zagraniczne");
+        this.setTitle("Camp | Obozy-zagraniczne");
     }
 
     async getHtml() {
@@ -27,23 +27,21 @@ export default class extends view {
     <div class="main_postion_left">
     <div class="choose_button">
     <div class="camp_all">
-    <a href="/Kolonie" data-link>
-    <h2 class="choose_button_all">Wszystkie <br/> obozy i kolonie</h2>
+    <a class="choose_button_all" href="/Kolonie" data-link>
     </a>
     </div>
     <div class="camp_abroad">
-    <a href="/Obozy-zagraniczne" data-link>
-    <h2 class="choose_button_abroad">Obozy <br/> zagraniczne</h2>
+    <a class="choose_button_abroad" href="/Obozy-zagraniczne" data-link>
     </a>
     </div>
     <div class="camp_sea">
-    <a href="/#" data-link>
-    <h2 class="choose_button_sea">Kolonie <br/> nad morzem</h2>
+    <a class="choose_button_sea" href="/#" data-link>
+
     </a>
     </div>
     <div class="camp_mountains">
-    <a href="/#" data-link>
-    <h2 class="choose_button_mountains">Klonie <br/> w górach</h2>
+    <a class="choose_button_mountains" href="/#" data-link>
+
     </a>
     </div>
     </div>
@@ -111,3 +109,5 @@ function chooseAbroadCamp() {
 }
 return listCampAbroad;
 }
+
+

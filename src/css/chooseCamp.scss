@@ -74,7 +74,6 @@ ul.breadcrumb li + li:before {
 .camp_mountains {
     width: 170px;
     height: 80px;
-    outline: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +87,7 @@ ul.breadcrumb li + li:before {
     border-radius: 20px;
    outline: #fddee7 solid 5px;
     transition: 0.5s ease;
-    &:hover {
+    &:hover, &:active {
         background: $color-secend;
         outline: $color-secend solid 5px;
     }

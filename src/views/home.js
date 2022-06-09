@@ -63,10 +63,10 @@ export default class extends view {
            </a>
           </div>
           <div class="sea">
-          <a href="/#" data-link></a>
+          <a href="/Kolonie-nad-morzem" data-link></a>
           </div>
           <div class="mountains">
-          <a href="/#" data-link></a>
+          <a href="/Kolonie-w-gorach" data-link></a>
           </div>
           </div>
           <div class="description">

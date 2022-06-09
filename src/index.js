@@ -15,6 +15,8 @@ import header from "./views/header.js";
 import home from "./views/home.js";
 import chooseCamp  from "./views/chooseCamp.js";
 import chooseCampAbroad  from "./views/chooseAbroad.js";
+import chooseCampSea  from "./views/chooseSea.js";
+import chooseCampMountains from "./views/chooseMountains";
 
 import about from "./views/about.js";
 console.log("Hello World");
@@ -44,6 +46,8 @@ const router = async () => {
         { path: "/Camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
         { path: "/Obozy-zagraniczne", view: chooseCampAbroad},
+        { path: "/Kolonie-nad-morzem", view: chooseCampSea},
+        { path: "/Kolonie-w-gorach", view: chooseCampMountains},
         { path: "/promocje", view: about},
         { path: "/onas", view: about },
         { path: "/Kadra", view: about },

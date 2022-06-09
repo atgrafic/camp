@@ -1,11 +1,12 @@
 import view from "./view.js";
 import style from "../css/index.scss";
 import chooseCampMenu from "../css/chooseCamp.scss";
+import chooseAbroad from "../css/chooseAbroad.scss";
 
 export default class extends view {
     constructor(params) {
         super(params);
-        this.setTitle("Camp | Kolonie");
+        this.setTitle("Camp | Kolonie-nad-morzem");
     }
 
     async getHtml() {
@@ -15,7 +16,8 @@ export default class extends view {
         <div class="breadcrumb_menu">
             <ul class="breadcrumb">
                  <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
-                 <li> <a class="position_page" href="/Kolonie" data-link>Kolonia</a></li>
+                 <li> <a class="home_camp" href="/Kolonie" data-link>Kolonia</a></li>
+                 <li> <a class="position_page" href="/Obozy-zagraniczne" data-link>Obozy zagraniczne</a></li>
             </ul>
         </div>
     </div>
@@ -45,7 +47,7 @@ export default class extends view {
     </div>
     <!--lista koloni-->
     <div class="list-camp">`
-    + chooseCamp() +
+    + chooseSeaCamp() +
 
     `
     </div>
@@ -83,13 +85,12 @@ export default class extends view {
 const json = require("../json/list.json");
 const camp = json.campData;
 
-function chooseCamp() {
-    let listCamp = "";
+function chooseSeaCamp() {
+    let listCampSea = "";
 
     for (let i = 0; i <camp.length; i++) {
-        console.log("i for");
-        console.log(camp[0].image[0]);
-        listCamp += ` <div class="camp-choose" id=${camp[i].id}>
+      if(camp[i].place === "sea"){
+        listCampSea += ` <div class="camp-choose" id=${camp[i].id}>
         <a class="tab-camp-choose" href="/kolonia/${camp[i].id}" data-link>
         <img class="camp-choose-photo" src="${camp[i].image[0]}">
         <div class="bth-camp">
@@ -104,7 +105,9 @@ function chooseCamp() {
         </a>
          </div>`;
     }
-    return listCamp;
+
+}
+return listCampAbroad;
 }
 
 
