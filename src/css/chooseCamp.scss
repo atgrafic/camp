@@ -67,13 +67,7 @@ ul.breadcrumb li + li:before {
     text-align: center;
     width: 900px;
 }
-.choose_button_all,
-.choose_button_abroad,
-.choose_button_sea,
-.choose_button_mountains {
-    padding: 0;
-    line-height: 1.5em;
-}
+
 .camp_all,
 .camp_abroad,
 .camp_sea,
@@ -84,19 +78,30 @@ ul.breadcrumb li + li:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 .camp_all {
     border: 2px dashed $color-white;
     background: $color-secend;
     outline: $color-secend solid 5px;
-    //background: #fddee7;
+    background: #fddee7;
     border-radius: 20px;
-  //  outline: #fddee7 solid 5px;
+   outline: #fddee7 solid 5px;
     transition: 0.5s ease;
-    // &:hover {
-    //     background: $color-secend;
-    //     outline: $color-secend solid 5px;
-    // }
+    &:hover {
+        background: $color-secend;
+        outline: $color-secend solid 5px;
+    }
+}
+.choose_button_all::after{
+    content: "Wszystkie \A obozy i kolonie";
+    white-space: pre;
+    @include title;
+        color: $color_descripttion;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        font-weight: 700;
+        padding: 0;
 }
 .camp_abroad {
     border: 2px dashed $color-white;
@@ -109,6 +114,16 @@ ul.breadcrumb li + li:before {
         outline: $color-four solid 5px;
     }
 }
+.choose_button_abroad::after{
+    content: "Obozy\A zagraniczne";
+    white-space: pre;
+    @include title;
+        color: $color_descripttion;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        font-weight: 700;
+        padding: 0;
+}
 .camp_sea {
     border: 2px dashed $color-white;
     background: #6ed2ca66;
@@ -119,6 +134,16 @@ ul.breadcrumb li + li:before {
         background: $color_third;
         outline: $color-third solid 5px;
     }
+}
+.choose_button_sea::after{
+    content: "kolonie\A nad morzem";
+    white-space: pre;
+    @include title;
+        color: $color_descripttion;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        font-weight: 700;
+        padding: 0;
 }
 .camp_mountains {
     border: 2px dashed $color-white;
@@ -131,7 +156,16 @@ ul.breadcrumb li + li:before {
         outline: $color-five solid 5px;
     }
 }
-
+.choose_button_mountains::after{
+    content: "Kolonie\A w górach";
+    white-space: pre;
+    @include title;
+        color: $color_descripttion;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        font-weight: 700;
+        padding: 0;
+}
 .list_sub_ul {
     list-style: none;
     padding-left: 0;

@@ -25,23 +25,21 @@ export default class extends view {
     <div class="main_postion_left">
     <div class="choose_button">
     <div class="camp_all">
-    <a href="/#" data-link>
-    <h2 class="choose_button_all">Wszystkie <br/> obozy i kolonie</h2>
+    <a class="choose_button_all" href="/#" data-link>
     </a>
     </div>
     <div class="camp_abroad">
-    <a href="/Obozy-zagraniczne" data-link>
-    <h2 class="choose_button_abroad">Obozy <br/> zagraniczne</h2>
+    <a class="choose_button_abroad" href="/Obozy-zagraniczne" data-link>
     </a>
     </div>
     <div class="camp_sea">
-    <a href="/#" data-link>
-    <h2 class="choose_button_sea">Kolonie <br/> nad morzem</h2>
+    <a class="choose_button_sea" href="/#" data-link>
+
     </a>
     </div>
     <div class="camp_mountains">
-    <a href="/#" data-link>
-    <h2 class="choose_button_mountains">Klonie <br/> w górach</h2>
+    <a class="choose_button_mountains" href="/#" data-link>
+
     </a>
     </div>
     </div>

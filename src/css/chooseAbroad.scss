@@ -1,23 +1,23 @@
 @import "index.scss";
 
-.camp_all {
-    border: 2px dashed $color-white;
-    background: #fddee7;
-    border-radius: 20px;
-    outline: #fddee7 solid 5px;
-    transition: 0.5s ease;
-&:hover {
-       background: $color-secend;
-         outline: $color-secend solid 5px;
-     }
-}
-.camp_abroad {
-    border: 2px dashed $color-white;
-    background: $color-four;
-    outline: $color-four solid 5px;
-    // background: #98e6f04f;
-    border-radius: 20px;
-    // outline: #98e6f04f solid 5px;
-    transition: 0.5s ease;
+// .camp_all {
+//     border: 2px dashed $color-white;
+//     background: #fddee7;
+//     border-radius: 20px;
+//     outline: #fddee7 solid 5px;
+//     transition: 0.5s ease;
+// &:hover {
+//        background: $color-secend;
+//          outline: $color-secend solid 5px;
+//      }
+// }
+// .camp_abroad {
+//     border: 2px dashed $color-white;
+//     background: $color-four;
+//     outline: $color-four solid 5px;
+//     // background: #98e6f04f;
+//     border-radius: 20px;
+//     // outline: #98e6f04f solid 5px;
+//     transition: 0.5s ease;
 
-}
+// }
