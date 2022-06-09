@@ -17,7 +17,7 @@ export default class extends view {
             <ul class="breadcrumb">
                  <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
                  <li> <a class="home_camp" href="/Kolonie" data-link>Kolonia</a></li>
-                 <li> <a class="position_page" href="/Obozy-zagraniczne" data-link>Obozy zagraniczne</a></li>
+                 <li> <a class="position_page" href="//Kolonie-w-gorach" data-link>Kolonie w górach</a></li>
             </ul>
         </div>
     </div>

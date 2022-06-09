@@ -17,7 +17,7 @@ export default class extends view {
             <ul class="breadcrumb">
                  <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
                  <li> <a class="home_camp" href="/Kolonie" data-link>Kolonia</a></li>
-                 <li> <a class="position_page" href="/Obozy-zagraniczne" data-link>Obozy zagraniczne</a></li>
+                 <li> <a class="position_page" href="/Kolonie-nad-morzem" data-link>Kolonie nad morzem</a></li>
             </ul>
         </div>
     </div>
@@ -35,7 +35,7 @@ export default class extends view {
     </a>
     </div>
     <div class="camp_sea">
-    <a class="choose_button_sea" href="//Kolonie-nad-morzem" data-link>
+    <a class="choose_button_sea" href="/Kolonie-nad-morzem" data-link>
 
     </a>
     </div>
@@ -86,7 +86,7 @@ const json = require("../json/list.json");
 const camp = json.campData;
 
 function chooseSeaCamp() {
-    let listCampSea = "";
+    let  listCampSea = "";
 
     for (let i = 0; i <camp.length; i++) {
       if(camp[i].place === "sea"){
