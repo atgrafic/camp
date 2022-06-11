@@ -1,7 +1,7 @@
 import view from "./view.js";
 import style from "../css/index.scss";
 import chooseCampMenu from "../css/chooseCamp.scss";
-import chooseAbroad from "../css/chooseAbroad.scss";
+// import chooseAbroad from "../css/chooseAbroad.scss";
 
 export default class extends view {
     constructor(params) {
@@ -35,12 +35,12 @@ export default class extends view {
     </a>
     </div>
     <div class="camp_sea">
-    <a class="choose_button_sea" href="/#" data-link>
+    <a class="choose_button_sea" href="/Kolonie-nad-morzem" data-link>
 
     </a>
     </div>
     <div class="camp_mountains">
-    <a class="choose_button_mountains" href="/#" data-link>
+    <a class="choose_button_mountains" href="/Kolonie-w-gorach" data-link>
 
     </a>
     </div>

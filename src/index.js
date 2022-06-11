@@ -19,6 +19,9 @@ import chooseCampSea  from "./views/chooseSea.js";
 import chooseCampMountains from "./views/chooseMountains";
 
 import about from "./views/about.js";
+
+import event from "./event.js";
+
 console.log("Hello World");
 
 

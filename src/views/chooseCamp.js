@@ -24,16 +24,19 @@ export default class extends view {
     <div class="main_position">
     <div class="main_postion_left">
     <div class="choose_button">
-    <div class="camp_all">
+    <div id="all">
+    <div id="box" class="camp_all">
     <a class="choose_button_all" href="/Kolonie" data-link>
     </a>
     </div>
+    </div>
+
     <div class="camp_abroad">
     <a class="choose_button_abroad" href="/Obozy-zagraniczne" data-link>
     </a>
     </div>
     <div class="camp_sea">
-    <a class="choose_button_sea" href="//Kolonie-nad-morzem" data-link>
+    <a class="choose_button_sea" href="/Kolonie-nad-morzem" data-link>
 
     </a>
     </div>
@@ -86,9 +89,9 @@ const camp = json.campData;
 function chooseCamp() {
     let listCamp = "";
 
+
     for (let i = 0; i <camp.length; i++) {
-        console.log("i for");
-        console.log(camp[0].image[0]);
+
         listCamp += ` <div class="camp-choose" id=${camp[i].id}>
         <a class="tab-camp-choose" href="/kolonia/${camp[i].id}" data-link>
         <img class="camp-choose-photo" src="${camp[i].image[0]}">
@@ -106,5 +109,6 @@ function chooseCamp() {
     }
     return listCamp;
 }
+
 
 

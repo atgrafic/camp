@@ -1,0 +1,26 @@
+{
+    "galleryList": [
+        {
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/galery_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_3.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_6.jpg"
+
+            ]
+        },
+        {
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/galery_7.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_8.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_9.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_10.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_11.jpg",
+                "https://atgrafic.github.io/camp/dist/image/galery_12.jpg"
+            ]
+        }
+
+    ]
+}

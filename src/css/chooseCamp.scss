@@ -81,26 +81,31 @@ ul.breadcrumb li + li:before {
 }
 .camp_all {
     border: 2px dashed $color-white;
-    background: $color-secend;
-    outline: $color-secend solid 5px;
     background: #fddee7;
     border-radius: 20px;
-   outline: #fddee7 solid 5px;
+    outline: #fddee7 solid 5px;
     transition: 0.5s ease;
-    &:hover, &:active {
+    &:hover,
+    &:active {
         background: $color-secend;
         outline: $color-secend solid 5px;
     }
 }
-.choose_button_all::after{
+.camp_all_active {
+    border: 2px dashed $color-white;
+    border-radius: 20px;
+    background: $color-secend;
+    outline: $color-secend solid 5px;
+}
+.choose_button_all::after {
     content: "Wszystkie \A obozy i kolonie";
     white-space: pre;
     @include title;
-        color: $color_descripttion;
-        font-size: 1.25em;
-        line-height: 1.5em;
-        font-weight: 700;
-        padding: 0;
+    color: $color_descripttion;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding: 0;
 }
 .camp_abroad {
     border: 2px dashed $color-white;
@@ -113,15 +118,20 @@ ul.breadcrumb li + li:before {
         outline: $color-four solid 5px;
     }
 }
-.choose_button_abroad::after{
+.camp_abroad_active {
+    border: 2px dashed $color-white;
+    border-radius: 20px;
+    background: $color-four;
+}
+.choose_button_abroad::after {
     content: "Obozy\A zagraniczne";
     white-space: pre;
     @include title;
-        color: $color_descripttion;
-        font-size: 1.25em;
-        line-height: 1.5em;
-        font-weight: 700;
-        padding: 0;
+    color: $color_descripttion;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding: 0;
 }
 .camp_sea {
     border: 2px dashed $color-white;
@@ -134,15 +144,21 @@ ul.breadcrumb li + li:before {
         outline: $color-third solid 5px;
     }
 }
-.choose_button_sea::after{
+.camp_sea_active {
+    border: 2px dashed $color-white;
+    border-radius: 20px;
+    background: $color_third;
+    outline: $color-third solid 5px;
+}
+.choose_button_sea::after {
     content: "kolonie\A nad morzem";
     white-space: pre;
     @include title;
-        color: $color_descripttion;
-        font-size: 1.25em;
-        line-height: 1.5em;
-        font-weight: 700;
-        padding: 0;
+    color: $color_descripttion;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding: 0;
 }
 .camp_mountains {
     border: 2px dashed $color-white;
@@ -155,15 +171,21 @@ ul.breadcrumb li + li:before {
         outline: $color-five solid 5px;
     }
 }
-.choose_button_mountains::after{
+.camp_mountains_active {
+    border: 2px dashed $color-white;
+    border-radius: 20px;
+    background: $color_five;
+    outline: $color-five solid 5px;
+}
+.choose_button_mountains::after {
     content: "Kolonie\A w górach";
     white-space: pre;
     @include title;
-        color: $color_descripttion;
-        font-size: 1.25em;
-        line-height: 1.5em;
-        font-weight: 700;
-        padding: 0;
+    color: $color_descripttion;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding: 0;
 }
 .list_sub_ul {
     list-style: none;
@@ -258,10 +280,9 @@ ul.breadcrumb li + li:before {
     border-radius: 50%;
     padding: 2px;
     background-color: #70707017;
-    &:hover{
+    &:hover {
         background-color: #7070702a;
     }
-
 }
 
 @media only screen and (max-width: 1400px) {

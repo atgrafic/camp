@@ -1,7 +1,7 @@
 import view from "./view.js";
 import style from "../css/index.scss";
 import chooseCampMenu from "../css/chooseCamp.scss";
-import chooseAbroad from "../css/chooseAbroad.scss";
+// import chooseAbroad from "../css/chooseAbroad.scss";
 
 export default class extends view {
     constructor(params) {
@@ -17,7 +17,7 @@ export default class extends view {
             <ul class="breadcrumb">
                  <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
                  <li> <a class="home_camp" href="/Kolonie" data-link>Kolonia</a></li>
-                 <li> <a class="position_page" href="//Kolonie-w-gorach" data-link>Kolonie w górach</a></li>
+                 <li> <a class="position_page" href="/Kolonie-w-gorach" data-link>Kolonie w górach</a></li>
             </ul>
         </div>
     </div>
@@ -35,7 +35,7 @@ export default class extends view {
     </a>
     </div>
     <div class="camp_sea">
-    <a class="choose_button_sea" href="//Kolonie-nad-morzem" data-link>
+    <a class="choose_button_sea" href="/Kolonie-nad-morzem" data-link>
 
     </a>
     </div>
@@ -107,7 +107,7 @@ function chooseMountainsCamp() {
     }
 
 }
-return listCampAbroad;
+return listCampMountains;
 }
 
 
