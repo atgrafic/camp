@@ -16,7 +16,7 @@ import home from "./views/home.js";
 import chooseCamp  from "./views/chooseCamp.js";
 import chooseCampAbroad  from "./views/chooseAbroad.js";
 import chooseCampSea  from "./views/chooseSea.js";
-import chooseCampMountains from "./views/chooseMountains";
+import chooseCampMountains from "./views/chooseMountains.js";
 
 import about from "./views/about.js";
 

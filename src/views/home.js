@@ -23,20 +23,6 @@ import adventures from "../assets/image/kolonia_15_przygod.jpg";
 import horse from "../assets/image/kolonia_konna.jpg";
 import girl from "../assets/image/usniechniente_dziewczyny.jpg";
 
-//gallery
-// import galery_1 from "../assets/image/galery_1.jpg";
-// import galery_2 from "../assets/image/galery_2.jpg";
-// import galery_3 from "../assets/image/galery_3.jpg";
-// import galery_4 from "../assets/image/galery_4.jpg";
-// import galery_5 from "../assets/image/galery_5.jpg";
-// import galery_6 from "../assets/image/galery_6.jpg";
-// import galery_7 from "../assets/image/galery_7.jpg";
-// import galery_8 from "../assets/image/galery_8.jpg";
-// import galery_9 from "../assets/image/galery_9.jpg";
-// import galery_10 from "../assets/image/galery_10.jpg";
-// import galery_11 from "../assets/image/galery_11.jpg";
-// import galery_12 from "../assets/image/galery_12.jpg";
-
 const json = require("../json/list.json");
 const jsonGallery = require("../json/galleryList.json");
 const camp = json.campData;
@@ -205,7 +191,10 @@ function capmList(campId) {
 				<span class="next">&#155;</span>
 
     </div>-->
-`+  carousel()
+    <div class="gallery">
+` +
+        carousel() +
+        `</div>`
     );
 }
 
@@ -225,134 +214,43 @@ function bestChoose() {
         </a>
          </div>`;
     }
+
     return bestCamp;
 }
+//GALLERY
 
-function carousel(){
+function carousel() {
     let galleryHome = "";
-console.log('caruzelaglupi');
-    for (let i= 0; i < galerySlides.lenght; i++ ){
+
+    console.log("caruzelaglupi");
+    for (let i = 0; i < galerySlides.length; i++) {
         galleryHome += `
-        <div class="gallery">
+        <div class=" product">
         <div class="slides">
-        <img src="${galerySlides[i].image[i]}" />
+        <img class="mySlides"  src="${galerySlides[i].image[0]}" />
+        <img class="mySlides" src="${galerySlides[i].image[1]}" />
+        <img class="mySlides"  src="${galerySlides[i].image[2]}" />
+        <img class="mySlides"  src="${galerySlides[i].image[3]}" />
+        <img class="mySlides"  src="${galerySlides[i].image[4]}" />
+        <img class="mySlides"  src="${galerySlides[i].image[5]}" />
         </div>
         </div>`;
+
     }
+     carouselTime();
     return galleryHome;
+
+
 }
 
-//GALLERY
-// function carousel() {
-//     console.log("carusel");
-//     return `<div class="carousel">
-//       <div class="slides" >
-//       <img src="${galery_1}" class="slide"/>
-//       <img src="${galery_2}" class="slide" />
-//       <img src="${galery_3}" class="slide" />
-//       <img src="${galery_4}" class="slide" />
-//       <img src="${galery_5}" class="slide"/ >
-//       <img src="${galery_6}" class="slide"/ >
-//       <img src="${galery_7}" class="slide" />
-//       <img src="${galery_8}" class="slide" />
-//       <img src="${galery_9}" class="slide" />
-//       <img src="${galery_10}" class="slide" />
-//       <img src="${galery_11}" class="slide" />
-//       <img src="${galery_12}" class="slide" />
+function carouselTime() {
+    console.log("carusel Time");
+    let myIndex = 0;
+    let product = document.getElementsByClassName(".product");
 
-//       </div>
+    for (let i = 0; i < product.length; i++) {
+        product[i].style.display = "none";
+        console.log("carusel Time-for");
+    }
 
-//        </div>`
-// }
-// function carusel(){
-// let span = document.getElementsByTagName('span');
-// 	let product = document.getElementsByClassName('product')
-// 	let product_page = Math.ceil(product.length/4);
-// 	let l = 0;
-// 	let movePer = 25.34;
-// 	let maxMove = 203;
-// 	// mobile_view
-// 	let mob_view = window.matchMedia("(max-width: 768px)");
-// 	if (mob_view.matches)
-// 	 {
-// 	 	movePer = 50.36;
-// 	 	maxMove = 504;
-// 	 }
-
-// 	let right_mover = ()=>{
-// 		l = l + movePer;
-// 		if (product == 1){l = 0; }
-// 		for(const i of product)
-// 		{
-// 			if (l > maxMove){l = l - movePer;}
-// 			i.style.left = '-' + l + '%';
-// 		}
-
-// 	}
-// 	let left_mover = ()=>{
-// 		l = l - movePer;
-// 		if (l<=0){l = 0;}
-// 		for(const i of product){
-// 			if (product_page>1){
-// 				i.style.left = '-' + l + '%';
-// 			}
-// 		}
-// 	}
-// 	span[1].click = ()=>{right_mover();}
-// 	span[0].click = ()=>{left_mover();}
-// }
-// function carousel(){
-//     console.log('caruzela 10000');
-
-
-//     let galleryCamp = "";
-
-//     for(i = 0; i< slides.length; i++){
-//         galleryCamp +=`
-//         <section class="gallery">
-//         <div class="slides">
-// 			<div class="product">
-// 					<img src="${galery_1}" >
-// 							</div>
-//             <div class="product">
-// 				<img src="${galery_2}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_3}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_4}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_5}" >
-// 			</div>
-//             <div class="product ">
-// 					<img src="${galery_6}" >
-// 			</div>
-//             </div>
-//             <div class="slides">
-//             <div class="product">
-// 					<img src="${galery_7}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_8}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_9}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_10}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_11}" >
-// 			</div>
-//             <div class="product">
-// 					<img src="${galery_12}" >
-// 			</div>
-//             </div>
-//         </section>`
-//     }
-
-// return galleryCamp;
-
-// }
+}
