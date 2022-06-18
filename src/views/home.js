@@ -37,6 +37,10 @@ export default class extends view {
     async getHtml() {
         return capmList(this.params.id);
     }
+    async executeJs() {
+        carousel();
+        return "";
+    }
 }
 
 function capmList(campId) {
@@ -184,16 +188,8 @@ function capmList(campId) {
           <i class='bx bxl-pinterest-alt media' ></i>
           <i class='bx bxl-tiktok media' ></i>
       </div></div>
-
-<!--<div class="gallery_next">
-
-				<span class="prev">&#139;</span>
-				<span class="next">&#155;</span>
-
-    </div>-->
-    <div class="gallery">
-` +
-        carousel() +
+    <div class="gallery">` +
+        caru() +
         `</div>`
     );
 }
@@ -219,38 +215,36 @@ function bestChoose() {
 }
 //GALLERY
 
-function carousel() {
+function caru() {
     let galleryHome = "";
-
-    console.log("caruzelaglupi");
     for (let i = 0; i < galerySlides.length; i++) {
-        galleryHome += `
-        <div class=" product">
+        galleryHome += `<div class="product">
         <div class="slides">
-        <img class="mySlides"  src="${galerySlides[i].image[0]}" />
-        <img class="mySlides" src="${galerySlides[i].image[1]}" />
-        <img class="mySlides"  src="${galerySlides[i].image[2]}" />
-        <img class="mySlides"  src="${galerySlides[i].image[3]}" />
-        <img class="mySlides"  src="${galerySlides[i].image[4]}" />
-        <img class="mySlides"  src="${galerySlides[i].image[5]}" />
+        <img  src="${galerySlides[i].image[0]}" />
+        <img  src="${galerySlides[i].image[1]}" />
+        <img  src="${galerySlides[i].image[2]}" />
+        <img  src="${galerySlides[i].image[3]}" />
+        <img  src="${galerySlides[i].image[4]}" />
+        <img  src="${galerySlides[i].image[5]}" />
         </div>
         </div>`;
-
     }
-     carouselTime();
+
     return galleryHome;
-
-
 }
+let myIndex = 0;
 
-function carouselTime() {
-    console.log("carusel Time");
-    let myIndex = 0;
-    let product = document.getElementsByClassName(".product");
-
-    for (let i = 0; i < product.length; i++) {
-        product[i].style.display = "none";
-        console.log("carusel Time-for");
+function carousel() {
+    let x = document.getElementsByClassName("product");
+    for (let i = 0; i < x.length; i++) {
+        x[i].style.display = "block";
     }
+    console.log(myIndex);
 
+    myIndex++;
+    if (myIndex > x.length) {
+        myIndex = 1;
+    }
+    x[myIndex - 1].style.display = "none";
+    setTimeout(carousel, 3000);
 }
