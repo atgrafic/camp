@@ -59,7 +59,10 @@ ul.breadcrumb li + li:before {
     display: flex;
     justify-content: space-between;
     max-width: $width;
-    margin: 80px auto 40px auto;
+    margin: 80px auto 0 auto;
+}
+.main_postion_left {
+    margin-bottom: 40px;
 }
 .choose_button {
     display: flex;
@@ -187,6 +190,11 @@ ul.breadcrumb li + li:before {
     font-weight: 700;
     padding: 0;
 }
+.camp-destription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .list_sub_ul {
     list-style: none;
     padding-left: 0;
@@ -196,12 +204,17 @@ ul.breadcrumb li + li:before {
     li a {
         @include font_description;
         transition: 0.5s ease;
+        &:active {
+            color: $color-secend;
+            font-weight: 700;
+        }
         &:hover {
             color: $color-secend;
+            font-weight: 700;
         }
     }
 }
-.list-camp {
+#list-camp {
     margin: 80px auto 0 auto;
     width: 900px;
     flex-wrap: wrap;
@@ -224,15 +237,12 @@ ul.breadcrumb li + li:before {
         opacity: 0.7;
     }
 }
-.camp-choose-city,
-.camp-choose-name,
+
 .camp-choose-price {
-    text-align: center;
-    text-transform: none;
+    font-size: 16px;
+    font-weight: 700;
     padding-bottom: 0.25em;
     transition: 0.5s ease;
-}
-.camp-choose-price {
     color: $color-secend;
 }
 .camp-choose-city:hover {
@@ -284,7 +294,10 @@ ul.breadcrumb li + li:before {
         background-color: #7070702a;
     }
 }
-
+.line {
+    border-top: 1px dashed $color-five;
+    opacity: 0.35;
+}
 @media only screen and (max-width: 1400px) {
     .breadcrumb {
         padding-left: 100px;

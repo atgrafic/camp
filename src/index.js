@@ -6,7 +6,7 @@ import home_style from "./css/home.scss";
 import footer_style from "./css/footer.scss";
 import chooseCampMenu  from "./css/chooseCamp.scss";
 import chooseAbroad  from "./css/chooseAbroad.scss";
-
+import campList from "./css/campList.scss";
 
 import webBuild from "./css/build.scss";
 
@@ -14,17 +14,23 @@ import webBuild from "./css/build.scss";
 import header from "./views/header.js";
 import home from "./views/home.js";
 import chooseCamp  from "./views/chooseCamp.js";
-// import chooseCampAbroad  from "./views/chooseAbroad.js";
-// import chooseCampSea  from "./views/chooseSea.js";
-// import chooseCampMountains from "./views/chooseMountains.js";
-// import campSubject from "./views/campSubject.js";
+import chooseCampAbroad  from "./views/chooseAbroad.js";
+import chooseCampSea  from "./views/chooseSea.js";
+import chooseCampMountains from "./views/chooseMountains.js";
+import campSubject from "./views/campSubject.js";
+import campSubjectDance from "./views/campSubjectDance.js";
+import campSubjectPaint from "./views/campSubjectPaint.js";
+import campSubjectSing from "./views/campSubjectSing.js";
+import campSubjectSport from "./views/campSubjectSport.js";
+import CampSurvvalowa from "./views/CampSurvvalowa.js";
+import campChosse15 from "./views/campChosse15.js";
+import campChosseHorse from "./views/campChosseHorse.js";
+import campListAll from "./views/campList.js";
 
 import about from "./views/about.js";
 
+
 // import event from "./event.js";
-
-console.log("Hello World");
-
 
 const pathToRegex = (path) =>
     new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
@@ -49,18 +55,18 @@ const router = async () => {
     const routes = [
         { path: "/Camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
-        { path: "/Kolonie/Obozy-zagraniczne", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-nad-morzem", view:chooseCamp},
-        { path: "/Kolonie/Kolonie-w-gorach", view: chooseCamp},
-        // { path: "/Kolonie/Kolonie-i-obozy-tematyczne", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-relaksu", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survalowa", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod", view: chooseCamp},
-        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej", view: chooseCamp},
+        { path: "/Kolonie/Obozy-zagraniczne", view: chooseCampAbroad},
+        { path: "/Kolonie/Kolonie-nad-morzem", view: chooseCampSea},
+        { path: "/Kolonie/Kolonie-w-gorach", view: chooseCampMountains },
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-relaksu", view: campSubject },
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca", view: campSubjectDance},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa", view: campSubjectPaint},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu", view: campSubjectSing },
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu", view: campSubjectSport},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survalowa", view: CampSurvvalowa},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod", view: campChosse15},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej", view: campChosseHorse},
+        { path: "/Kolonie/:id", view: campListAll},
         { path: "/promocje", view: about},
         { path: "/onas", view: about },
         { path: "/Kadra", view: about },

@@ -2,6 +2,7 @@
     "campData": [
         {
             "id": "1",
+            "camp":"all",
             "place": "world",
             "name": "Akademia Relaksu",
             "city": "Grecja, Salonki",
@@ -53,6 +54,7 @@
         },
         {
             "id": "2",
+            "camp":"all",
             "place": "world",
             "name": "Akademia Tańca",
             "city": "Bułgaria, Sofi",
@@ -104,6 +106,7 @@
         },
         {
             "id": "3",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Malarstwa",
             "city": "Łeba",
@@ -152,6 +155,7 @@
         },
         {
             "id": "4",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Wokalu",
             "city": "Dąbki",
@@ -202,6 +206,7 @@
         },
         {
             "id": "5",
+            "camp":"all",
             "place": "mountains",
             "name": "Akademia Sportu",
             "city": "Zakopane",
@@ -253,6 +258,7 @@
         },
         {
             "id": "6",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia surwiwalu",
             "city": "Solina",
@@ -304,6 +310,7 @@
         },
         {
             "id": "7",
+            "camp":"all",
             "place": "sea",
             "name": "Kolonia 15 przygód",
             "city": "Łeba",
@@ -355,6 +362,7 @@
         },
         {
             "id": "8",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia jazdy konnej",
             "city": "Lądek zdrój",
@@ -406,6 +414,7 @@
         },
         {
             "id": "9",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Relaksu",
             "city": "Pogorzelica",
@@ -457,6 +466,7 @@
         },
         {
             "id": "10",
+            "camp":"all",
             "place": "world",
             "name": "Akademia Tańca",
             "city": "Portugalia, Porto",
@@ -508,6 +518,7 @@
         },
         {
             "id": "11",
+            "camp":"all",
             "place": "mountains",
             "name": "Akademia Malarstwa",
             "city": "Zawoja",
@@ -556,6 +567,7 @@
         },
         {
             "id": "12",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Wokalu",
             "city": "Pogorzelica",
@@ -606,6 +618,7 @@
         },
         {
             "id": "13",
+            "camp":"all",
             "place": "mountains",
             "name": "Akademia Sportu",
             "city": "Solina",
@@ -657,6 +670,7 @@
         },
         {
             "id": "14",
+            "camp":"all",
             "place": "sea",
             "name": "Kolonia surwiwalu",
             "city": "Pogorzelica",
@@ -708,6 +722,7 @@
         },
         {
             "id": "15",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia 15 przygód",
             "city": "Zakopane",
@@ -759,6 +774,7 @@
         },
         {
             "id": "16",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia jazdy konnej",
             "city": "Solina",
@@ -810,6 +826,7 @@
         },
         {
             "id": "17",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Relaksu",
             "city": "Dąbki",
@@ -861,6 +878,7 @@
         },
         {
             "id": "18",
+            "camp":"all",
             "place": "world",
             "name": "Akademia Relaksu",
             "city": "Grecja, Salonki",
@@ -912,6 +930,7 @@
         },
         {
             "id": "19",
+            "camp":"all",
             "place": "world",
             "name": "Akademia Tańca",
             "city": "Bułgaria, Sofi",
@@ -963,6 +982,7 @@
         },
         {
             "id": "20",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Malarstwa",
             "city": "Łeba",
@@ -1011,6 +1031,7 @@
         },
         {
             "id": "21",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Wokalu",
             "city": "Dąbki",
@@ -1061,6 +1082,7 @@
         },
         {
             "id": "22",
+            "camp":"all",
             "place": "mountains",
             "name": "Akademia Sportu",
             "city": "Zakopane",
@@ -1112,6 +1134,7 @@
         },
         {
             "id": "23",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia surwiwalu",
             "city": "Solina",
@@ -1163,6 +1186,7 @@
         },
         {
             "id": "24",
+            "camp":"all",
             "place": "sea",
             "name": "Kolonia 15 przygód",
             "city": "Łeba",
@@ -1214,6 +1238,7 @@
         },
         {
             "id": "25",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia jazdy konnej",
             "city": "Lądek zdrój",
@@ -1265,6 +1290,7 @@
         },
         {
             "id": "26",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Relaksu",
             "city": "Pogorzelica",
@@ -1316,6 +1342,7 @@
         },
         {
             "id": "27",
+            "camp":"all",
             "place": "world",
             "name": "Akademia Tańca",
             "city": "Portugalia, Porto",
@@ -1367,6 +1394,7 @@
         },
         {
             "id": "28",
+            "camp":"all",
             "place": "mountains",
             "name": "Akademia Malarstwa",
             "city": "Zawoja",
@@ -1415,6 +1443,7 @@
         },
         {
             "id": "29",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Wokalu",
             "city": "Pogorzelica",
@@ -1465,6 +1494,7 @@
         },
         {
             "id": "30",
+            "camp":"all",
             "place": "mountains",
             "name": "Akademia Sportu",
             "city": "Solina",
@@ -1516,6 +1546,7 @@
         },
         {
             "id": "31",
+            "camp":"all",
             "place": "sea",
             "name": "Kolonia surwiwalu",
             "city": "Pogorzelica",
@@ -1567,6 +1598,7 @@
         },
         {
             "id": "32",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia 15 przygód",
             "city": "Zakopane",
@@ -1618,6 +1650,7 @@
         },
         {
             "id": "33",
+            "camp":"all",
             "place": "mountains",
             "name": "Kolonia jazdy konnej",
             "city": "Solina",
@@ -1669,6 +1702,7 @@
         },
         {
             "id": "34",
+            "camp":"all",
             "place": "sea",
             "name": "Akademia Relaksu",
             "city": "Dąbki",
@@ -1716,6 +1750,110 @@
                 "https://atgrafic.github.io/camp/dist/image/relaks_1.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_4.jpg"
+            ]
+        },
+        {
+            "id": "35",
+            "camp":"all",
+            "place": "mountains",
+            "name": "Kolonia jazdy konnej",
+            "city": "Solina",
+            "price": "2 567 zł",
+            "description": "Dla miłośników koni",
+            "program_title": "Strefa treningu",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Warsztaty",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na wesoło",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/konie_3.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_2.jpg",
+                "https://atgrafic.github.io/camp/dist/image/konie_5.jpg"
+            ]
+        },
+        {
+            "id": "36",
+            "camp":"all",
+            "place": "sea",
+            "name": "Akademia Relaksu",
+            "city": "Miedzyzdroje",
+            "price": "1 799 zł",
+            "description": "Plażing, smażling, chilling i sun fun. ;) Wypoczynek dla aktywnych i pełnych energii osób, które kochają niepowtarzalny klimat nadmorskich miejscowości. Odpoczniemy na gorącej plaży, zaszalejemy podczas rozgrywek basenowych, zatańczymy na dyskotece, a po wszystkim wyjdziemy na mały shopping w Rowach. Obóz sun&fun,  to przede wszystkim obóz na luzie i bez zbędnego stresu. Do zobaczenia!",
+            "program_title": "Strefa chill out",
+            "Program_description": [
+                "Swimming pool party – gry, muzyka, opalanie i impreza przy odkrytym basenie. Dla chętnych kąpiel i słodkie koktajle.",
+                "Summer prank – masz pomysł na świetny prank? - Zrealizuj go z nami! Czas wyjść ze szkolnej skóry i trochę się zabawić.",
+                "Shake it! Jak połączyć świeże składniki w pełen słońca, wyjątkowy, letni koktajl, czyli nauka przyrządzania kolorowych i egzotycznych napojów.",
+                "Modne torby – popularne i bardzo praktyczne, szczególnie latem! Spersonalizujemy własne torby.",
+                "Letnie kino pod gwiazdami – zapraszamy na wyjątkowy, nadmorski seans filmowy w aurze letniej gorącej nocy.",
+                "Nadmorski shopping – zakupoholików zapraszamy na spacer po ciekawszych zakątkach nadmorskiego kurortu. Pamiątki i gadżety czekają!",
+                "Kicz Karaoke – spotykamy się na wieczorku karaoke, wyluzujemy i sprawdzimy w najbardziej kiczowatych utworach polskich wykonawców.",
+                "Basenowe atrakcje, czyli piłka wodna dla aktywnych i opalanie dla leni."
+            ],
+            "program_title_2": "Strefa plażingu",
+            "Program_description_2": [
+                "Kąpiele morskie – jak tylko zaświeci słońce, pójdziemy zażywać kąpieli morskich pod czujnym okiem ratowników.",
+                "Skimboarding, czyli zawody w ślizgu do wody! Równowaga, zwinność i trochę odwagi wystarczą, żeby ślizgać się po powierzchni wody!",
+                "Plażing, smażing, czyli pełen relaks, opalanie, znajomi i jod w gratisie. Oby pogoda nam dopisała!",
+                "Super, czyli Stand Up Paddle. Spróbuj swoich sił na prawdziwym SUP-ie. Zobaczymy, kto utrzyma się najdłużej?"
+            ],
+            "program_title_3": "Na luzie",
+            "Program_description_3": [
+                "Basenowa frajda – kąpiele w odkrytym basenie.Wielka baloniada - turniej z balonami na wodę.",
+                "Wspólne ognisko z pieczonymi kiełbaskami.",
+                "Dyskoteki tematyczne - zabawy i tańce.",
+                "Pokój planszówka - zbiór kultowych gier.",
+                "Wielki finał - uroczyste pożegnanie obozów."
+            ],
+            "deadline": [
+                "26.06.2022 - 06.07.2022",
+                "18.07.2022 - 28.07.2022",
+                "09.08.2022 - 15.08.2022"
+            ],
+            "sleep_title": "Jak śpimy?",
+            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_title_1": "Jak jemy?",
+            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_title_2": "O ośrodku",
+            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/relaks_4.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_1.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_5.jpg",
+                "https://atgrafic.github.io/camp/dist/image/relaks_2.jpg"
             ]
         }
 

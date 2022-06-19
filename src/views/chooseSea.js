@@ -1,6 +1,7 @@
 import view from "./view.js";
 import style from "../css/index.scss";
 import chooseCampMenu from "../css/chooseCamp.scss";
+import home from "../css/home.scss";
 // import chooseAbroad from "../css/chooseAbroad.scss";
 
 export default class extends view {
@@ -31,22 +32,22 @@ export default class extends view {
     </a>
     </div>
     <div class="camp_abroad">
-    <a class="choose_button_abroad" href="/Obozy-zagraniczne" data-link>
+    <a class="choose_button_abroad" href="/Kolonie/Obozy-zagraniczne" data-link>
     </a>
     </div>
     <div class="camp_sea">
-    <a class="choose_button_sea" href="/Kolonie-nad-morzem" data-link>
+    <a class="choose_button_sea" href="/Kolonie/Kolonie-nad-morzem" data-link>
 
     </a>
     </div>
     <div class="camp_mountains">
-    <a class="choose_button_mountains" href="/Kolonie-w-gorach" data-link>
+    <a class="choose_button_mountains" href="/Kolonie/Kolonie-w-gorach" data-link>
 
     </a>
     </div>
     </div>
     <!--lista koloni-->
-    <div class="list-camp">`
+    <div id="list-camp">`
     + chooseSeaCamp() +
 
     `
@@ -64,20 +65,21 @@ export default class extends view {
     <h2>Kolonie i Obozy </br>tematyczne</h2>
     <div class="list_sub">
     <ul class="list_sub_ul">
-    <li><a href="/#" data-link>Akademia Relaksu</a></li>
-    <li><a href="/#" data-link>Akademia Tańca</a></li>
-    <li><a href="/#" data-link>Akademia Malarstwa</a></li>
-    <li><a href="/#" data-link>Akademia Wokalu</a></li>
-    <li><a href="/#" data-link>Akademia Sportu</a></li>
-    <li><a href="/#" data-link>kolonia Survivalowa</a></li>
-    <li><a href="/#" data-link>Kolonie 15 Przygód</a></li>
-    <li><a href="/#" data-link>Akademia Jazdy konnej</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-relaksu" data-link>Akademia Relaksu</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca" data-link>Akademia Tańca</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa" data-link>Akademia Malarstwa</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu" data-link>Akademia Wokalu</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu" data-link>Akademia Sportu</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survalowa"data-link>kolonia Survivalowa</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod" data-link>Kolonie 15 Przygód</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej" data-link>Akademia Jazdy konnej</a></li>
     </ul>
     </div>
     </div>
     </div>
     </div>
     </div>
+    <hr class="line">
     `;
     }
 }
@@ -91,18 +93,17 @@ function chooseSeaCamp() {
     for (let i = 0; i <camp.length; i++) {
       if(camp[i].place === "sea"){
         listSea += ` <div class="camp-choose" id=${camp[i].id}>
-        <a class="tab-camp-choose" href="/kolonia/${camp[i].id}" data-link>
-        <img class="camp-choose-photo" src="${camp[i].image[0]}">
-        <div class="bth-camp">
-          <div class="bth-camp-text">zobacz szczegóły</div>
-          </div>
-        <div>
-        <h2 class="camp-choose-city">${camp[i].city}</h2>
-        <p class="camp-choose-name">${camp[i].name}</p>
-        <h2 class="camp-choose-price">${camp[i].price}</h2>
+        <img class="academy_img"  src="${camp[i].image[0]}">
 
+        <div class="camp-bth">
+        <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+        <div class="camp-bth-text">zobacz szczegóły</div>
         </div>
-        </a>
+        <div class="camp-destription">
+        <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+        <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+        <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+        </div>
          </div>`;
     }
 

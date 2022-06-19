@@ -93,7 +93,8 @@ function capmList() {
           </div>
           <div class="best">
           <h2>Najczęściej wybierane</h2>
-          <hr/> <div class="campBest">` +
+          <hr/>
+          <div class="campBest">` +
         bestChoose() +
         `</div></div>
             <div class="social_media_big">
@@ -110,19 +111,24 @@ function capmList() {
 
 
 //best
+
 function bestChoose() {
     let bestCamp = "";
 
     for (let i = 0; i < 9; i++) {
-        bestCamp += ` <div class="camp" id=${camp[i].id}>
-        <a class="tab-camp" href="/kolonia ${camp[i].name}" data-link>
-        <img class="camp-photo" src="${camp[i].image[0]}">
-        <div>
-        <h3 class="camp-city">${camp[i].city}</h3>
-        <p class="camp-name">${camp[i].name}</p>
-        </div>
-        </a>
-         </div>`;
+        bestCamp +=
+     ` <div class="camp" id=${camp[i].id}>
+
+            <img class="camp-photo" src="${camp[i].image[0]}">
+           <div >
+            <a class="tab-camp" href="/Kolonie/${camp[i].id}" data-link></a>
+
+         </div>
+            <div class="name-camp">
+          <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+          <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+          </div>
+       </div>`;
     }
 
     return bestCamp;
@@ -267,3 +273,4 @@ function  campChoose() {
     </div>
     `
 }
+

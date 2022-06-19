@@ -4,21 +4,26 @@ import home from "../css/home.scss";
 import chooseCampMenu from "../css/chooseCamp.scss";
 // import chooseAbroad from "../css/chooseAbroad.scss";
 
+const jsonSubject = require("../json/subject.json");
+const campSubject = jsonSubject.subject;
+
+const json = require("../json/list.json");
+const camp = json.campData;
+
 export default class extends view {
     constructor(params) {
         super(params);
-        this.setTitle("Camp | Kolomie-w-gorach");
+        this.setTitle("Camp | Kolonie-i-obozy-tematyczne");
     }
 
     async getHtml() {
-        return `
- <div class="bg_breadcrumb">
+        return` <div class="bg_breadcrumb">
         <div class="small_menu"></div>
         <div class="breadcrumb_menu">
             <ul class="breadcrumb">
-                 <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
-                 <li> <a class="home_camp" href="/Kolonie" data-link>Kolonia</a></li>
-                 <li> <a class="position_page" href="/Kolonie-w-gorach" data-link>Kolonie w górach</a></li>
+            <li> <a class ="home_camp" href="/Camp" data-link>Home</a></li>
+            <li> <a class="home_camp" href="/Kolonie" data-link>Kolonia</a></li>
+            <li> <a class="position_page" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca" data-link>Akademia Tańca</a></li>
             </ul>
         </div>
     </div>
@@ -27,7 +32,8 @@ export default class extends view {
     <div class="main_position">
     <div class="main_postion_left">
     <div class="choose_button">
-    <div class="camp_all">
+
+    <div id="box" class="camp_all">
     <a class="choose_button_all" href="/Kolonie" data-link>
     </a>
     </div>
@@ -37,27 +43,20 @@ export default class extends view {
     </div>
     <div class="camp_sea">
     <a class="choose_button_sea" href="/Kolonie/Kolonie-nad-morzem" data-link>
-
     </a>
+
     </div>
     <div class="camp_mountains">
     <a class="choose_button_mountains" href="/Kolonie/Kolonie-w-gorach" data-link>
-
     </a>
     </div>
     </div>
     <!--lista koloni-->
     <div id="list-camp">`
-    + chooseMountainsCamp() +
-
+    + chooseCampSubjectDance()+
     `
     </div>
-    <!--paginacja-->
-    <div class="paginacion">
-    <a href="#" id="btn_prev"><i class='bx bxs-chevron-left' ></i></a>
-    <ul id="pages"></ul>
-    <a href="#" id="btn_next"><i class='bx bxs-chevron-right'></i></a>
-</div>
+
     </div>
     <!--lista tematyczna-->
     <div class="main_postion_right">
@@ -70,7 +69,7 @@ export default class extends view {
     <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa" data-link>Akademia Malarstwa</a></li>
     <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu" data-link>Akademia Wokalu</a></li>
     <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu" data-link>Akademia Sportu</a></li>
-    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survvalowa" data-link>kolonia Survivalowa</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survalowa"data-link>kolonia Survivalowa</a></li>
     <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod" data-link>Kolonie 15 Przygód</a></li>
     <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej" data-link>Akademia Jazdy konnej</a></li>
     </ul>
@@ -80,19 +79,19 @@ export default class extends view {
     </div>
     </div>
     <hr class="line">
-    `;
+    `
+
     }
+
 }
 
-const json = require("../json/list.json");
-const camp = json.campData;
-
-function chooseMountainsCamp() {
-    let listCampMountains = "";
+function chooseCampSubjectDance() {
+    // let capmpAll = document.querySelector(".camp_all");
+    let listCamp = "";
 
     for (let i = 0; i <camp.length; i++) {
-      if(camp[i].place === "mountains"){
-        listCampMountains += ` <div class="camp-choose" id=${camp[i].id}>
+      if(camp[i].name === "Akademia Tańca"){
+        listCamp += `  <div class="camp-choose" id=${camp[i].id}>
         <img class="academy_img"  src="${camp[i].image[0]}">
 
         <div class="camp-bth">
@@ -107,8 +106,7 @@ function chooseMountainsCamp() {
          </div>`;
     }
 
-}
-return listCampMountains;
-}
+    }
+  return listCamp;
 
-
+}
