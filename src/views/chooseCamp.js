@@ -2,6 +2,12 @@ import view from "./view.js";
 import style from "../css/index.scss";
 import chooseCampMenu from "../css/chooseCamp.scss";
 
+
+const jsonSubject = require("../json/subject.json");
+const campSubject = jsonSubject.subject;
+
+const json = require("../json/list.json");
+const camp = json.campData;
 export default class extends view {
     constructor(params) {
         super(params);
@@ -32,16 +38,16 @@ export default class extends view {
     </div>
 
     <div class="camp_abroad">
-    <a class="choose_button_abroad" href="/Obozy-zagraniczne" data-link>
+    <a class="choose_button_abroad" href="/Kolonie/Obozy-zagraniczne" data-link>
     </a>
     </div>
     <div class="camp_sea">
-    <a class="choose_button_sea" href="/Kolonie-nad-morzem" data-link>
+    <a class="choose_button_sea" href="/Kolonie/Kolonie-nad-morzem" data-link>
 
     </a>
     </div>
     <div class="camp_mountains">
-    <a class="choose_button_mountains" href="/Kolonie-w-gorach" data-link>
+    <a class="choose_button_mountains" href="/Kolonie/Kolonie-w-gorach" data-link>
 
     </a>
     </div>
@@ -65,33 +71,42 @@ export default class extends view {
     <h2>Kolonie i Obozy </br>tematyczne</h2>
     <div class="list_sub">
     <ul class="list_sub_ul">
-    <li><a href="/#" data-link>Akademia Relaksu</a></li>
-    <li><a href="/#" data-link>Akademia Tańca</a></li>
-    <li><a href="/#" data-link>Akademia Malarstwa</a></li>
-    <li><a href="/#" data-link>Akademia Wokalu</a></li>
-    <li><a href="/#" data-link>Akademia Sportu</a></li>
-    <li><a href="/#" data-link>kolonia Survivalowa</a></li>
-    <li><a href="/#" data-link>Kolonie 15 Przygód</a></li>
-    <li><a href="/#" data-link>Akademia Jazdy konnej</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-relaksu" data-link>Akademia Relaksu</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca" data-link>Akademia Tańca</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa"" data-link>Akademia Malarstwa</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu" data-link>Akademia Wokalu</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu" data-link>Akademia Sportu</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survvalowa" data-link>kolonia Survivalowa</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod" data-link>Kolonie 15 Przygód</a></li>
+    <li><a href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej" data-link>Akademia Jazdy konnej</a></li>
     </ul>
     </div>
     </div>
     </div>
     </div>
     </div>
-    `;
+    `
+
     }
+    // async executeJs() {
+
+    //     return "";
+    // }
 }
 
-const json = require("../json/list.json");
-const camp = json.campData;
+
+
+
+
+
+
 
 function chooseCamp() {
+
     let listCamp = "";
 
-
     for (let i = 0; i <camp.length; i++) {
-
+      if(camp[i].place === "world" || camp[i].place === "sea" || camp[i].place === "mountains" ||camp[i].place === ""){
         listCamp += ` <div class="camp-choose" id=${camp[i].id}>
         <a class="tab-camp-choose" href="/kolonia/${camp[i].id}" data-link>
         <img class="camp-choose-photo" src="${camp[i].image[0]}">
@@ -107,8 +122,35 @@ function chooseCamp() {
         </a>
          </div>`;
     }
-    return listCamp;
+
+    }
+
+
+return listCamp;
 }
 
 
 
+// function choosListCamp() {
+
+//     let listCamp = "";
+
+//     for (let i = 0; i <camp.length; i++) {
+//       if(campSubject[i].name === "Akademia Relaksu"){
+//         listCamp += ` <div class="camp-choose" id=${camp[i].id}>
+//         <a class="tab-camp-choose" href="/kolonia/${camp[i].id}" data-link>
+//         <img class="camp-choose-photo" src="${camp[i].image[0]}">
+//         <div class="bth-camp">
+//           <div class="bth-camp-text">zobacz szczegóły</div>
+//           </div>
+//         <div>
+//         <h2 class="camp-choose-city">${camp[i].city}</h2>
+//         <p class="camp-choose-name">${camp[i].name}</p>
+//         <h2 class="camp-choose-price">${camp[i].price}</h2>
+
+//         </div>
+//         </a>
+//          </div>`;
+//     }
+// }
+// }

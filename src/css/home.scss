@@ -297,19 +297,15 @@
         margin: 0 auto;
     }
 }
-.academy {
-    max-width: $width;
-    margin: 30px auto 0 auto;
+
+
+// new list Subject
+.academy-camp{
+    width: $width;
+    margin: 60px auto 0px auto;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-}
-.academy_continer {
-    position: relative;
-    display: block;
-    border-radius: 25px;
-    width: 250px;
-    height: 280px;
+    justify-content: space-between;
 }
 .academy_img {
     position: relative;
@@ -322,8 +318,19 @@
         opacity: 0.7;
     }
 }
-
-.bth {
+.campImg{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.camp_continer{
+    z-index: 999;
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    position: absolute;
+}
+.camp-bth{
     border-radius: 25px;
     width: 250px;
     height: 280px;
@@ -332,36 +339,39 @@
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: 0.5s ease;
     &:hover {
         background: $color_descripttion;
         opacity: 0.95;
     }
-    .bth_text {
+    .camp-bth-text {
         width: 200px;
         color: $color_white;
         background: $color_secend;
         border-radius: 5px;
-        padding: 0 20px;
         font-family: $font_title;
         font-weight: 700;
         font-size: 1.25em;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 25px;
     }
 }
-
-.academy_padding {
-    padding-bottom: 40px;
-}
-.academy_choose {
-    padding-top: 10px;
+.camp_list{
+    z-index: 999;
     text-transform: none;
+    @include title;
+    color: $color_descripttion;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
     &:hover {
         color: $color_secend;
     }
 }
+
+
 .first_minute {
     background: $color_descripttion url("../assets/image/torba.svg") no-repeat right 50px bottom
         15px;

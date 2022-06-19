@@ -1,0 +1,68 @@
+{
+    "subject": [
+        {
+            "id": "1",
+            "name": "Akademia Relaksu",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/akademia_relaksu.jpg"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Akademia Tańca",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/akademia_tanca.jpg"
+            ]
+
+        },
+        {
+            "id": "3",
+            "name": "Akademia  Malarstwa",
+            "image": [
+            "https://atgrafic.github.io/camp/dist/image/akademia_malarstwa.jpg"
+            ]
+
+        },
+        {
+            "id": "4",
+            "name": "Akademia Wokalu",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/akademia_wokalu.jpg"
+            ]
+
+        },
+        {
+            "id": "5",
+            "name": "Akademia Sportu",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/akademia_sportu.jpg"
+            ]
+
+        },
+        {
+            "id": "6",
+            "name": "Kolonia Survvalowa",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/kolonia_survvalowa.jpg"
+            ]
+
+        },
+        {
+            "id": "7",
+            "name": "Kolonia 15 Przygód",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/kolonia_15_przygod.jpg"
+            ]
+
+        },
+        {
+            "id": "8",
+            "name": "Kolonia Jazdy Konnej",
+            "image": [
+                "https://atgrafic.github.io/camp/dist/image/kolonia_konna.jpg"
+            ]
+
+        }
+
+    ]
+}

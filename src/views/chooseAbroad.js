@@ -63,16 +63,7 @@ export default class extends view {
     <div class="camp_subject">
     <h2>Kolonie i Obozy </br>tematyczne</h2>
     <div class="list_sub">
-    <ul class="list_sub_ul">
-    <li><a href="/#" data-link>Akademia Relaksu</a></li>
-    <li><a href="/#" data-link>Akademia Tańca</a></li>
-    <li><a href="/#" data-link>Akademia Malarstwa</a></li>
-    <li><a href="/#" data-link>Akademia Wokalu</a></li>
-    <li><a href="/#" data-link>Akademia Sportu</a></li>
-    <li><a href="/#" data-link>kolonia Survivalowa</a></li>
-    <li><a href="/#" data-link>Kolonie 15 Przygód</a></li>
-    <li><a href="/#" data-link>Akademia Jazdy konnej</a></li>
-    </ul>
+   
     </div>
     </div>
     </div>

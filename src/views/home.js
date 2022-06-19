@@ -9,10 +9,6 @@ import text_1 from "../assets/image/text_1.svg";
 import text_2 from "../assets/image/text_2.svg";
 import star_1 from "../assets/image/star_1.svg";
 import star_2 from "../assets/image/star_2.svg";
-
-import campPalms from "../assets/image/palma.svg";
-import campSea from "../assets/image/morze.svg";
-import campMountains from "../assets/image/gory.svg";
 import relax from "../assets/image/akademia_relaksu.jpg";
 import dance from "../assets/image/akademia_tanca.jpg";
 import paint from "../assets/image/akademia_malarstwa.jpg";
@@ -24,9 +20,14 @@ import horse from "../assets/image/kolonia_konna.jpg";
 import girl from "../assets/image/usniechniente_dziewczyny.jpg";
 
 const json = require("../json/list.json");
-const jsonGallery = require("../json/galleryList.json");
 const camp = json.campData;
+
+const jsonGallery = require("../json/galleryList.json");
 const galerySlides = jsonGallery.galleryList;
+
+const jsonSubject = require("../json/subject.json");
+const campSubject = jsonSubject.subject;
+
 export default class extends view {
     constructor(params) {
         super(params);
@@ -35,7 +36,7 @@ export default class extends view {
     }
 
     async getHtml() {
-        return capmList(this.params.id);
+        return capmList() ;
     }
     async executeJs() {
         carousel();
@@ -43,7 +44,7 @@ export default class extends view {
     }
 }
 
-function capmList(campId) {
+function capmList() {
     return (
         `<div class="baner">
             <img class="baner_1" src="${baner_1}"/>
@@ -59,111 +60,24 @@ function capmList(campId) {
           <div class="camp_choose">
 
           <div class="palm">
-          <a  href="/Obozy-zagraniczne" data-link>
+          <a  href="/Kolonie/Obozy-zagraniczne" data-link>
            </a>
           </div>
           <div class="sea">
-          <a href="/Kolonie-nad-morzem" data-link></a>
+          <a href="/Kolonie/Kolonie-nad-morzem" data-link></a>
           </div>
           <div class="mountains">
-          <a href="/Kolonie-w-gorach" data-link></a>
+          <a href="/Kolonie/Kolonie-w-gorach" data-link></a>
           </div>
           </div>
           <div class="description">
           <h1>Obozy i kolonie tematyczne</h1>
           <p>Wyjątkowe programy i mnóstwo ciekawych zajęć! Robisz to, co lubisz! Tworzysz swoje wakacje!
           To Tobie pozostawiamy decyzję, na które zajęcia zapiszecie się w trakcie trwania turnusu.</p>
-          <div class="academy">
-          <div class="relax academy_padding">
-          <a href="/#" class="academy_continer" data-link>
-          <img class="academy_img" src="${relax}"/>
-          <div class="bth">
-          <div class="bth_text"> znajdź swój Camp</div>
-          </div>
-          </a>
-          <a href="/#" data-link>
-          <h2 class="academy_choose">Akademia Relaksu</h2>
-           </a>
-          </div>
-       <div class="dance academy_padding">
-          <a href="/#" class="academy_continer" data-link>
-          <img class="academy_img" src="${dance}"/>
-          <div class="bth">
-          <div class="bth_text"> znajdź swój Camp</div>
-          </div>
-          </a>
-          <a href="/#" data-link>
-          <h2 class="academy_choose">Akademia Tańca</h2>
-          </a>
-          </div>
-        <div class="paint academy_padding">
-        <a href="/#" class="academy_continer" data-link>
-        <img class="academy_img" src="${paint}"/>
-        <div class="bth">
-        <div class="bth_text"> znajdź swój Camp</div>
-        </div>
-        </a>
-        <a href="/#" data-link>
-        <h2 class="academy_choose">Akademia Malarstwa</h2>
-         </a>
-          </div>
-          <div class="sing academy_padding">
-          <a href="/#" class="academy_continer" data-link>
-          <img class="academy_img" src="${sing}"/>
-          <div class="bth">
-          <div class="bth_text"> znajdź swój Camp</div>
-          </div>
-          </a>
-          <a href="/#" data-link>
-          <h2 class="academy_choose">Akademia Wokalu</h2>
-           </a>
-          </div>
-          <div class="sport academy_padding">
-          <a href="/#" class="academy_continer" data-link>
-          <img class="academy_img" src="${sport}"/>
-          <div class="bth">
-          <div class="bth_text"> znajdź swój Camp</div>
-          </div>
-          </a>
-          <a href="/#" data-link>
-          <h2 class="academy_choose">Akademia Sportu</h2>
-           </a>
-          </div>
-          <div class="survival academy_padding">
-          <a href="/#" class="academy_continer" data-link>
-          <img class="academy_img" src="${survival}"/>
-          <div class="bth">
-          <div class="bth_text"> znajdź swój Camp</div>
-          </div>
-          </a>
-          <a href="/#" data-link>
-          <h2 class="academy_choose">Kolonia Survivalowa</h2>
-           </a>
-          </div>
-          <div class="adventures academy_padding">
-          <a href="/#" class="academy_continer" data-link>
-          <img class="academy_img" src="${adventures}"/>
-          <div class="bth">
-          <div class="bth_text"> znajdź swój Camp</div>
-          </div>
-          </a>
-          <a href="/#" data-link>
-          <h2 class="academy_choose">Kolonia 15 Przygód</h2>
-           </a>
-          </div>
-          <div class="horse academy_padding">
-          <a href="/#" class="academy_continer" data-link>
-          <img class="academy_img" src="${horse}"/>
-          <div class="bth">
-          <div class="bth_text"> znajdź swój Camp</div>
-          </div>
-          </a>
-          <a href="/#" data-link>
-          <h2 class="academy_choose">Kolonia Jazdy konnej</h2>
-           </a>
-          </div>
-          </div>
-          </div>
+
+          ` +
+         campChoose() +
+          `</div>
           <div class="first_minute">
           <img class="first_minute_girl" src="${girl}"/>
           <div class="first_descript">
@@ -194,14 +108,14 @@ function capmList(campId) {
     );
 }
 
-//json-best
 
+//best
 function bestChoose() {
     let bestCamp = "";
 
     for (let i = 0; i < 9; i++) {
         bestCamp += ` <div class="camp" id=${camp[i].id}>
-        <a class="tab-camp" href="/kolonia/${camp[i].id}" data-link>
+        <a class="tab-camp" href="/kolonia ${camp[i].name}" data-link>
         <img class="camp-photo" src="${camp[i].image[0]}">
         <div>
         <h3 class="camp-city">${camp[i].city}</h3>
@@ -247,4 +161,109 @@ function carousel() {
     }
     x[myIndex - 1].style.display = "none";
     setTimeout(carousel, 3000);
+}
+
+
+function  campChoose() {
+    return `
+    <div class="academy-camp">
+        <div class="campSubject">
+            <div class="campImg">
+                <img class="academy_img" src="${relax}" />
+                <div class="camp-bth">
+                <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-relaksu" data-link></a>
+                <div class="camp-bth-text"> znajdź swój Camp</div>
+                </div>
+
+                <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-relaksu" data-link>Akademia Relaksu</a>
+            </div>
+        </div>
+
+        <div class="campSubject">
+        <div class="campImg">
+            <img class="academy_img" src="${dance}" />
+            <div class="camp-bth">
+            <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca" data-link></a>
+            <div class="camp-bth-text"> znajdź swój Camp</div>
+            </div>
+
+            <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca" data-link>Akademia Tańcu</a>
+            </div>
+        </div>
+
+        <div class="campSubject">
+        <div class="campImg">
+            <img class="academy_img" src="${paint}" />
+            <div class="camp-bth">
+            <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa" data-link></a>
+            <div class="camp-bth-text"> znajdź swój Camp</div>
+            </div>
+
+            <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa" data-link>Akademia Malarstwa</a>
+            </div>
+        </div>
+
+        <div class="campSubject">
+        <div class="campImg">
+            <img class="academy_img" src="${sing}" />
+            <div class="camp-bth">
+            <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu" data-link></a>
+            <div class="camp-bth-text"> znajdź swój Camp</div>
+            </div>
+
+            <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu" data-link>Akademia Wokalu</a>
+            </div>
+        </div>
+
+        <div class="campSubject">
+        <div class="campImg">
+            <img class="academy_img" src="${sport}" />
+            <div class="camp-bth">
+            <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu" data-link></a>
+            <div class="camp-bth-text"> znajdź swój Camp</div>
+            </div>
+
+            <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu" data-link>Akademia Sportu</a>
+            </div>
+        </div>
+
+        <div class="campSubject">
+        <div class="campImg">
+            <img class="academy_img" src="${survival}" />
+            <div class="camp-bth">
+            <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survalowa" data-link></a>
+            <div class="camp-bth-text"> znajdź swój Camp</div>
+            </div>
+
+            <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survalowa" data-link>Kolonia Survalowa</a>
+            </div>
+        </div>
+
+        <div class="campSubject">
+        <div class="campImg">
+            <img class="academy_img" src="${adventures}" />
+            <div class="camp-bth">
+            <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod" data-link></a>
+            <div class="camp-bth-text"> znajdź swój Camp</div>
+            </div>
+
+            <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod" data-link>Kolonia 15 Przygód</a>
+            </div>
+        </div>
+
+
+        <div class="campSubject">
+        <div class="campImg">
+            <img class="academy_img" src="${horse}" />
+            <div class="camp-bth">
+            <a class="camp_continer" href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej" data-link></a>
+            <div class="camp-bth-text"> znajdź swój Camp</div>
+            </div>
+
+            <a class="camp_list" href="/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej" data-link>Kolonia Jazdy Konnej</a>
+            </div>
+        </div>
+
+    </div>
+    `
 }

@@ -14,13 +14,14 @@ import webBuild from "./css/build.scss";
 import header from "./views/header.js";
 import home from "./views/home.js";
 import chooseCamp  from "./views/chooseCamp.js";
-import chooseCampAbroad  from "./views/chooseAbroad.js";
-import chooseCampSea  from "./views/chooseSea.js";
-import chooseCampMountains from "./views/chooseMountains.js";
+// import chooseCampAbroad  from "./views/chooseAbroad.js";
+// import chooseCampSea  from "./views/chooseSea.js";
+// import chooseCampMountains from "./views/chooseMountains.js";
+// import campSubject from "./views/campSubject.js";
 
 import about from "./views/about.js";
 
-import event from "./event.js";
+// import event from "./event.js";
 
 console.log("Hello World");
 
@@ -48,9 +49,18 @@ const router = async () => {
     const routes = [
         { path: "/Camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
-        { path: "/Obozy-zagraniczne", view: chooseCampAbroad},
-        { path: "/Kolonie-nad-morzem", view: chooseCampSea},
-        { path: "/Kolonie-w-gorach", view: chooseCampMountains},
+        { path: "/Kolonie/Obozy-zagraniczne", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-nad-morzem", view:chooseCamp},
+        { path: "/Kolonie/Kolonie-w-gorach", view: chooseCamp},
+        // { path: "/Kolonie/Kolonie-i-obozy-tematyczne", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-relaksu", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-tanca", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-malarstwa", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-wokalu", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Akademia-sportu", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-survalowa", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-15-przygod", view: chooseCamp},
+        { path: "/Kolonie/Kolonie-i-obozy-tematyczne/Kolonia-jazdy-konnej", view: chooseCamp},
         { path: "/promocje", view: about},
         { path: "/onas", view: about },
         { path: "/Kadra", view: about },
