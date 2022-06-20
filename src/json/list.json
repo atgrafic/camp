@@ -40,11 +40,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/relaks_8.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_7.jpg",
@@ -92,11 +92,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/taniec_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/taniec_1.jpg",
@@ -141,11 +141,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/malowanie_4.jpg",
                 "https://atgrafic.github.io/camp/dist/image/malowanie_1.jpg",
@@ -192,11 +192,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/wokal_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/wokal_1.jpg",
@@ -244,11 +244,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/sport_4.jpg",
                 "https://atgrafic.github.io/camp/dist/image/sport_1.jpg",
@@ -296,11 +296,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych namiocie.",
+            "sleep_description": "W 4-, 5-osobowych namiocie.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O polu namiotowym",
-            "sleep-description_2": "toaleta i przysznic naterenie campingu",
+            "sleep_description_2": "toaleta i przysznic naterenie campingu",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/survival_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/survival_1.jpg",
@@ -348,11 +348,11 @@
                 "29.07.2022 - 08.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
+            "sleep_description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
+            "sleep_description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_6.jpg",
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_7.jpg",
@@ -400,11 +400,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/konie_1.jpg",
                 "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
@@ -452,11 +452,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/relaks_3.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_6.jpg",
@@ -504,11 +504,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/taniec_3.jpg",
                 "https://atgrafic.github.io/camp/dist/image/taniec_1.jpg",
@@ -553,11 +553,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/malowanie_3.jpg",
                 "https://atgrafic.github.io/camp/dist/image/malowanie_1.jpg",
@@ -604,11 +604,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/wokal_2.jpg",
                 "https://atgrafic.github.io/camp/dist/image/wokal_1.jpg",
@@ -656,11 +656,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/sport_1.jpg",
                 "https://atgrafic.github.io/camp/dist/image/sport_4.jpg",
@@ -708,11 +708,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych namiocie.",
+            "sleep_description": "W 4-, 5-osobowych namiocie.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O polu namiotowym",
-            "sleep-description_2": "toaleta i przysznic naterenie campingu",
+            "sleep_description_2": "toaleta i przysznic naterenie campingu",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/survival_6.jpg",
                 "https://atgrafic.github.io/camp/dist/image/survival_1.jpg",
@@ -760,11 +760,11 @@
                 "29.07.2022 - 08.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
+            "sleep_description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
+            "sleep_description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_4.jpg",
@@ -812,11 +812,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/konie_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
@@ -864,11 +864,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/relaks_2.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_1.jpg",
@@ -916,11 +916,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/relaks_8.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_7.jpg",
@@ -968,11 +968,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/taniec_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/taniec_1.jpg",
@@ -1017,11 +1017,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/malowanie_4.jpg",
                 "https://atgrafic.github.io/camp/dist/image/malowanie_1.jpg",
@@ -1068,11 +1068,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/wokal_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/wokal_1.jpg",
@@ -1120,11 +1120,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/sport_4.jpg",
                 "https://atgrafic.github.io/camp/dist/image/sport_1.jpg",
@@ -1172,11 +1172,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych namiocie.",
+            "sleep_description": "W 4-, 5-osobowych namiocie.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O polu namiotowym",
-            "sleep-description_2": "toaleta i przysznic naterenie campingu",
+            "sleep_description_2": "toaleta i przysznic naterenie campingu",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/survival_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/survival_1.jpg",
@@ -1224,11 +1224,11 @@
                 "29.07.2022 - 08.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
+            "sleep_description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
+            "sleep_description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_6.jpg",
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_7.jpg",
@@ -1276,11 +1276,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/konie_1.jpg",
                 "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
@@ -1328,11 +1328,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/relaks_3.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_6.jpg",
@@ -1380,11 +1380,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/taniec_3.jpg",
                 "https://atgrafic.github.io/camp/dist/image/taniec_1.jpg",
@@ -1429,11 +1429,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/malowanie_3.jpg",
                 "https://atgrafic.github.io/camp/dist/image/malowanie_1.jpg",
@@ -1480,11 +1480,11 @@
                 "11.08.2022 - 26.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
+            "sleep_description": "W 3-, 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
+            "sleep_description_2": "Poddąbie słynie z ciszy, pięknych plaż, bajkowych lasów oraz kameralnego klimatu. Ta osada nadmorska budzi się do życia latem, by zimą zapaść w głęboki sen. Czyni to ośrodek Lazur idealnym wyborem dla dzieci, które kochają przyrodę i stronią od dużych nadmorskich kurortów. Na najmłodszych uczestników czeka przyjazna atmosfera ośrodka wypoczynkowego oraz duży teren zielony dostosowany do dziecięcych potrzeb.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/wokal_2.jpg",
                 "https://atgrafic.github.io/camp/dist/image/wokal_1.jpg",
@@ -1532,11 +1532,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/sport_1.jpg",
                 "https://atgrafic.github.io/camp/dist/image/sport_4.jpg",
@@ -1584,11 +1584,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych namiocie.",
+            "sleep_description": "W 4-, 5-osobowych namiocie.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O polu namiotowym",
-            "sleep-description_2": "toaleta i przysznic naterenie campingu",
+            "sleep_description_2": "toaleta i przysznic naterenie campingu",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/survival_6.jpg",
                 "https://atgrafic.github.io/camp/dist/image/survival_1.jpg",
@@ -1636,11 +1636,11 @@
                 "29.07.2022 - 08.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
+            "sleep_description": "W pokojach 3-, 4-, 5-osobowych oraz pokojach typu studio 2+3 osoby oraz 3+3 osoby. Wszystkie pokoje posiadają pełen węzeł sanitarny.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
+            "sleep_description_2": "To już trzeci obiektów Ośrodków Wypoczynkowych Diuna w naszej ofercie! Tym razem zapraszamy was do Łeby! W ośrodku zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa! Dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż lub skorzystamy z atrakcji, które przygotowała dla nas piękna Łeba.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/15_przygod_4.jpg",
@@ -1688,11 +1688,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/konie_5.jpg",
                 "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
@@ -1740,11 +1740,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/relaks_2.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_1.jpg",
@@ -1792,11 +1792,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/konie_3.jpg",
                 "https://atgrafic.github.io/camp/dist/image/konie_4.jpg",
@@ -1844,11 +1844,11 @@
                 "09.08.2022 - 15.08.2022"
             ],
             "sleep_title": "Jak śpimy?",
-            "sleep-description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
+            "sleep_description": "W 4-, 5-osobowych pokojach z pełnym węzłem sanitarnym oraz w pokojach typu studio, z czego większość posiada balkony.",
             "sleep_title_1": "Jak jemy?",
-            "sleep-description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
+            "sleep_description_1": "3 posiłki dziennie (śniadanie, obiad z podwieczorkiem, kolacja). Obóz rozpoczyna się kolacją, a kończy śniadaniem wraz z suchym prowiantem na drogę powrotną. Napoje oferowane są tylko w trakcie posiłków.",
             "sleep_title_2": "O ośrodku",
-            "sleep-description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
+            "sleep_description_2": "W ośrodku Lazur Bis zakwaterowani są uczestnicy i uczestniczki obozów wypoczynkowych. Tu wyluzowany klimat nadmorskiej miejscowości, którego szukają uczestnicy obozów rekreacyjnych, łączy się z pełną energii atmosferą lata. Mieszanka to wyjątkowa, ale dzięki niej wyszalejemy się na maxa i zrelaksujemy w pięknym otoczeniu morza, plaż, przy basenie w ośrodku lub skorzystamy z atrakcji, które przygotowały dla nas turystyczne Rowy.",
             "image": [
                 "https://atgrafic.github.io/camp/dist/image/relaks_4.jpg",
                 "https://atgrafic.github.io/camp/dist/image/relaks_1.jpg",

@@ -35,7 +35,7 @@ export default class extends view {
     <a class="choose_button_abroad" href="/Kolonie/Obozy-zagraniczne" data-link>
     </a>
     </div>
-    <div class="camp_sea">
+    <div class="camp_sea_active">
     <a class="choose_button_sea" href="/Kolonie/Kolonie-nad-morzem" data-link>
 
     </a>

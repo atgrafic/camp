@@ -32,7 +32,7 @@ export default class extends view {
     <div class="main_postion_left">
     <div class="choose_button">
 
-    <div id="box" class="camp_all">
+    <div id="box" class="camp_all_active">
     <a class="choose_button_all" href="/Kolonie" data-link>
     </a>
     </div>

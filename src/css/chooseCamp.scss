@@ -81,6 +81,16 @@ ul.breadcrumb li + li:before {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+}.camp_all_active,
+.camp_abroad_active,
+.camp_sea_active,
+.camp_mountains_active {
+    width: 170px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
 }
 .camp_all {
     border: 2px dashed $color-white;
@@ -96,9 +106,10 @@ ul.breadcrumb li + li:before {
 }
 .camp_all_active {
     border: 2px dashed $color-white;
-    border-radius: 20px;
     background: $color-secend;
+    border-radius: 20px;
     outline: $color-secend solid 5px;
+    transition: 0.5s ease;
 }
 .choose_button_all::after {
     content: "Wszystkie \A obozy i kolonie";
@@ -123,8 +134,10 @@ ul.breadcrumb li + li:before {
 }
 .camp_abroad_active {
     border: 2px dashed $color-white;
+    background:  $color-four;
     border-radius: 20px;
-    background: $color-four;
+    outline:  $color-four solid 5px;
+    transition: 0.5s ease;
 }
 .choose_button_abroad::after {
     content: "Obozy\A zagraniczne";
@@ -149,9 +162,10 @@ ul.breadcrumb li + li:before {
 }
 .camp_sea_active {
     border: 2px dashed $color-white;
-    border-radius: 20px;
     background: $color_third;
-    outline: $color-third solid 5px;
+    border-radius: 20px;
+    outline:$color_third solid 5px;
+    transition: 0.5s ease;
 }
 .choose_button_sea::after {
     content: "kolonie\A nad morzem";
@@ -176,9 +190,11 @@ ul.breadcrumb li + li:before {
 }
 .camp_mountains_active {
     border: 2px dashed $color-white;
-    border-radius: 20px;
     background: $color_five;
-    outline: $color-five solid 5px;
+    border-radius: 20px;
+    outline: $color_five solid 5px;
+    transition: 0.5s ease;
+
 }
 .choose_button_mountains::after {
     content: "Kolonie\A w górach";
@@ -214,6 +230,11 @@ ul.breadcrumb li + li:before {
         }
     }
 }
+.list_sub_ul .li-active{
+    color: $color-secend;
+    font-weight: 700;
+}
+
 #list-camp {
     margin: 80px auto 0 auto;
     width: 900px;

@@ -40,7 +40,7 @@ export default class extends view {
 
     </a>
     </div>
-    <div class="camp_mountains">
+    <div class="camp_mountains_active">
     <a class="choose_button_mountains" href="/Kolonie/Kolonie-w-gorach" data-link>
 
     </a>

@@ -1,1 +1,26 @@
 @import "index.scss";
+
+.main-box{
+    width: $width;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sum{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.price{
+    color: $color_white;
+    font-family: $font_title;
+    font-weight: 700;
+    font-size: 1.25em;
+    background: $color-secend;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 120px;
+    text-align: center;
+}
