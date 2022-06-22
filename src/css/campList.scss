@@ -1,19 +1,24 @@
 @import "index.scss";
 
-.main-box{
+.main-box {
     width: $width;
     margin: 80px auto;
     display: flex;
     justify-content: space-between;
-
+    background-image: url("../assets/image/casel.svg");
+    background-position: right 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-attachment: scroll;
 }
-.sum{
+
+.sum {
     margin-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.price{
+.price {
     color: $color_white;
     font-family: $font_title;
     font-weight: 700;
@@ -23,4 +28,86 @@
     padding: 10px 20px;
     width: 120px;
     text-align: center;
+}
+.img-box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#expandedImg {
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
+.sumPhoto {
+    width: 120px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#campPhoto1,
+#campPhoto2,
+#campPhoto3,
+#campPhoto4 {
+    border-radius: 25px;
+}
+
+.main_with {
+    width: $width;
+    margin: 0 auto;
+}
+.tabs{
+    padding-bottom: 300px;
+}
+.tabs h2 {
+    padding: 15px 0;
+    font-weight: 700;
+    color: $color-secend;
+
+}
+.tabs p {
+    @include font_description;
+}
+.tabs section {
+    display: none;
+    padding: 20px 50px 100px 50px;
+    border: 1px solid #98e6f04f;
+    border-radius: 0 15px 15px 15px;
+}
+.tabs input {
+    display: none;
+}
+.tabs label {
+    display: inline-block;
+    @include title;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 700;
+    text-align: center;
+    color: $color-secend;
+    border: 1px solid transparent;
+    &:before {
+        color: $color_descripttion;
+    }
+    &:hover {
+        color: $color_descripttion;
+        cursor: pointer;
+    }
+}
+.tabs input:checked + label {
+    color: $color-secend;
+    border: 2px solid #98e6f04f;
+    border-top: 3px solid $color_descripttion;
+    border-bottom: 3px solid #fff;
+    border-radius: 5px 5px 0 0;
+
+}
+#tab1:checked ~ #content_1,
+#tab2:checked ~ #content_2,
+#tab3:checked ~ #content_3 {
+    display: block;
+
 }

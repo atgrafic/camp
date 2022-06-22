@@ -175,7 +175,7 @@
         height: 180px;
         padding: 0 25px 0 10px;
         position: absolute;
-        background: url(../assets/image/palma.svg) no-repeat;
+        background: url("../assets/image/palm_crab.svg") no-repeat;
         background-size: 138px;
         transform: 1s ease-in-out;
         &:hover {
@@ -217,7 +217,7 @@
         height: 180px;
         padding: 0 25px 0 10px;
         position: absolute;
-        background: url(../assets/image/morze.svg) no-repeat;
+        background: url("../assets/image/morze.svg") no-repeat;
         background-size: 190px;
         background-position: left 10px bottom 10px;
         transform: 1s ease-in-out;
@@ -259,7 +259,7 @@
         height: 180px;
         padding: 0 25px 0 10px;
         position: absolute;
-        background: url(../assets/image/gory.svg) no-repeat;
+        background: url("../assets/image/gory.svg") no-repeat;
         background-size: 190px;
         background-position: left 10px bottom 10px;
         transform: 1s ease-in-out;
@@ -286,11 +286,11 @@
     padding-bottom: 80px;
     background-image: url("../assets/image/sun.svg"), url("../assets/image/samolot.svg"),
         url("../assets/image/car.svg"), url("../assets/image/casel.svg");
-    background-position: right 120px top 0, left 50px top 80px, left 100px bottom 0,
-        right 100px bottom 0;
+    background-position: right 250px top 0, left 230px top 70px, left 200px bottom 0,
+        right 130px bottom 0;
 
     background-repeat: no-repeat;
-    background-size: 250px, 300px, 200px, 230px;
+    background-size: 300px, 350px, 280px, 300px;
     background-attachment: scroll;
     p {
         width: 800px;
