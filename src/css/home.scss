@@ -566,12 +566,16 @@ left: 0;
 .slides {
     display: flex;
     align-items: center;
-    justify-content: center;
-    // transform: 5s ease-in-out;
- }
+    justify-content: center;}
+
+//     .slides_img{
+//     width: 100%;
+//     height: auto;
+//     // transform: 5s ease-in-out;
+//  }
+
 .product{
     display: none;
-    transform: 5s ease-in-out;
 }
 
 

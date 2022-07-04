@@ -102,7 +102,7 @@ function capmList() {
           <i class='bx bxl-instagram media' ></i>
           <i class='bx bxl-pinterest-alt media' ></i>
           <i class='bx bxl-tiktok media' ></i>
-      </div></div>
+      </div>
     <div class="gallery">` +
         caru() +
         `</div>`
@@ -140,12 +140,12 @@ function caru() {
     for (let i = 0; i < galerySlides.length; i++) {
         galleryHome += `<div class="product">
         <div class="slides">
-        <img  src="${galerySlides[i].image[0]}" />
-        <img  src="${galerySlides[i].image[1]}" />
-        <img  src="${galerySlides[i].image[2]}" />
-        <img  src="${galerySlides[i].image[3]}" />
-        <img  src="${galerySlides[i].image[4]}" />
-        <img  src="${galerySlides[i].image[5]}" />
+        <img class="slides_img" src="${galerySlides[i].image[0]}" />
+        <img class="slides_img" src="${galerySlides[i].image[1]}" />
+        <img class="slides_img" src="${galerySlides[i].image[2]}" />
+        <img class="slides_img" src="${galerySlides[i].image[3]}" />
+        <img class="slides_img" src="${galerySlides[i].image[4]}" />
+        <img class="slides_img" src="${galerySlides[i].image[5]}" />
         </div>
         </div>`;
     }
