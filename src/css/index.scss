@@ -32,16 +32,21 @@ $color-text: #707070;
     color: $color_descripttion;
     text-decoration: none;
 }
+html {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
 body {
     margin: 0 auto;
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 a {
     text-decoration: none;

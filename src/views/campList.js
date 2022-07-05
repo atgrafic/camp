@@ -14,9 +14,10 @@ export default class extends view {
     }
 
     async getHtml() {
-        console.log("sssss");
+        scrollToTop();
+
         return (
-            breadCrumb(this.params.id) + campListAll(this.params.id) + tabs(this.params.id) + ` <hr class="line">`
+             breadCrumb(this.params.id) + campListAll(this.params.id) + tabs(this.params.id) + ` <hr class="line">`
         );
     }
 }
@@ -111,7 +112,9 @@ function tabs(campId) {
      <p> W celu rezerwacji prosimy o kontant telefoniczny</p>
     </section>
     </div>
-    </div> `;
+    </div>
+
+ `;
         }
     }
 }
@@ -148,3 +151,9 @@ function imageEvent() {
         expandImg.src = campPhoto4Src;
     });
 }
+
+let scroll = document.getElementById("scroll");
+function scrollToTop() {
+    scroll.scrollIntoView(true);
+  }
+

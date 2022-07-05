@@ -48,10 +48,12 @@ const getParams = (match) => {
 
 const navigateTo = (url) => {
     history.pushState(null, null, url);
+
     router();
 };
 
 const router = async () => {
+
     const routes = [
         { path: "/Camp", view: home },
         { path: "/Kolonie", view: chooseCamp},
@@ -97,19 +99,34 @@ const router = async () => {
     document.querySelector("#app").innerHTML = await view.getHtml();
     document.querySelector("#app").innerHTML += await view.executeJs();
 
+
 };
 
 window.addEventListener("popstate", router);
 
 document.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", (e) => {
+
         if (e.target.matches("[data-link]")) {
             e.preventDefault();
             navigateTo(e.target.href);
-        }
+                }
+
     });
+
     router();
+
 });
 
 
 
+
+
+//   document.addEventListener("load", scrollToTop)
+// scroll.addEventListener("DOMContentLoaded", backToTop);
+
+// function backToTop() {
+//     console.log('ddddddd');
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// }

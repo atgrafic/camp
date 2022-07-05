@@ -36,6 +36,7 @@ export default class extends view {
     }
 
     async getHtml() {
+        scrollToTop();
         return capmList() ;
     }
     async executeJs() {
@@ -43,6 +44,13 @@ export default class extends view {
         return "";
     }
 }
+//poczatek strony -load
+let scroll = document.getElementById("scroll");
+function scrollToTop() {
+    scroll.scrollIntoView(true);
+  }
+
+
 
 function capmList() {
     return (

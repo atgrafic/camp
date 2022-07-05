@@ -1,3 +1,4 @@
+                                       
 import view from "./view.js";
 import style from "../css/index.scss";
 import home from "../css/home.scss";
@@ -12,10 +13,12 @@ const camp = json.campData;
 export default class extends view {
     constructor(params) {
         super(params);
+
         this.setTitle("Camp | Kolonie");
     }
 
     async getHtml() {
+        scrollToTop();
         return `
  <div class="bg_breadcrumb">
         <div class="small_menu"></div>
@@ -57,9 +60,7 @@ export default class extends view {
     </div>
     <!--paginacja-->
     <div class="paginacion">
-    <a href="#" id="btn_prev"><i class='bx bxs-chevron-left' ></i></a>
-    <ul id="pages"></ul>
-    <a href="#" id="btn_next"><i class='bx bxs-chevron-right'></i></a>
+`+pagination()+`
 </div>
     </div>
     <!--lista tematyczna-->
@@ -88,6 +89,12 @@ export default class extends view {
     }
 
 }
+//poczatek strony -load
+let scroll = document.getElementById("scroll");
+function scrollToTop() {
+    scroll.scrollIntoView(true);
+  }
+
 
 
 
@@ -117,3 +124,51 @@ function chooseCamp() {
   return listCamp;
 
 }
+
+
+//pagnation
+function pagination(){
+    return `
+
+     <div id="output">
+    <a href="#" class="paginate" id="prev"><i class='bx bxs-chevron-left' ></i></a>
+    <ul id="pages"></ul>
+    <a href="#" class="paginate" id="next"><i class='bx bxs-chevron-right'></i></a>
+    </div>`;
+}
+
+// function pagination_1() {
+//     let page_1_Camp = "";
+
+//     for (let i = 0; i < 9; i++) {
+//         page_1_Camp +=
+//      ` <div class="camp-choose" id=${camp[i].id}>
+//      <img class="academy_img"  src="${camp[i].image[0]}">
+
+//      <div class="camp-bth">
+//      <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+//      <div class="camp-bth-text">zobacz szczegóły</div>
+//      </div>
+//      <div class="camp-destription">
+//      <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+//      <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+//      <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+//      </div>
+//       </div>`;
+//     }
+
+//     return page_1_Camp;
+// }
+
+// const listCamp =  camp.length;
+// console.log(camp.length);
+// let itemCamp = 9;
+// let currentPage = 1;
+// let pages = Math.ceil(listCamp  / itemCamp)
+
+// function calcPages () {
+
+//   return Math.ceil(listCamp / itemCamp)
+// }
+// console.log(calcPages ())
+

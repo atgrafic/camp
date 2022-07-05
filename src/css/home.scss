@@ -286,11 +286,11 @@
     padding-bottom: 80px;
     background-image: url("../assets/image/sun.svg"), url("../assets/image/samolot.svg"),
         url("../assets/image/car.svg"), url("../assets/image/casel.svg");
-    background-position: right 250px top 0, left 230px top 70px, left 200px bottom 0,
-        right 130px bottom 0;
+    background-position: right 200px top 0, left 80px top 70px, left 200px bottom 0,
+        right 80px bottom 0;
 
     background-repeat: no-repeat;
-    background-size: 300px, 350px, 280px, 300px;
+    background-size: 250px, 300px, 200px, 250px;
     background-attachment: scroll;
     p {
         width: 800px;
@@ -568,11 +568,11 @@ left: 0;
     align-items: center;
     justify-content: center;}
 
-//     .slides_img{
-//     width: 100%;
-//     height: auto;
-//     // transform: 5s ease-in-out;
-//  }
+    .slides_img{
+    width: 100%;
+    height: auto;
+    // transform: 5s ease-in-out;
+ }
 
 .product{
     display: none;

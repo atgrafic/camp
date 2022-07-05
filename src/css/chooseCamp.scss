@@ -52,7 +52,7 @@ ul.breadcrumb li + li:before {
     background-position: left 150px bottom 0, right 150px bottom 0;
 
     background-repeat: no-repeat;
-    background-size: 200px, 230px;
+    background-size: 180px, 230px;
     background-attachment: scroll;
 }
 .main_position {
@@ -315,6 +315,15 @@ ul.breadcrumb li + li:before {
         background-color: #7070702a;
     }
 }
+
+
+
+
+
+
+
+
+
 .line {
     border-top: 1px dashed $color-five;
     opacity: 0.35;

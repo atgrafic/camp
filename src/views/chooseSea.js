@@ -11,6 +11,7 @@ export default class extends view {
     }
 
     async getHtml() {
+        scrollToTop();
         return `
  <div class="bg_breadcrumb">
         <div class="small_menu"></div>
@@ -111,4 +112,10 @@ function chooseSeaCamp() {
 return listSea;
 }
 
+
+//poczatek strony -load
+let scroll = document.getElementById("scroll");
+function scrollToTop() {
+    scroll.scrollIntoView(true);
+  }
 
