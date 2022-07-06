@@ -56,6 +56,7 @@
 .main_with {
     width: $width;
     margin: 0 auto;
+
 }
 .tabs {
     padding-bottom: 200px;
@@ -122,25 +123,17 @@
         height: auto;
     }
     .main_with {
-        width: 1000px;
-    }
-}
-@media only screen and (max-width: 1100px) {
-    .main-box {
-        width: 850px;
-        background-image: none;
-    }
-    .sum {
-        margin-left: 20px;
-    }
-    .main_with {
-        width: 850px;
+        width: 100%;
+
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 1100px) {
     .main-box {
-        width: 650px;
+        width: 80%;
         background-image: none;
     }
     .sum {
@@ -173,35 +166,20 @@
         flex-direction: row;
     }
     .main_with {
-        width: 650px;
+        margin: 0;
     }
     .tabs label {
-        padding: 15px 18px;
+        padding: 15px 5px;
     }
     .tabs input:checked + label {
-        padding: 15px 19px;
+        padding: 15px 5px;
     }
-    .tabs section {
-        border-radius: 0 0 15px 15px;
-    }
+ 
 }
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 720px) {
     .main-box {
-        width: 600px;
-    }
-    .main_with {
-        width: 600px;
-    }
-    .tabs label {
-        padding: 15px 10px;
-    }
-    .tabs input:checked + label {
-        padding: 15px 10px;
-    }
-}
-@media only screen and (max-width: 620px) {
-    .main-box {
-        width: 80%;
+
         flex-direction: column;
         margin: 80px auto;
         justify-content: center;
@@ -236,9 +214,7 @@
     #campPhoto3 {
         margin-right: 0;
     }
-    .main_with {
-        width: 80%;
-    }
+
 
     .tabs label {
         display: flex;
@@ -249,28 +225,4 @@
         padding: 15px 10px;
         border:2px solid $color_descripttion;
     }
-}
-@media only screen and (max-width: 500px) {
-
-
-    .img-box {
-        justify-content: center;
-    }
-    .sumPhotoBig{
-        text-align: center;
-    }
-    #expandedImg {
-        width: 80%;
-    }
-    .main-box {
-     justify-content: center;
-     align-items: center;
-    }
- .sum{
-    margin: 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
- }
-
 }
