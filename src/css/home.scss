@@ -286,7 +286,7 @@
     padding-bottom: 80px;
     background-image: url("../assets/image/sun.svg"), url("../assets/image/samolot.svg"),
         url("../assets/image/car.svg"), url("../assets/image/casel.svg");
-    background-position: right 200px top 0, left 80px top 70px, left 200px bottom 0,
+    background-position: right 100px top 0, left 50px top 70px, left 200px bottom 0,
         right 80px bottom 0;
 
     background-repeat: no-repeat;
@@ -298,9 +298,8 @@
     }
 }
 
-
 // new list Subject
-.academy-camp{
+.academy-camp {
     width: $width;
     margin: 60px auto 0px auto;
     display: flex;
@@ -318,19 +317,21 @@
         opacity: 0.7;
     }
 }
-.campImg{
+.campImg {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.camp_continer{
+.camp_continer {
     z-index: 999;
     width: 250px;
     height: 280px;
     border-radius: 25px;
     position: absolute;
+    top: 0;
+    left: 0;
 }
-.camp-bth{
+.camp-bth {
     border-radius: 25px;
     width: 250px;
     height: 280px;
@@ -358,7 +359,7 @@
         left: 25px;
     }
 }
-.camp_list{
+.camp_list {
     z-index: 999;
     text-transform: none;
     @include title;
@@ -370,7 +371,6 @@
         color: $color_secend;
     }
 }
-
 
 .first_minute {
     background: $color_descripttion url("../assets/image/torba.svg") no-repeat right 50px bottom
@@ -517,20 +517,18 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
-.camp{
+.camp {
     display: flex;
     width: 400px;
     position: relative;
-
 }
 
 .tab-camp {
     width: 140px;
     height: 148px;
- z-index: 9999;
-position: absolute;
-left: 0;
-
+    z-index: 9999;
+    position: absolute;
+    left: 0;
 }
 .camp-photo {
     width: 140px;
@@ -542,12 +540,11 @@ left: 0;
         opacity: 0.7;
     }
 }
-.name-camp{
+.name-camp {
     display: flex;
     flex-direction: column;
-
 }
-.camp-name{
+.camp-name {
     @include font_description;
     padding-bottom: 10px;
     // font-size: 0.8em;
@@ -555,29 +552,27 @@ left: 0;
 .camp-city {
     @include title;
     font-size: 1.25em;
-    &:hover{
+    &:hover {
         color: $color-secend;
     }
-
 }
 //carousel
-
 
 .slides {
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
 
-    .slides_img{
+.slides_img {
     width: 100%;
     height: auto;
     // transform: 5s ease-in-out;
- }
-
-.product{
-    display: none;
 }
 
+.product {
+    display: none;
+}
 
 @media only screen and (max-width: 1750px) {
     .baner_1 {
@@ -610,6 +605,14 @@ left: 0;
             right 50px bottom 0;
         background-size: 200px, 260px, 200px, 230px;
     }
+    .slides {
+        width: 100%;
+    }
+    .slides_img {
+        width: 280%;
+        height: auto;
+        // transform: 5s ease-in-out;
+    }
 }
 @media only screen and (max-width: 1650px) {
     .text_1 {
@@ -623,7 +626,15 @@ left: 0;
     .description {
         background-position: right 20px top 0, left 10px top 30px, left 80px bottom 0,
             right 20px bottom 0;
-        background-size: 180px, 200px, 180px, 180px;
+        background-size: 220px, 250px, 180px, 180px;
+    }
+    .slides {
+        width: 100%;
+    }
+    .slides_img {
+        width: 280px;
+        height: auto;
+        // transform: 5s ease-in-out;
     }
 }
 @media only screen and (max-width: 1450px) {
@@ -636,15 +647,22 @@ left: 0;
     .description {
         background-position: right 20px top 0, left 10px top 30px, left 50px bottom 0,
             right 10px bottom 0;
-        background-size: 180px, 200px, 150px, 140px;
+        background-size: 180px, 200px, 180px, 140px;
     }
     .best {
         max-width: 1000px;
         margin: 80px auto;
     }
-
-    .tab-camp {
+    .camp {
         width: 300px;
+    }
+    .slides {
+        width: 100%;
+    }
+    .slides_img {
+        width: 250px;
+        height: auto;
+        // transform: 5s ease-in-out;
     }
 }
 @media only screen and (max-width: 1250px) {
@@ -669,13 +687,12 @@ left: 0;
         width: 300px;
         a {
             padding: 0 10px;
-        }
-        .choose {
-            font-size: 1.8em;
-            padding-top: 15px;
-        }
-        .camp_choose_img {
-            left: -2%;
+            width: 300px;
+            background-position: left 0 bottom 5%;
+            background-size: 120px;
+            &:hover {
+                transform: scale(105%, 105%);
+            }
         }
     }
     .sea {
@@ -683,9 +700,11 @@ left: 0;
 
         a {
             padding: 0 10px;
-            .choose {
-                font-size: 1.8em;
-                padding-top: 15px;
+            width: 300px;
+            background-position: left 5% bottom 5%;
+            background-size: 180px;
+            &:hover {
+                transform: scale(105%, 105%);
             }
         }
     }
@@ -694,9 +713,11 @@ left: 0;
 
         a {
             padding: 0 10px;
-            .choose {
-                font-size: 1.8em;
-                padding-top: 15px;
+            width: 300px;
+            background-position: left 0 bottom 5%;
+            background-size: 180px;
+            &:hover {
+                transform: scale(105%, 105%);
             }
         }
     }
@@ -708,7 +729,7 @@ left: 0;
             max-width: 50%;
         }
     }
-    .academy {
+    .academy-camp {
         max-width: 1000px;
         margin: 50px auto 0 auto;
     }
@@ -724,6 +745,18 @@ left: 0;
     .bth {
         width: 220px;
         height: 250px;
+    }
+    .camp_continer {
+        width: 220px;
+        height: 250px;
+    }
+    .camp-bth {
+        width: 220px;
+        height: 250px;
+        .camp-bth-text {
+            top: 45%;
+            left: 10px;
+        }
     }
     .first_minute {
         background: #454c6a url(file:///C:/grafika/kolonia/kolonia_webpack/dist/image/torba.svg)
@@ -750,6 +783,14 @@ left: 0;
     .camp-photo {
         width: 120px;
     }
+    .slides {
+        width: 100%;
+    }
+    .slides_img {
+        width: 200px;
+        height: auto;
+        // transform: 5s ease-in-out;
+    }
 }
 @media only screen and (max-width: 1050px) {
     .baner {
@@ -772,34 +813,44 @@ left: 0;
     .camp_choose {
         max-width: 85%;
     }
+
     .palm {
         width: 200px;
         height: 200px;
         a {
-            .choose {
-                font-size: 1.75em;
-                padding-top: 10px;
-            }
-            .camp_choose_img {
-                width: 100px;
-                bottom: 1%;
-                left: -2%;
+            padding: 0;
+            width: 200px;
+            height: 190px;
+            background-position: left 50% bottom 0%;
+            background-size: 90px;
+            &:hover {
+                transform: scale(108%, 108%);
             }
         }
+        a::after {
+            font-size: 1.8em;
+            text-align: center;
+            line-height: 25px;
+        }
     }
+
     .sea {
         width: 200px;
         height: 200px;
         a {
-            .choose {
-                font-size: 1.75em;
-                padding-top: 10px;
+            padding: 0;
+            width: 200px;
+            height: 190px;
+            background-position: left 50% bottom 0%;
+            background-size: 150px;
+            &:hover {
+                transform: scale(108%, 108%);
             }
-            .camp_choose_img {
-                bottom: 1%;
-                width: 160px;
-                height: auto;
-            }
+        }
+        a::after {
+            font-size: 1.8em;
+            text-align: center;
+            line-height: 25px;
         }
     }
 
@@ -807,18 +858,22 @@ left: 0;
         width: 200px;
         height: 200px;
         a {
-            .choose {
-                font-size: 1.75em;
-                padding-top: 10px;
-            }
-            .camp_choose_img {
-                bottom: 1%;
-                width: 160px;
-                height: auto;
+            padding: 0;
+            width: 200px;
+            height: 190px;
+            background-position: left 50% bottom 0%;
+            background-size: 150px;
+            &:hover {
+                transform: scale(108%, 108%);
             }
         }
+        a::after {
+            font-size: 1.8em;
+            text-align: center;
+            line-height: 25px;
+        }
     }
-    .academy {
+    .academy-camp {
         max-width: 85%;
         justify-content: space-evenly;
     }
@@ -834,6 +889,19 @@ left: 0;
     .bth {
         width: 200px;
         height: 230px;
+    }
+    .camp_continer {
+        width: 200px;
+        height: 230px;
+    }
+    .camp-bth {
+        width: 200px;
+        height: 230px;
+        .camp-bth-text {
+            width: 180px;
+            top: 45%;
+            left: 10px;
+        }
     }
     .first_descript {
         .descript_h1 {
@@ -856,6 +924,14 @@ left: 0;
     }
     .camp-photo {
         width: 120px;
+    }
+    .slides {
+        width: 100%;
+    }
+    .slides_img {
+        width: 180px;
+        height: auto;
+        // transform: 5s ease-in-out;
     }
 }
 @media only screen and (max-width: 900px) {
@@ -965,6 +1041,20 @@ left: 0;
         width: 180px;
         height: 210px;
     }
+    .camp_continer {
+        width: 180px;
+        height: 210px;
+    }
+    .camp-bth {
+        width: 180px;
+        height: 210px;
+        .camp-bth-text {
+            width: 150px;
+            font-size: 1em;
+            top: 45%;
+            left: 10%;
+        }
+    }
     .academy_padding {
         padding-bottom: 20px;
     }
@@ -988,6 +1078,14 @@ left: 0;
         &:before {
             padding: 0 20px;
         }
+    }
+    .slides {
+        width: 100%;
+    }
+    .slides_img {
+        width: 150px;
+        height: auto;
+        // transform: 5s ease-in-out;
     }
 }
 @media only screen and (max-width: 750px) {
@@ -1024,63 +1122,81 @@ left: 0;
         align-items: center;
         justify-content: space-between;
     }
+
     .palm {
-        width: 350px;
+           width: 350px;
         height: 180px;
         margin-bottom: 80px;
+
         a {
+            width: 350px;
+            height: 180px;
             padding: 0 25px 0 10px;
-            .choose {
-                font-size: 2em;
-            }
-            .camp_choose_img {
-                width: 130px;
-                bottom: 1%;
-                left: 0;
-                &:hover {
-                    width: 160px;
-                    height: auto;
-                }
-            }
+            position: absolute;
+            background: url("../assets/image/palm_crab.svg") no-repeat;
+            background-size: 138px;
+        }
+        a::after {
+            font-size: 2em;
+            text-align: right;
+            line-height: 30px;
         }
     }
-
     .sea {
         width: 350px;
         height: 180px;
         margin-bottom: 80px;
         a {
+            width: 350px;
+            height: 180px;
             padding: 0 25px 0 10px;
-            .choose {
-                font-size: 2em;
-            }
-            .camp_choose_img {
-                width: 180px;
-                bottom: 2%;
-            }
+            position: absolute;
+            background: url("../assets/image/morze.svg") no-repeat;
+            background-size: 190px;
+            background-position: left 10px bottom 10px;
+        }
+        a::after {
+            font-size: 2em;
+            text-align: right;
+            line-height: 30px;
         }
     }
     .mountains {
         width: 350px;
         height: 180px;
-        a {
+        a {width: 350px;
+            height: 180px;
             padding: 0 25px 0 10px;
-            .choose {
-                font-size: 2em;
-            }
-            .camp_choose_img {
-                width: 200px;
-                bottom: 2%;
-            }
+            position: absolute;
+            background: url("../assets/image/gory.svg") no-repeat;
+            background-size: 190px;
+            background-position: left 10px bottom 10px;
+        }
+        a::after {
+            font-size: 2em;
+            text-align: right;
+            line-height: 30px;
         }
     }
+    .description{
+    background-position: right 10px top 50px, left 10px top 50px, left 50px bottom 0, right 10px bottom 0;
+    background-size: 180px, 180px, 150px, 140px;
+}
     .first_descript {
+        padding: 30px 0;
+        width: 45%;
         .descript_h1 {
             margin-bottom: 10px;
         }
     }
+    .first_minute_girl{
+        width: 55%;
+    }
     .best {
         max-width: 500px;
+    }
+    .campBest{
+        justify-content: center;
     }
     .tab-camp {
         flex-direction: column;
@@ -1090,11 +1206,19 @@ left: 0;
     .camp-photo {
         width: 120px;
         margin-bottom: 10px;
-        margin-right: 0;
+
     }
     .camp-name,
     .camp-city {
         text-align: center;
+    }
+    .slides {
+        width: 100%;
+    }
+    .slides_img {
+        width: 190px;
+        height: auto;
+        // transform: 5s ease-in-out;
     }
 }
 @media only screen and (max-width: 700px) {
@@ -1260,33 +1384,35 @@ left: 0;
 
     .palm {
         width: 300px;
-        a {
-            padding: 0 10px 0;
-        }
-        .choose {
-            font-size: 1.8em;
-        }
-    }
-    .sea {
-        width: 300px;
+     height: 180px;
+     margin-bottom: 80px;
 
-        a {
-            padding: 0 10px;
-            .choose {
-                font-size: 1.8em;
-                text-align: right;
-            }
-        }
-    }
-    .mountains {
+     a {
         width: 300px;
+         height: 180px;
+         background-size: 128px;
+         background-position: left 0 bottom 5%;
+     }
+ }
+ .sea {
+    width: 300px;
+     height: 180px;
+     margin-bottom: 80px;
+     a {
+        width: 300px;
+         height: 180px;
 
-        a {
-            padding: 0 10px;
-            .choose {
-                font-size: 1.8em;
-            }
-        }
+     }
+ }
+ .mountains {
+    width: 300px;
+     height: 180px;
+     a {      width: 300px;
+         height: 180px;
+
+         background-size: 190px;
+         background-position: left 10px bottom 10px;
+     }
     }
     .first_minute {
         background: $color_descripttion url("../assets/image/torba.svg") no-repeat right 20px bottom
@@ -1319,13 +1445,14 @@ left: 0;
         width: 300px;
     }
     .camp-photo {
-        width: 150px;
-        margin-bottom: 10px;
-        margin-right: 0;
+        width: 180px;
+        margin-bottom: 30px;
+
     }
 
     .social_media_big {
-        flex-direction: column;
+        // flex-direction: column;
+        flex-wrap: wrap;
 
         .media {
             margin: 10px 20px;
@@ -1336,5 +1463,8 @@ left: 0;
         .bxl-tiktok {
             margin-bottom: 20px;
         }
+    }
+    .gallery{
+        display: none;
     }
 }

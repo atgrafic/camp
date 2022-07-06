@@ -12,7 +12,8 @@ export default class extends view {
 
     async getHtml() {
         scrollToTop();
-        return `
+        return (
+            `
  <div class="bg_breadcrumb">
         <div class="small_menu"></div>
         <div class="breadcrumb_menu">
@@ -48,17 +49,20 @@ export default class extends view {
     </div>
     </div>
     <!--lista koloni-->
-    <div id="list-camp">`
-    + chooseMountainsCamp() +
+    <div id ="list-camp">` +
+            pagePaginationStartMont() +
+            `</div>
 
-    `
+    <!--paginacja i lista koloni-->
+
+    <div id="pagination">
+    <ul id="pages">
+    ` +
+    butonNumberMont()+
+            `
+    </ul>
     </div>
-    <!--paginacja-->
-    <div class="paginacion">
-    <a href="#" id="btn_prev"><i class='bx bxs-chevron-left' ></i></a>
-    <ul id="pages"></ul>
-    <a href="#" id="btn_next"><i class='bx bxs-chevron-right'></i></a>
-</div>
+
     </div>
     <!--lista tematyczna-->
     <div class="main_postion_right">
@@ -81,40 +85,136 @@ export default class extends view {
     </div>
     </div>
     <hr class="line">
-    `;
+    `
+        );
     }
 }
 
 const json = require("../json/list.json");
 const camp = json.campData;
 
-function chooseMountainsCamp() {
-    let listCampMountains = "";
-
-    for (let i = 0; i <camp.length; i++) {
-      if(camp[i].place === "mountains"){
-        listCampMountains += ` <div class="camp-choose" id=${camp[i].id}>
-        <img class="academy_img"  src="${camp[i].image[0]}">
-
-        <div class="camp-bth">
-        <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
-        <div class="camp-bth-text">zobacz szczegóły</div>
-        </div>
-        <div class="camp-destription">
-        <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
-        <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
-        <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
-        </div>
-         </div>`;
-    }
-
-}
-return listCampMountains;
-}
-
 //poczatek strony -load
 let scroll = document.getElementById("scroll");
 function scrollToTop() {
     scroll.scrollIntoView(true);
-  }
+}
 
+//tabloca z kolonia g0ry i number page pagination
+const mont = [];
+let perPage = 9;
+let pages = "";
+
+function tabMont() {
+    for (let i = 0; i < camp.length; i++) {
+        if (camp[i].place === "mountains") {
+            mont.push(camp[i].id);
+        }
+    }
+    console.log(mont);
+
+    pages = Math.ceil(mont.length / perPage);
+}
+tabMont();
+
+
+function butonNumberMont() {
+    let butonNumber = "";
+
+    for (let i = 0; i < pages; i++) {
+        let numberPage = i + 1;
+        butonNumber +=
+            ` <li id= "numberPageMont${numberPage}" class= "bxs-chevron">` + numberPage + `</li>`;
+    }
+    return butonNumber;
+}
+
+function pagePaginationStartMont() {
+    let page_1Mont = "";
+    console.log("jestem tu");
+    for (let i = 0; i < 24; i++) {
+        if (camp[i].place === "mountains") {
+            console.log("jestem tu for");
+            page_1Mont+= ` <div class="camp-choose" id=${camp[i].id}>
+          <img class="academy_img"  src="${camp[i].image[0]}">
+
+          <div class="camp-bth">
+          <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+          <div class="camp-bth-text">zobacz szczegóły</div>
+          </div>
+          <div class="camp-destription">
+          <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+          <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+          <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+          </div>
+           </div>`;
+        }
+    }
+
+    return page_1Mont;
+}
+
+function pagePaginationMont() {
+    let page_1Mont= "";
+    console.log("jestem tu");
+    for (let i = 0; i < 24; i++) {
+        if (camp[i].place === "mountains") {
+            console.log("jestem tu for");
+            page_1Mont += ` <div class="camp-choose" id=${camp[i].id}>
+          <img class="academy_img"  src="${camp[i].image[0]}">
+
+          <div class="camp-bth">
+          <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+          <div class="camp-bth-text">zobacz szczegóły</div>
+          </div>
+          <div class="camp-destription">
+          <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+          <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+          <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+          </div>
+           </div>`;
+        }
+    }
+    document.getElementById("list-camp").innerHTML = page_1Mont;
+    document.getElementById("numberPageMont1").classList.add("active");
+    document.getElementById("numberPageMont2").classList.remove("active");
+}
+
+function pagePaginationMont1() {
+    // let capmpAll = document.querySelector(".camp_all");
+    let page_1Mont = "";
+
+    console.log("jestem tu");
+    for (let i = 0;  i < camp.length; i++) {
+        if (camp[i].id > 24) {
+        if (camp[i].place === "mountains"){
+
+            console.log("jestem tu for");
+            page_1Mont += ` <div class="camp-choose" id=${camp[i].id}>
+          <img class="academy_img"  src="${camp[i].image[0]}">
+
+          <div class="camp-bth">
+          <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+          <div class="camp-bth-text">zobacz szczegóły</div>
+          </div>
+          <div class="camp-destription">
+          <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+          <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+          <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+          </div>
+           </div>`;
+        }}
+    }
+    document.getElementById("list-camp").innerHTML = page_1Mont;
+    document.getElementById("numberPageMont2").classList.add("active");
+    document.getElementById("numberPageMont1").classList.remove("active");
+}
+
+document.addEventListener("click", paginationEvent);
+
+function paginationEvent() {
+    let number1 = document.getElementById("numberPageMont1");
+    let number2 = document.getElementById("numberPageMont2");
+
+    number1.addEventListener("click", pagePaginationMont);
+    number2.addEventListener("click", pagePaginationMont1);
+}

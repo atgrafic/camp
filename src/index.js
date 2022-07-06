@@ -5,7 +5,6 @@ import header_style from "./css/header.scss";
 import home_style from "./css/home.scss";
 import footer_style from "./css/footer.scss";
 import chooseCampMenu  from "./css/chooseCamp.scss";
-import chooseAbroad  from "./css/chooseAbroad.scss";
 import campList from "./css/campList.scss";
 
 import webBuild from "./css/build.scss";

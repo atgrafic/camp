@@ -48,17 +48,20 @@ export default class extends view {
     </div>
     </div>
     <!--lista koloni-->
-    <div id="list-camp">`
-    + chooseSeaCamp() +
+    <div id ="list-camp">` +
+            pagePaginationStartSea() +
+            `</div>
 
-    `
+    <!--paginacja i lista koloni-->
+
+    <div id="pagination">
+    <ul id="pages">
+    ` +
+            butonNumberSea() +
+            `
+    </ul>
     </div>
-    <!--paginacja-->
-    <div class="paginacion">
-    <a href="#" id="btn_prev"><i class='bx bxs-chevron-left' ></i></a>
-    <ul id="pages"></ul>
-    <a href="#" id="btn_next"><i class='bx bxs-chevron-right'></i></a>
-</div>
+
     </div>
     <!--lista tematyczna-->
     <div class="main_postion_right">
@@ -88,29 +91,6 @@ export default class extends view {
 const json = require("../json/list.json");
 const camp = json.campData;
 
-function chooseSeaCamp() {
-    let  listSea = "";
-
-    for (let i = 0; i <camp.length; i++) {
-      if(camp[i].place === "sea"){
-        listSea += ` <div class="camp-choose" id=${camp[i].id}>
-        <img class="academy_img"  src="${camp[i].image[0]}">
-
-        <div class="camp-bth">
-        <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
-        <div class="camp-bth-text">zobacz szczegóły</div>
-        </div>
-        <div class="camp-destription">
-        <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
-        <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
-        <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
-        </div>
-         </div>`;
-    }
-
-}
-return listSea;
-}
 
 
 //poczatek strony -load
@@ -118,4 +98,121 @@ let scroll = document.getElementById("scroll");
 function scrollToTop() {
     scroll.scrollIntoView(true);
   }
+//list camp sea
+  const mont = [];
+  let perPage = 9;
+  let pages = "";
 
+  function tabMont() {
+      for (let i = 0; i < camp.length; i++) {
+          if (camp[i].place === "sea") {
+              mont.push(camp[i].id);
+          }
+      }
+      console.log(mont);
+
+      pages = Math.ceil(mont.length / perPage);
+  }
+  tabMont();
+
+
+  function butonNumberSea() {
+      let butonNumber = "";
+
+      for (let i = 0; i < pages; i++) {
+          let numberPage = i + 1;
+          butonNumber +=
+              ` <li id= "numberPagin${numberPage}" class= "bxs-chevron">` + numberPage + `</li>`;
+      }
+      return butonNumber;
+  }
+
+  function pagePaginationStartSea() {
+      let page_1Sea = "";
+
+      for (let i = 0; i < 21; i++) {
+          if (camp[i].place === "sea") {
+
+         page_1Sea += ` <div class="camp-choose" id=${camp[i].id}>
+            <img class="academy_img"  src="${camp[i].image[0]}">
+
+            <div class="camp-bth">
+            <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+            <div class="camp-bth-text">zobacz szczegóły</div>
+            </div>
+            <div class="camp-destription">
+            <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+            <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+            <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+            </div>
+             </div>`;
+          }
+      }
+
+      return  page_1Sea;
+  }
+
+  function paginationSea() {
+    let page_1Sea= "";
+    console.log("sea 1");
+    for (let i = 0; i < 21; i++) {
+        if (camp[i].place === "sea") {
+
+            page_1Sea += ` <div class="camp-choose" id=${camp[i].id}>
+          <img class="academy_img"  src="${camp[i].image[0]}">
+
+          <div class="camp-bth">
+          <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+          <div class="camp-bth-text">zobacz szczegóły</div>
+          </div>
+          <div class="camp-destription">
+          <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+          <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+          <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+          </div>
+           </div>`;
+        }
+    }
+
+      document.getElementById("list-camp").innerHTML = page_1Sea;
+      document.getElementById("numberPagin1").classList.add("active");
+      document.getElementById("numberPagin2").classList.remove("active");
+  }
+
+  function paginationSea1() {
+      // let capmpAll = document.querySelector(".camp_all");
+      let page_1Sea = "";
+
+      console.log("sea");
+      for (let i = 0;  i < camp.length; i++) {
+          if (camp[i].id > 21 ) {
+          if (camp[i].place === "sea"){
+              page_1Sea+= ` <div class="camp-choose" id=${camp[i].id}>
+            <img class="academy_img"  src="${camp[i].image[0]}">
+
+            <div class="camp-bth">
+            <a class="camp_continer"  href="/Kolonie/${camp[i].id}" data-link></a>
+            <div class="camp-bth-text">zobacz szczegóły</div>
+            </div>
+            <div class="camp-destription">
+            <a class="camp-city" href="/Kolonie/${camp[i].id}" data-link>${camp[i].city} </a>
+            <a class="camp-name" href="/Kolonie/${camp[i].id}" data-link>${camp[i].name} </a>
+            <a class="camp-choose-price" href="/Kolonie/${camp[i].id}" data-link>${camp[i].price} </a>
+            </div>
+             </div>`;
+          }}
+      }
+      document.getElementById("list-camp").innerHTML = page_1Sea;
+      document.getElementById("numberPagin2").classList.add("active");
+      document.getElementById("numberPagin1").classList.remove("active");
+  }
+
+  document.addEventListener("click", paginationEvent);
+
+  function paginationEvent() {
+      let number1 = document.getElementById("numberPagin1");
+      let number2 = document.getElementById("numberPagin2");
+
+      number1.addEventListener("click", paginationSea);
+      number2.addEventListener("click",paginationSea1);
+  }
